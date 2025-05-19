@@ -1,7 +1,5 @@
 # Quiz EGID - Economia e Gestione d'Impresa
 
-![Quiz EGID Banner](img/meme.jpg)
-
 [![GitHub stars](https://img.shields.io/github/stars/mrdionesalvi/egid_web)](https://github.com/mrdionesalvi/egid_web/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/mrdionesalvi/egid_web)](https://github.com/mrdionesalvi/egid_web/network)
 [![GitHub issues](https://img.shields.io/github/issues/mrdionesalvi/egid_web)](https://github.com/mrdionesalvi/egid_web/issues)
