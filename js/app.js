@@ -490,10 +490,14 @@ function generateLeastKnownTopicsList() {
 function generatePerformanceChart() {
     const ctx = document.getElementById('performanceChart').getContext('2d');
     
-    // Prendi gli ultimi 10 quiz
+    // Determina se siamo su dispositivo mobile
+    const isMobile = window.innerWidth <= 480;
+    
+    // Prendi gli ultimi quiz (meno su mobile per una migliore visualizzazione)
+    const maxQuizToShow = isMobile ? 3 : 10;
     const recentQuizzes = [...appState.stats.quizHistory]
         .sort((a, b) => new Date(b.date) - new Date(a.date))
-        .slice(0, 10)
+        .slice(0, maxQuizToShow)
         .reverse();
     
     // Prepara i dati
@@ -564,16 +568,23 @@ function generatePerformanceChart() {
             plugins: {
                 legend: {
                     position: 'top',
+                    labels: {
+                        // Font più piccolo su dispositivi mobili
+                        font: {
+                            size: window.innerWidth <= 480 ? 10 : 12
+                        },
+                        boxWidth: window.innerWidth <= 480 ? 10 : 15
+                    }
                 },
                 title: {
                     display: true,
                     text: 'Performance negli ultimi quiz',
                     font: {
-                        size: 16,
+                        size: window.innerWidth <= 480 ? 14 : 16,
                         weight: 'bold'
                     },
                     padding: {
-                        bottom: 15
+                        bottom: window.innerWidth <= 480 ? 10 : 15
                     }
                 },
                 tooltip: {
@@ -783,3 +794,15 @@ function trackEvent(eventName, props = {}) {
         //console.log(`Evento tracciato: ${eventName}`, props);
     }
 }
+
+// Gestisce il cambio di orientamento del dispositivo
+window.addEventListener('orientationchange', function() {
+    // Attendi che il cambio di orientamento sia completo
+    setTimeout(() => {
+        // Rigenera il grafico se è presente
+        if (appState.stats.quizHistory.length > 0 && 
+            document.getElementById('stats-screen').classList.contains('active')) {
+            generatePerformanceChart();
+        }
+    }, 300);
+});
