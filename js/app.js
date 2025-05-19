@@ -780,6 +780,6 @@ function saveStats() {
 function trackEvent(eventName, props = {}) {
     if (window.plausible) {
         window.plausible(eventName, { props });
-        console.log(`Evento tracciato: ${eventName}`, props);
+        //console.log(`Evento tracciato: ${eventName}`, props);
     }
 }
