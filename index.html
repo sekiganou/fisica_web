@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz EGID - Economia e Gestione d'Impresa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <h1>Quiz EGID</h1>
+            </div>
+            <nav>
+                <button id="statsBtn" class="btn"><i class="fas fa-chart-bar"></i> Statistiche</button>
+                <button id="resetBtn" class="btn btn-danger"><i class="fas fa-trash"></i> Reset</button>
+            </nav>
+        </header>
+
+        <main>
+            <div id="welcome-screen" class="screen active">
+                <div class="welcome-content">
+                    <h2>Benvenuto al Quiz di Economia e Gestione d'Impresa</h2>
+                    <p>Metti alla prova le tue conoscenze con tutte le domande reali d'esame!</p>
+                    <div class="quiz-options">
+                        <button id="startRandomBtn" class="btn btn-primary"><i class="fas fa-random"></i> Domande Casuali</button>
+                        <button id="startTopicBtn" class="btn btn-secondary"><i class="fas fa-list"></i> Scegli Argomento</button>
+                    </div>
+                </div>
+                <div class="welcome-image">
+                    <img src="/img/meme.jpg" alt="Quiz illustration">
+                </div>
+            </div>
+
+            <div id="topic-select-screen" class="screen">
+                <h2>Scegli un Argomento</h2>
+                <div class="topics-grid" id="topicsContainer">
+                    <!-- Argomenti saranno aggiunti dinamicamente dal JavaScript -->
+                </div>
+                <button id="backFromTopicsBtn" class="btn"><i class="fas fa-arrow-left"></i> Indietro</button>
+            </div>
+
+            <div id="quiz-screen" class="screen">
+                <div class="quiz-header">
+                    <div class="quiz-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <div class="progress-text">
+                            Domanda <span id="currentQuestionNumber">1</span> di <span id="totalQuestions">10</span>
+                        </div>
+                    </div>
+                    <div class="quiz-stats">
+                        <div class="stat correct">
+                            <i class="fas fa-check"></i> <span id="correctCount">0</span>
+                        </div>
+                        <div class="stat incorrect">
+                            <i class="fas fa-times"></i> <span id="incorrectCount">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quiz-content">
+                    <p id="questionText" class="question"></p>
+                    <div id="answersContainer" class="answers-container">
+                        <!-- Le risposte verranno aggiunte dinamicamente dal JavaScript -->
+                    </div>
+                </div>
+
+                <div class="quiz-actions">
+                    <button id="nextQuestionBtn" class="btn btn-primary" disabled><i class="fas fa-arrow-right"></i> Prossima Domanda</button>
+                    <button id="quitQuizBtn" class="btn"><i class="fas fa-times"></i> Abbandona</button>
+                </div>
+            </div>
+
+            <div id="result-screen" class="screen">
+                <div class="result-header">
+                    <h2>Risultati Quiz</h2>
+                    <div class="result-summary">
+                        <div class="result-score">
+                            <div class="score-circle">
+                                <span id="finalScore">0%</span>
+                            </div>
+                        </div>
+                        <div class="result-details">
+                            <div class="detail">
+                                <i class="fas fa-check"></i> Corrette: <span id="finalCorrect">0</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-times"></i> Errate: <span id="finalIncorrect">0</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-clock"></i> Tempo: <span id="quizTime">0:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="result-actions">
+                    <button id="reviewBtn" class="btn btn-secondary"><i class="fas fa-search"></i> Rivedi Risposte</button>
+                    <button id="newQuizBtn" class="btn btn-primary"><i class="fas fa-redo"></i> Nuovo Quiz</button>
+                </div>
+            </div>
+
+            <div id="review-screen" class="screen">
+                <h2>Revisione Risposte</h2>
+                <div class="review-header">
+                    <div class="review-info">
+                        <div class="detail">
+                            <i class="fas fa-check"></i> Corrette: <span id="reviewCorrect">0</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-times"></i> Errate: <span id="reviewIncorrect">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="reviewContainer" class="review-questions-container">
+                    <!-- Le domande verranno aggiunte dinamicamente dal JavaScript -->
+                </div>
+                <div class="review-actions">
+                    <button id="backToResultsBtn" class="btn"><i class="fas fa-arrow-left"></i> Indietro</button>
+                    <button id="newQuizFromReviewBtn" class="btn btn-primary"><i class="fas fa-redo"></i> Nuovo Quiz</button>
+                </div>
+            </div>
+
+            <div id="stats-screen" class="screen">
+                <h2>Le tue Statistiche</h2>
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Domande Totali</h3>
+                            <p id="statsTotalQuestions" class="stats-counter">0</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon correct">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Risposte Corrette</h3>
+                            <p id="statsTotalCorrect" class="stats-counter">0</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon incorrect">
+                            <i class="fas fa-times-circle"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Risposte Errate</h3>
+                            <p id="statsTotalIncorrect" class="stats-counter">0</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-percentage"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Percentuale Successo</h3>
+                            <p id="statsSuccessRate" class="stats-counter">0%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stats-chart-container">
+                    <h3>Performance nei quiz recenti</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="performanceChart"></canvas>
+                    </div>
+                </div>
+                <div class="least-known-topics">
+                    <h3>Argomenti da migliorare</h3>
+                    <ul id="leastKnownTopics">
+                        <!-- Gli argomenti verranno aggiunti dinamicamente dal JavaScript -->
+                    </ul>
+                </div>
+                <button id="closeStatsBtn" class="btn"><i class="fas fa-times"></i> Chiudi</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Made with ❤️ by <a href="https://github.com/mrdionesalvi" target="_blank">Dione</a></p>
+        </footer>
+    </div>
+
+    <!-- Modali -->
+    <div id="resetConfirmModal" class="modal">
+        <div class="modal-content">
+            <h3>Conferma Reset</h3>
+            <p>Sei sicuro di voler cancellare tutte le statistiche e i progressi? Questa azione non può essere annullata.</p>
+            <div class="modal-actions">
+                <button id="confirmResetBtn" class="btn btn-danger">Conferma</button>
+                <button id="cancelResetBtn" class="btn">Annulla</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script>
+        // Registra il plugin datalabels globalmente
+        Chart.register(ChartDataLabels);
+    </script>
+    <script src="js/questions.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

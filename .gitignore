@@ -1,0 +1,38 @@
+# File di sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnail
+._*
+
+# File che potrebbero apparire alla root di un volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potenzialmente create sui remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Editor e IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dipendenze
+node_modules/
+package-lock.json
+yarn.lock
+
+# File di build
+dist/
+build/

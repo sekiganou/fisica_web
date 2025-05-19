@@ -1,0 +1,960 @@
+Q: La scuola di Harvard [...] riduce la possibilità di ottenere profitti superiori alla media: 
+V: Alla struttura del settore
+F: Alla capacità dell'impresa nel selezionare i mercati 
+F: Alla presenza di barriere all'entrata del mercato
+Q: Dagli anni '70 l'impostazione "struttura-comportamenti-risultati" riduce la possibilità di ottenere profitti superiori alla media:
+V: al paradigma delle cinque forze competitive 
+F: alla diversità di risorse e competenze
+F: alla relazione tra elevate barriere d'entrata e profittabilità del settore
+Q: a partire dagli anni '80 la "resource-based view" riduce la possibilità di ottenere profitti superiori alla media:
+V:al superiore posizionamento dei profitti e al possesso di risorse scarse 
+F: alla diversità di risorse e competenze
+F: alla relazione tra elevate barriere d'entrata e profittabilità del settore
+Q: L'Industrial Organization, che opera negli anni '50, riduce la possibilità di ottenere profitti superiori alla media:
+V: alla relazione tra elevate barriere d'entrata e profittabilità del settore 
+F: al paradigma delle 5 forze competitive
+F: alla struttura del settore
+Q: Quale di queste correnti di studio pone enfasi sulle "competenze innovative" dell'impresa: 
+V: la resource-based view of the firm
+F: l'industrial Organization (I.O.). 
+F: la scuola di Harvard
+Q: La catena del valore è:
+V: la rappresentazione sintetica delle attività di una singola area d'affari di un'impresa o dell'intera attività di un'impresa specializzata o in un monoprodotto
+F: la rappresentazione sintetica delle attività delle aree d'affari di un'impresa
+F: la rappresentazione sintetica dei rapporti che legano l'impresa con gli altri partner, a monte e a valle dalla filiera produttiva
+Q: Le imprese appartenenti al medesimo settore:
+V: possono avere catene del valore simili
+F: è probabile che possano avere la stessa catena del valore 
+F: è impossibile che abbiano catene del valore simili
+Q: secondo lo schema della catena del valore, il “margine” corrisponde a:
+V: il valore creato dalla combinazione delle attività al netto degli oneri e dei costi 
+F: il valore creato dalla combinazione delle attività dell'impresa
+F: il valore cumulativo creato dalla combinazione delle imprese della filiera produttiva
+Q: Quale di queste fasi non fa parte del processo di costruzione della catena del valore? 
+V: Definizione della catena del valore del principale competitor nel settore.
+F: Identificazione delle attività che generano valore.
+F: Definizione della catena del valore per il particolare settore in cui opera l'impresa.
+Q: Quale di queste attività non fa parte dell'insieme delle attività primarie della catena del valore ?
+V: Gestione delle risorse umane. 
+F: Marketing.
+F: Logistica in entrata.
+Q: Quale di queste attività non fa parte dell'insieme delle attività di supporto della catena del valore
+V: Operations
+F: Approvvigionamento
+F: Sviluppo della tecnologia
+Q: Il valore di un'attività all'interno della catena del valore dipende:
+V: dall'abilità di svolgere una determinata attività e dall'abilità di gestire i legami fra le varie attività
+F: dalla percezione oggettivamente rilevata negli stakeholder. 
+F: dal costo relativo della suddetta attività
+Q: Nella catena del valore possono esistere legami esclusivamente tra: 
+V: attività primarie e attività a supporto, o tra le diverse attività primarie 
+F: attività primarie e attività a supporto, o tra le diverse attività supporto 
+F: attività primarie
+Q: le informazioni sono:
+V: configurate per rispondere a quesiti precisi e richiedono elaborazioni successive 
+F: gnoseologicamente pesante e segnalano i generatori del valore
+F: accessibili presso fonti interne o esterne, con un minimo di conoscenza della loro esistenza
+Q: Il valore creato dall'azienda è quantificabile come:
+V: la differenza tra il prezzo massimo che l'acquirente di un dato bene o servizio è disposto a pagare e l'ammontare minimo a cui un fornitore è disposto a cedere un bene o un servizio
+F: il prezzo di vendita del prodotto finale nell'ultimo stadio della filiera produttiva 
+F: nessuna delle risposte precedenti
+Q: Quale delle seguenti affermazioni è falsa
+V: I caratteri di unicità e di non facile replicabilità di un prodotto sono condizioni che si possono potenzialmente realizzare in via permanente
+F: la strategia competitiva è il tentativo di differenziarsi attraverso la scelta deliberata di un diverso insieme di attività
+F: l'ampiezza del divario tra un prezzo di vendita e costo produzione aumenta il valore generato, se tale valore è superiora a quello generato dai concorrenti
+Q: Le imprese effettuano una strategia di differenziazione quando:
+V: riescono ad aumentare la propensione a pagare un prezzo superiore, con limitato incremento dei costi
+F: riescono ad aumentare la propensione a pagare un prezzo superiore, indipendentemente dall'incremento dei costi
+F: riescono a essere gli unici soggetti a fornire un determinato bene o servizio, distruggendo il potere dei prodotti sostitutivi
+Q: La catena del valore è il risultato di due processi distinti:
+V: 1 la selezione fra le varie alternative di investimento; 2 l'implementazione delle decisioni di investimento
+F: 1 la selezione fra le varie alternative di investimento; 2 il controllo dei costi
+F: 1 l'appropriazione delle risorse scarse ; 2 l'implementazione delle decisioni di investimento 
+Q: Qual È il primo stadio che ha interessato l'implementazione delle tecnologie informatiche nella catena del valore
+V: l'automazione delle singole transazioni
+F: l'integrazione tra le diverse attività della catena del valore
+F: l'automazione e il miglioramento funzionale delle singole attività
+Q: Secondo Michael Porter, l'efficacia operativa corrisponde:
+V: al saper svolgere attività simili a quelle dei concorrenti, ma in modo migliore rispetto a quanto essi facciano.
+F:al saper svolgere attività diverse da quelle dei rivali o saper svolgere attività simili in modo diverso
+F: a saper svolgere attività simili a quelle dei concorrenti, ottenendo una remunerazione maggiore del capitale investito
+Q: il vantaggio competitivo di un'impresa è maggiormente sostenibile se il sistema di attività si basa su fit:
+V: di secondo e terzo tipo 
+F: di primo tipo
+F: di primo e secondo tipo
+Q: Il sistema del valore:
+V: prospetta la possibilità di influenzare altre catene del valore senza la condizione di proprietà dei mezzi di produzione sottostanti
+F:prospetta la possibilità di controllare altre catene del valore, attraverso l'acquisto o la fusione
+F:prospetta di riunire la molteplicità delle catene del valore del settore, sotto un'unica grande impresa
+Q: l'obiettivo della massimizzazione del profitto:
+V: può essere perseguito a seconda del contesto in cui opera l'impresa 
+F: dev'essere sempre perseguito
+F: nessuna delle risposte precedenti
+Q: L'affermazione "creare valore" dev'essere interpretata in senso: 
+V: economico
+F: contabile
+F: nessuna delle risposte precedenti
+Q: Il valore economico di un'attività:
+V: esprime l'ammontare dei benefici che da questa possono essere tratti 
+F: indica quanto denaro è stato investito
+F: nessuna delle risposte precedenti
+Q: Un mercato è liquido quando:
+V: le transazione sono molto numerose 
+F: non esistono asimmetrie informative 
+F: nessuna delle risposte precedenti
+Q: Un mercato è efficiente:
+V: se i prezzi delle azioni riflettono tutte le informazioni rilevanti disponibili 
+F: se non esistono costi di transazione
+F: non è previsto il pagamento di imposte
+Q: Il valore di liquidazione di un'attività:
+V: coincide con il valore che si ottiene vendendo gli asset che la compongono 
+F: coincide con il valore del funzionamento
+F: entrambe le risposte precedenti
+Q: In relazione al possesso di un'azione, il capital gain è:
+V: la differenza tra il prezzo di vendita e quello di acquisto 
+F: la differenza tra il dividendo atteso e il dividendo corrente 
+F: la differenza tra il valore contabile e quello di mercato
+Q: Il corretto ROE è un indice di redditività:
+V: del capitale netto
+F: del capitale circolante netto 
+F: delle attività
+Q: Per ottenere i cosiddetti flussi di cassa disponibili è necessario sottrarre dai flussi di cassa:
+V: entrambe le risposte precedenti
+F: uscite per investimenti in capitale fisso 
+F: uscite per investimenti in capitale fisso 
+Q: Il termine shareholder indica:
+V: gli azionisti 
+F: i creditori 
+F: i manager
+Q: Nel caso in cui il ROE di un'azienda sia pari al 10% e il tasso di distribuzione degli utili sia pari al 40%, il tasso di crescita dei dividendi è pari a:
+V: 0.04
+F: 0.06
+F: i dati a disposizione non sono sufficienti per calcolare per calcolare il tasso di crescita dei dividendi
+Q: Il cosiddetto ROS è un indice di redditività:
+V: delle vendite 
+F: delle attività
+F: dell'investimento
+Q: !! In mercati perfetti (Modigliani e Miller), la leva finanziaria non influenza: 
+V: il rischio e il rendimento delle attività dell'impresa
+F: il rischio e il rendimento delle azioni 
+F: entrambe le risposte precedenti
+Q: Il Market-to-Book Ratio è costituito da:
+V: il rapporto tra il valore contabile e il valore di mercato. 
+F: il valore contabile.
+F: il valore di mercato.
+Q: I competency modeling confrontano:
+V: ogni singolo dipendente con le skills, le attitudini e i valori dei top performer. 
+F: i processi aziendali con quelli dei benchmark.
+F: il tasso di innovazione interno con quello dei principali competitor.
+Q: Secondo la Resource based view, il vantaggio competitivo è ricondotto a rendite che afferiscono all'impresa:
+V: da una maggiore efficienza e dal possesso di risorse scarse.
+F: in seguito a investimenti volti a scoraggiare l'entrata dei concorrenti. 
+F: da nessuna delle altre opzioni citate.
+Q: Nel caso di profitti scaturenti da una mancata competizione si parla di: 
+F: rendite ricardiane.
+V: rendite monopolistiche. 
+F: rendite oligopolistiche.
+Q: Quale delle seguenti correnti di studio presenta un vantaggio competitivo nell'adattamento ai cambiamenti esterni?
+V: La Resource Based View. 
+F: L'Industrial Organization. 
+F: Il Taylorismo.
+Q: Quali sono, secondo Pakaj Ghemawat, i due modi per costruire una posizione di vantaggio competitivo sostenibile?
+V: 1) Creare commitment sulle risorse.2) Sviluppare competenze nell'orchestrare le attività dell'impresa. 
+F: 1) Ridurre i costi.2) Aumentare i profitti.
+F: 1) Sviluppare risorse competitive.2) Esternalizzare le competenze non necessarie.
+Q: Che cosa viene definito come “un insieme ridotto di decisioni che determinano cambiamenti significativi nella dotazione delle risorse”?
+V: Il commitment. 
+F: L'asset.
+F: Il turnaround.
+Q: Secondo il paradigma delle capacità dinamiche, quale di queste caratteristiche non è propria delle aziende dinamiche?
+V: Il contenimento dei costi. 
+F: I ridotti time-to-market.
+F: La rapidità di manovra strategica.
+Q: Una strategia che fa emergere uno scollamento tra le risorse attuali e le ambizioni di sviluppo è definita:
+V: strategia come Stretch. 
+F: strategia come Leverage. 
+F: strategia come Slack.
+Q: La strategia di focalizzazione sulle risorse interne e le competenze chiave verrà perseguita dalle aziende con un approccio:
+V: Stretch and leverage. 
+F: Stretch and slack.
+F: Stretch.
+Q: Recuperi di efficienza, basati sulla leva delle risorse, fanno riferimento: 
+V: alla continua ricerca di nuovi modi a minore intensità di risorse.
+F: al taglio delle risorse stesse.
+F: alla capacità gestionale del top management.
+Q: Quale delle seguenti coppie di modalità non fa parte della leva sulle risorse? 
+V: Developing and marketing.
+F: Concentrating and complementing. 
+F: Conserving e accumulating.
+Q: Di qual modo di far leva sulle risorse fa parte la possibilità di accedere a risorse esterne attraverso licensing?
+V: Accumulating. 
+F: Complementing. 
+F: Recovering.
+Q: All'interno della strategia che fa leva sulle risorse, la riduzione del tempo di pay-back è parte della modalità:
+V: di recupero.
+F: di concentrazione. 
+F: di complementarietà.
+Q: La competenza centrale, secondo Hamel e Prahalad, deve:
+V: consentire l'entrata in un ampio numero di nuovi mercati. 
+F: diminuire i costi di produzione.
+F: ridurre il time-to-market.
+Q: Secondo l'architettura delle competenze organizzative di Lipparini e Grant, le competenze needed-to-play devono avere:
+V: alto valore e bassa unicità oppure basso valore e alta unicità. 
+F: esclusivamente alta unicità e basso valore.
+F: nessuna delle altre risposte precedenti.
+Q: Secondo Lipparini e Grant, lo sviluppo di alleanze è idoneo per: 
+V: competenze ad alta firm specificity e basso valore per il cliente. 
+F: competenze ad alto valore per il cliente e alta firm specificity.
+F: basse competenze e firm specificity e alto valore per il cliente.
+Q: Secondo Lipparini e Grant, il Ricorso al Mercato è idoneo alle competenze: 
+V: Needed-to-play.
+F: Needed-to-win. 
+F: Needed-to-lose.
+Q: !! Quale delle seguenti teorie ritiene appropriata l'internalizzazione delle competenze, nel momento in cui questa permette un controllo efficace sulla performance degli addetti e lo sviluppo corretto ed efficiente delle loro capacità? (la 3)
+V: La teoria dei costi di transazione. 
+F: La teoria del capitale umano.
+F: La teoria della Resouce Based View.
+Q: La lista delle risorse e competenze chiave dovrebbe essere fatta: 
+V: dal lato della domanda e dell'offerta.
+F: dal lato dei competitor e dei fornitori.
+F: nessuna delle altre risposte precedenti.
+Q: Le risorse e le competenze non vengono valutate per quale dei seguenti fattori: 
+V: incidenza sui costi.
+F: importanza. 
+F: forza relativa.
+Q: La gap analysis individua il divario dell'impresa attuale con:
+V: la posizione desiderata. 
+F: il benchmark di mercato.
+F: il competitor medio del mercato.
+Q: Quale delle seguenti affermazioni riguardanti il concetto di strategia NON è corretta? 
+V: La strategia mira a sviluppare un vantaggio competitivo nel breve o medio periodo.
+F: La strategia di un’impresa è il risultato di un insieme di decisioni che devono essere tra loro coerenti, ma che spesso possono presentarsi in contrasto
+F: La strategia è un insieme integrato di decisioni volte a costruire un vantaggio competitivo
+Q: La creatività imprenditoriale basata su idee innovative, che poi si concretizzano in attività di impresa, è definita:
+V: Strategic Thinking 
+F: Strategic Planning
+F:Opportunistic decision making
+Q: Quali sono i due sistemi di variabili secondo le quali si devono basare <DECISION THINKING>, <DECISION MAKING> e <OPPORTUNISTIC STRATEGIC PLANNING> ?
+V: 1) Mercato 2) Risorse e competenze acquisite. 
+F: 1) Mercato 2) Competitor
+F: 1) Fornitori 2) Clienti
+Q: Quali dei seguenti punti non accomuna necessariamente le strategie di successo? 
+V: Decisione rilevante della struttura aziendale, volta a perseguire economie di scala 
+F: Obiettivi semplici, coerenti tra loro e pensati nel lungo termine
+F: Comprensione approfondita dell’ambiente competitivo
+Q: I client e gli utenti:
+V: potrebbero coincidere in alcuni casi 
+F: sono considerabili genitori
+F: nessuna delle altre risposte precedenti
+Q: Le <Modalità> sono caratteristiche:
+V: Dinamiche 
+F: Statiche
+F: nessuna delle altre risposte precedenti
+Q: Quali delle seguenti dimensioni non serve nel modello di <definizione del business>? 
+V: Budget
+F: Funzionalità 
+F: Modalità
+Q: L’identificazione di diversi gruppi di clienti e di diverse funzioni, che permette di individuare sottoinsiemi omogenei, è detta:
+V: Segmentazione strategica 
+F: Benchmarking
+F: Fattore critico di successo
+Q: I fattori ambientali:
+V: possono essere influenti e immodificabili 
+F: sono sempre modificabili
+F: sono sempre influenti
+Q: Il modello di <CONCORRENZA ALLARGATA> realizzato da Micheal Porter nel 1980, parte da una prospettiva di:
+V: Industrial Organization 
+F: Network analysis
+F:Resource Based View of the firm
+Q: La valutazione del <PROFILO DI COMPORTAMENTO POTENZIALE> di ogni singolo concorrente si conclude con l’analisi di:
+V: Possibili manovre dei concorrenti 
+F: strategia attuale
+F: valutazioni e ipotesi guida su di sé e sul mercato
+Q: Quale dei seguenti fattori non ha impatto sulla creazione di barriere all’entrata di un mercato?
+V: Incidenza degli acquisti sul fatturato dei venditori 
+F: Differenziazione di prodotto
+F: Accesso ai canali distributivi
+Q: La sensibilità al prezzo degli acquirenti non viene generalmente condizionata dal seguente fattore:
+V: Costi di conversione
+F: Livello di differenziazione del prodotto 
+F: Situazione finanziaria degli acquirenti
+Q: Le due tipologie di vantaggi competitivi sono:
+V: 1) Vantaggi di costo 2) Vantaggio di differenziazione 
+F: 1) vantaggio di costo 2) Vantaggio finanziario
+F: 1) vantaggio di prezzo 2) Vantaggio di tempo
+Q: La trasformazione della catena del valore, a seguito di una strategia di leadership di costo, dovrebbe comportare:
+V: Riduzione dei costi e incremento del margine 
+F: Incremento dei costi e incremento del margine 
+F: Riduzione dei costi e riduzione del margine
+Q: Per essere efficace la differenziazione deve essere:
+V: Essere percepita dal cliente
+F: Essere associata a una parallela leadership di costo 
+F: Legata ad attributi tangibili
+Q: La trasformazione della catena del valore, a seguito di una strategia di differenziazione, dovrebbe comportare:
+V: Aumento dei ricavi e aumento del margine
+F: Aumento dei ricavi e diminuzione del margine 
+F: Diminuzione dei ricavi e aumento del margine
+Q: Il <SUPPLIER OPPORTUNITY COST> è:
+V: La più piccola somma che un fornitore è disposto ad accettare per i servizi e le risorse richieste per produrre un bene o servizio
+F: Il prezzo massimo che un acquirente è disposto a pagare per ottenere un determinato prodotto o servizio
+F: nessuna delle risposte precedenti
+Q: Secondo la SWOT analysis, quali sono le variabili interne? 
+V: Forza e debolezze
+F: Opportunità e minacce 
+F: Forza e opportunità
+Q: I fattori critici di successo sono:
+V: I fattori che occorre presidiare per avere successo in un segmento di mercato 
+F: I punti di forza dell’impresa
+F: I punti di forza dei concorrenti
+Q: Il dott. Giulio de Cesari deve andare da Milano a Roma e decide di andare in treno, perché costa meno che in aereo. Il prezzo del biglietto:
+V: è il criterio che ritiene determinante per la sua decisione d’acquisto 
+F: soddisfa il suo bisogno di spendere meno
+F: soddisfa il suo bisogno di andare a Roma
+Q: Per osservare chi compete nel mercato in cui opera, l’impresa A deve analizzare: 
+V: chi soddisfa le stesse funzioni agli stessi gruppi di clienti a cui si rivolge l’impresa A, anche con modalità diverse
+F: tutti i gruppi di clienti e tutti i bisogni soddisfabili
+F: chi soddisfa le stesse funzioni agli stessi gruppi di clienti a cui si rivolge l’impresa A con le sue stesse modalità
+Q: La SWOT analysis è
+V: Uno strumento per rappresentare in modo sintetico fattori interni ed esterni, che intervengono nelle scelte strategiche delle imprese
+F: uno strumento per valutare l’efficacia dei collegamenti esterni tra catene del valore 
+F: uno strumento per valutare l’efficacia delle attività interne della catena del valore
+Q: La differenziazione intangibile è più importante quando le presentazioni del prodotto non si possono misurare?
+V: vero
+F: falso
+F: dipende
+Q: Quando un'impresa ottiene economia di scala produttive, significa che è riuscita a diminuire i costi totali di produzione?
+V: falso
+F: vero 
+F: dipende
+Q: A parità di altre condizioni, la rivalità tra le imprese consolidate all’interno di un settore è maggiore, se le barriere all’uscita sono basse?
+V: FALSO
+F: vero
+F: Dipende dalla natura delle barriere all’uscita
+Q: Il concetto di funzione indica:
+V: Quali bisogni l’impresa soddisfa a determinati gruppi di clienti
+F: come l’impresa soddisfa determinati bisogni a determinati gruppi di clienti 
+F: quali sono i criteri d’acquisto con sui i clienti decidono
+Q: Quali tra i seguenti concetti si riferiscono più specificamente all’impresa? 
+V: Il Business
+F: il mercato
+F: i fattori di successo
+Q: La strategia di un'impresa:
+V: Riguarda tutte le funzioni dell’impresa
+F: è un processo razionale che scaturisce in modo automatico, se si comprendono bene tutte le variabili ambientali
+F: non si deve occupare della parte di realizzazione, che compete ai livelli inferiori
+Q: Indica quale delle seguenti affermazioni NON è corretta, relativamente al processo di segmentazione.
+V: Facilita la capacità di dare risposte efficaci a problemi inattesi 
+F: facilità l’identificazione di fattori critici di successo diversi
+F: permette di individuare sottoinsiemi omogenei di gruppi di clienti e di funzioni
+Q: Quando Kotler distingue tra bisogni, desideri e domanda, implica che le imprese abbiano interesse:
+V: ad agire al livello della domanda, cercando di far diventare "domanda"(reali consumatori-acquirenti), con la leva del prezzo e della logistica, quei clienti che hanno in testa una marca e una decisione già presa; così come implica che le imprese cerchino giustamente di agire al livello del “desiderio”, cercando di far preferire (con la comunicazione, con l’innovazione di prodotto e di servizio, con il lavoro sulla marca) unamarca ad atre o ad altre tipologie di prodotti che possono soddisfare un certo bisogno, Ma lo stesso Kotler sembra più o meno implicitamente descrivere il livello dei “bisogni” come quello al quale le imprese hanno poca possibilità di convenienza ad agire:
+F: ad agire al livello al livello dell’offerta, modificando prodotti e servizi per cercare di spingere i clienti a comprare prodotti dell’impresa, in modo da soddisfare i bisogni del prodotto, i desideri di affermazione sociale e la domanda familiare di beni e servizi, ma lo stesso Kotler sembra più o meno implicitamente descrivere il livello dei “bisogni”, come quello al quale le imprese hanno possibilità di convenienza ad agire, dato che in tal caso il cliente diventa fidelizzato.
+F: ad agire a livello della domanda, cercando di far diventare “domanda”(realiconsumatori-acquirenti), con la leva del prezzo, quei clienti che hanno in testa una marca e una decisione già presa, ma che hanno pochi soldi da spendere; così come implica che le imprese cerchino giustamente di agire a livello del “desiderio” e dei “bisogni”, cercando di far preferire (specialmente con promozioni e comunicazioni) una marca ad altre o ad altre tipologie di prodotti che possono soddisfare un certo bisogno. Lo stesso Kotler sembra più o meno implicante descrivere il livello dei +” bisogni” come quello al quale le imprese hanno più possibilità di convenienza ad agire.
+Q: Le mappe di posizionamento:
+V: Sono visualizzazioni grafiche, di solito rappresentate come assi cartesiani, su cui vengono mostrate le posizioni che i clienti assegnano alle singole marche.
+F: Sono visualizzazioni grafiche, di solito rappresentate come assi cartesiani, su cui vengono mostrate le posizioni che i clienti hanno nella segmentazione del mercato.
+F: Sono visualizzazioni grafiche, di solito rappresentate come assi cartesiani, su cui vengono mostrate le posizioni che i concorrenti assegnano alle singole marche.
+Q: In una mappa di posizionamento, le variabili analizzate sono qualità e prezzo? 
+V: E’ possibile.
+F: si, ma solo a condizione che il prodotto sia molto semplice. 
+F: No.
+Q: Tra le differenze che esistono tra prodotti e servizi, vi sono alcune caratteristiche della domanda e della relazione con il cliente, che provocano conseguenze nella gestione:
+V: quali la non immagazzinabilità del servizio e una variabilità che intrinseca e difficile da controllare del servizio “puro”.
+F: quali la non immagazzinabilità del servizio, la sua capacità produttiva cronicamente in eccesso, una variabilità intrinseca e difficile da controllare del servizio “puro”.
+F: quali la non immagazzinabilità del servizio, la sua domanda non elastica al prezzo, la capacità produttiva cronicamente in eccesso del servizio.
+Q: La marca commerciale è il:
+V: marca del distributore.
+F: nome che caratterizza l’insegna di un negozio.
+F: marca di proprietà del produttore, ma venduta attraverso negozi indipendenti.
+Q: Ipotizzando che il prezzo di un prodotto sia 30, che il suo costo variabile unitario sia 18, che i costi fissi aziendali siano 144:
+V: il punto di pareggio è 12.
+F: il margine di contribuzione è 14.
+F: il punto di pareggio è 14.
+Q: La definizione del prezzo di vendita di un prodotto, a seguito della stima della funzione di domanda, senza una corretta analisi dei costi:
+V: potrebbe portare l’impresa a fissare un prezzo che massimizza le vendite totali, ma che non massimizza i profitti.
+F: potrebbe portare l’impresa a fissare un prezzo che massimizza le vendite totali, ma che non minimizza i profitti.
+F: potrebbe portare l’impresa a fissare un prezzo che massimizza i profitti unitari, ma che non massimizza i profitti finali.
+Q: La definizione del prezzo di vendita deve essere effettuata tenendo conto:
+V: della funzione di domanda (relazione tra prezzo e quantità acquistata dai clienti, vale a dire quanti prodotti i clienti sono disposti ad acquistare a ogni possibile prezzo), della concorrenza, dei costi aziendali.
+F: della funzione di domanda (relazione tra prezzo e quantità acquistata dai clienti, vale a dire quanti prodotti i clienti sono disposti ad acquistare a ogni possibile prezzo), della concorrenza.
+F: della funzione di domanda (relazione tra prezzo e quantità acquistata dai clienti, vale a dire quanti prodotti i clienti sono disposti ad acquistare a ogni possibile prezzo), della concorrenza, dei costi fissi aziendali.
+Q: Un sistema verticale di marketing ha lo scopo di:
+V: coordinare le attività distributive con quelle di produzione e di gestione della marca. 
+F: diminuire i conflitti tra produttori concorrenti: ognuno in tal modo ha un proprio canale distributivo.
+F: coordinare le attività distributive con quelle di produzione.
+Q: La quota numerica di punti vendita è:
+V: la percentuale di punti vendita che vendono la marca rispetto a tutti i potenziali punti vendita di un certo territorio per quella categoria di prodotto: esprime una misura della capillarità dei costi di logistica del nostro canale.
+F: la percentuale di punti vendita che vendono la marca rispetto a tutti i potenziali punti vendita di un certo territorio per quella categoria di prodotto: esprime una misura di performance dei distributori.
+F: la percentuale di punti vendita che vendono la categoria di prodotto nella quale opera il produttore; esprime una misura della capillarità dei costi di logistica e della distribuzione di un certo settore.
+Q: In quale stadio del comportamento d’acquisto il consumatore effettua il confronto fra le caratteristiche possedute dai vari produttori disponibili sul mercato capaci di soddisfare il medesimo bisogno?
+V: valutazione delle alternative. 
+F: ricerca di informazioni.
+F: decisione d’acquisto.
+Q: In quale stadio del comportamento d’acquisto il consumatore matura il concetto di soddisfazione o, in alternativa, di insoddisfazione?
+V: Impressioni del dopo acquisto. 
+F: Valutazione delle alternative. 
+F: Decisione d’acquisto.
+Q: In chiave di analisi del comportamento di consumo il coinvolgimento misura il livello di attenzione rivolta all’atto di acquisto, attenzione a sua volta legata al rischio percepito a esso associato. Quali tipi di rischio sono rilevanti per il consumatore?
+V: Entrambi.
+F: Rischio fisico. 
+F: Rischio sociale.
+Q: Quali caratteristiche deve presentare un segmento affinché la stessa procedura di segmentazione sia utile ed efficace?
+V: Accessibilità. 
+F: Praticabilità. 
+F: Anzianità.
+Q: Vi sono svariati criteri che vengono comunemente chiamati in causa quali metri di giudizio dell’efficacia e profittabilità di un processo di segmentazione. Uno di questi è relativo alla rapidità e sistematicità con cui il segmento reagisce agli stimoli di marketing messi a punto dall’impresa e indirizzati in modo specifico al segmento stesso. Qual è il nome di questo criterio?
+V: Reattività. 
+F: Rilevanza. 
+F: Stabilità.
+Q: Le “basi di segmentazione” identificano l’insieme di variabili rispetto alle quali è possibile od opportuno misurare il grado di eterogeneità nelle funzioni di domanda dei consumatori. La frequenza di utilizzo di un prodotto rappresenta una base della segmentazione di quale tipo?
+V: Osservabile e specifica. 
+F: Osservabile e generale.
+F: Non osservabile e generale.
+Q: Quale di queste caratteristiche è suscettibile di aumentare la credibilità di una fonte di comunicazione?
+V: Esperienza. 
+F: Humor.
+F: Bellezza.
+Q: Un forte contributo al progresso della teoria e della prassi del comportamento di consumo è associabile all’approfondimento, condotto con strumenti comunque rigorosi sul piano scientifico, degli aspetti per così dire estetici, e certamente più intangibili e soggettivi, del processo di acquisto ed uso di un prodotto. Questa dimensione del fenomeno, che si affianca senza contrapporsi alla più tradizionale visione utilitaristica, è nota come:
+V: Consumo edenico. 
+F: Consumo affluente. 
+F: Consumo intangibile.
+Q: Le innovazioni modulari comportano
+V: cambiamenti sostanziali della tecnologia del prodotto, ma nessun cambiamento dell’architettura del prodotto
+F: cambiamenti sostanziali dell’architettura del prodotto, ma nessun cambiamento sostanziale della tecnologia del prodotto
+F: cambiamenti sostanziali sia dell’architettura, sia della tecnologia del prodotto
+Q: Le innovazioni architetturali comportano:
+V: cambiamenti sostanziali dell’architettura del prodotto, ma nessun cambiamento sostanziale della tecnologia del prodotto
+F: cambiamenti sostanziali sia dell’architettura, sia della tecnologia del prodotto
+F: cambiamenti sostanziali della tecnologia del prodotto, ma nessun cambiamento dell’architettura del prodotto
+Q: La rete del valore è:
+V: un sistema di produttori, fornitori e utilizzatori di una determinata innovazione 
+F: una forma di organizzazione del processo innovativo
+F: un sistema di innovazioni complementari
+Q: La fonte funzionale di un’innovazione può essere individuata:
+V: identificando i soggetti (individui o organizzazioni) che hanno maggiori incentivi a investire nel processo
+F: identificando i soggetti che hanno compreso una nuova opportunità di mercato 
+F: identificando i soggetti che hanno compreso una nuova opportunità tecnologica
+Q: Il valore di un’opzione reale è maggiore quando:
+V: l’incertezza che circonda l’investimento in una tecnologia è elevata
+F: l’incertezza che circonda l’investimento in una nuova tecnologia è bassa
+F: è possibile utilizzare metodi tradizionali di valutazione di investimenti, quali il VAN e il TIR
+Q: In mercati caratterizzati dalla tendenza all’affermarsi in standard tecnici: 
+V: chi entra prima ha il vantaggio della prima mossa
+F: non è conveniente entrare per primi nel mercato
+F: è molto difficile per i follower recuperare terreno nei confronti dei leader
+Q: In presenza di forti esternalità di rete,
+V: quando una tecnologia raggiunge una ‘massa critica’ di utilizzatori, diventa molto attraente per nuovi utilizzatori
+F:quando una tecnologia raggiunge una ‘massa critica’, non diventa più attraente per nuovi utilizzatori
+F: gli utilizzatori possono facilmente rivedere le loro scelte di acquisto
+Q: I brevetti rappresentano uno strumento efficace di protezione dell’innovazione 
+V: in pochi settori
+F: in tutti i settori
+F: in nessun settore
+Q: Quando la commercializzazione di un’innovazione richiede risorse complementari co-specializzate (M/A):
+V: dipendere da fornitori esterni può ridurre i profitti dell’impresa 
+F: all’impresa innovatrice conviene rivolgersi a fornitori esterni
+F: l’impresa innovatrice può facilmente reperire le risorse sul mercato
+Q: Quando la commercializzazione di un’innovazione richiede risorse complementari generiche:
+V: l’impresa innovatrice può specializzarsi nella R&S e vendere la propria tecnologia alle imprese dotate di risorse complementari
+F: l’impresa innovatrice dovrebbe integrarsi verticalmente
+F: l’impresa innovatrice non ha bisogno di un forte regime di tutela legale dell’innovazione
+Q: Perché l’innovazione è importante per un impresa? 
+V: Perché aumenta il valore di mercato delle imprese 
+F: Perché aumenta le economie di scala
+F: Perché aiuta a recuperare risorse finanziarie dall’esterno
+Q: Per l’intero sistema universitario statunitense, le entrare dalle attività di trasferimento tecnologico rappresentano:
+V: il 7,5% del budget della ricerca in media 
+F: oltre il 40% del budget della ricerca
+F: la principale fonte di finanziamento della ricerca
+Q: Le spese R&S costituiscono:
+V: l’input del processo innovativo 
+F: l’output del processo innovativo
+F: l’unica fonte di innovazione per l’impresa
+Q: Le innovazioni di prodotto radicali comportano:
+V: cambiamenti sostanziali sia dell’architettura, che della tecnologia del prodotto 
+F: cambiamenti sostanziali dell’architettura del prodotto, ma nessun cambiamento sostanziale della sua tecnologia
+F: cambiamenti della tecnologia del prodotto, ma nessun cambiamento della sua architettura
+Q: Le innovazioni di prodotto incrementali comportano:
+V: nessun cambiamento sostanziale né dell’architettura, né della tecnologia del prodotto 
+F: cambiamenti sostanziali sia dell’architettura, che della tecnologia del prodotto
+F: cambiamenti sostanziali dell’architettura del prodotto, ma nessun cambiamento sostanziale della tecnologia del prodotto
+Q: Qualora il portafoglio risultante dall'analisi condotta con la matrice rischio rendimento non fosse soddisfacente, si può intervenire:
+V: ridefinendo le caratteristiche dei progetti 
+F: riducendo le risorse da investire
+F: nessuna delle precedenti
+Q: il tipico percorso di sviluppo di un'unità di R&S prevede quale fra le seguenti sequenze ? 
+V: Da Transfer Technology Unit a Indigenous Technology Unit, infine Global Technology Unit
+F: Da Manufacturing Technology Unit a Transfer Technology Unit, infine Global Technology Unit
+F: Da Indigenous Technology Unit a Corporate Technology Unit, infine Global Technology Unit
+Q: Quale tra i seguenti settori è un esempio di settore a 'scale intensive'? 
+V: Elettrodomestici
+F: Alimentare
+F: Impianti Industriali
+Q: prendendo come riferimento il settore farmaceutico, quale delle seguenti attività può essere assimilata alla ricerca applicata?
+V: La sintesi di una molecola, che riproduce le caratteristiche di un principio attivo naturale risultato efficace per una determinata patologia
+F: Le attività di sperimentazione clinica per studiare l'efficacia terapeutica di una nuova molecola
+F: Lo studio della sequenza di amminoacidi di una molecola avente proprietà di anticorpo
+Q: in quali delle seguenti tipologie di settori le relazioni con i fornitori sono tipicamente la principale fonte esterna di innovazione?
+V: Scale intensive
+F: Specialized Supplier 
+F: Science based
+Q: l'organizzazione e la gestione della R&S sono soggette a 2 esigenze principali tra loro in parte contrastanti:
+V: ricerca dell'eccellenza tecnico-scientifica e finalizzazione a obiettivi di innovazione 
+F: finalizzazione a obiettivi di innovazione e massimizzazione dell'efficacia operativa.
+F: ricerca dell'eccellenza tecnico-scientifica e capacità di risposta ai bisogni del mercato.
+Q: Nella matrice portafoglio rischio-rendimento, ciascun progetto è valutato rispetto a:
+V: valore generato, grado di variabilità del rendimento atteso, ammontare di risorse investite 
+F: incertezza dei risultati, innovatività tecnico-scientifica, rendimento economico finanziario 
+F: rischio tecnico-scientifico, valore economico finanziario apportato
+Q: le strutture organizzative per progetto sono generalmente utilizzate per progetti di innovazione:
+V: il cui successo è critico per l'impresa 
+F: a elevato contenuto tecnico-scientifico
+F: quando gli aspetti di efficienza nella conduzione del progetto sono critici
+Q: in linea generale le strutture organizzative per dipartimenti funzionali:
+V: favoriscono la comunicazione e l'integrazione fra i ricercatori di una stessa disciplina 
+F: favoriscono il contenimento dei tempi di realizzazione di un nuovo prodotto
+F: sono particolarmente appropriate in presenza di elevata incertezza tecnico-scientifica
+Q: secondo le definizioni adottate dall'OCSE, la ricerca di base si distingue in: 
+V: ricerca di base pura e orientata
+F: ricerca di base pura e applicata
+F: ricerca di base fondamentale e applicata
+Q: nella struttura organizzativa per dipartimenti funzionali, i progetti di R&S sono:
+V: suddivisi in sotto progetti e affidati ai dipartimenti funzionali per la parte di competenza 
+F: gestiti in modo informale
+F: gestiti da un project manager
+Q: quale tra i seguenti fenomeni non può essere considerato una caratteristica evolutiva dell'attuale scenario scientifico tecnologico?
+V: crescente settorializzazione degli ambiti tecnico scientifici 
+F: scientificazione dell'attività innovativa
+F: Orientamento delle autorità di governo verso la collaborazione interorganizzativa nella R&S
+Q: Le collaborazioni orizzontali tra imprese nella R&S, che riguardano problemi di sicurezza dei prodotti e dei processi e/o di adeguamento alla regolamentazione di settore, sono dette : 
+V: collaborazioni orizzontali non competitive
+F: collaborazioni orizzontali pre-competitive 
+F: collaborazioni orizzontali non profit
+Q: quale delle seguenti attività non è tipica di un unità di R&S di corporate? 
+V: Sviluppo sperimentale per una specifica linea di prodotti
+F: Ricerca a lungo termine a supporto di nuove linee di prodotto 
+F: Ricerca in aree comuni a diverse aree di business
+Q: prendendo come riferimento il settore assicurativo, quale delle seguenti attività può essere assimilata alla ricerca di base ?
+V: Concettualizzazione di nuove teorie sul rischio
+F: studio di nuove forme contrattuali per coprire nuovi rischi
+F: studio di nuovi strumenti di risparmio collegati a prodotti assicurativi
+Q: i cinque principi del Learn Thinking sono:
+V: value, value stream, flow, pull, perfection 
+F: value, Kaizen, kanban, just in time, muda 
+F: just in time, kaizen, flow, pull, muda
+Q: lo SMED è una tecnica per:
+V: ridurre il tempo di attrezzaggio delle macchine 
+F: alimentare il materiale a una linea di produzione 
+F: ridurre le difettosità di produzione
+Q: la logica Pull prevede che il materiale venga ordinato: 
+V: in base all’ordine del cliente
+F: in base al piano di produzione 
+F: molto spesso
+Q: il value stream mapping è una tecnica che permette di:
+V: analizzare congiuntamente il flusso dei materiali delle informazioni 
+F: ridurre il tempo di ciclo di lavorazione
+F: analizzare i trasporti
+Q: il kanban è uno strumento con il materiale 
+V: viene ordinato in base al consumo
+F: viene ordinato solo a cadenze fisse 
+F: viene ordinato solo a quantità fisse
+Q: la movimentazione dei materiali è 
+V: muda riducibile
+F: valore aggiunto 
+F: muda eliminabile
+Q: un controllo di fine linea è:
+V: muda eliminabile 
+F: valore aggiunto 
+F: muda riducibile
+Q: il just in sequence è una tecnica di:
+V: legata alla manifestazione del bisogno
+F: non legata alla manifestazione del bisogno 
+F: nessuna delle precedenti
+Q: il lotto economico, nel caso in cui si abbiano un costo di emissione unitario dell’ordine pari a 15? un fabbisogno totale pari a 2000 pezzi, un costo totale di mantenimento pari a 20000? una scorta media pari a 5000 pezzi, una scorta di sicurezza pari a 500 pezzi, è pari a:
+V: 122
+F: 622
+F: 128
+Q: supponendo che il consumo del particolare A sia al minimo 20 pezzi / giorno, mediamente 50 pezzi /giorno al massimo 100 pezzi/giorno, che il lead time di riordino sia pari a due settimane lavorative che il numero di pezzi per contenitore sia pari a 50, il numero di kanban necessari per garantire il rifornimento del particolare è pari a:
+V: 20
+F: 10
+F: 4
+Q: un approccio kaizen prevede:
+V: entrambe le risposte precedenti
+F: la partecipazione alle attività di miglioramento di tutti i livelli della struttura 
+F: l’attuazione di miglioramenti che non prevedano rilevanti investimenti
+Q: l’indice di flusso di un sistema produttivo avente lead time complessivo pari a 15 giorni lavorativi su turno normale, composto di due processi aventi tempo ciclo pari a 40 minuti e tempo di setup 1 ora il primo, tempo ciclo 10 minuti e tempo di setup 2 ore il secondo è pari a:
+V: 144
+F: 288
+F: 62
+Q: la creazione di celle di lavoro è finalizzata a:
+V: entrambe le precedenti
+F: ridurre le superfici occupate 
+F: ridurre i lead time
+Q: un’organizzazione per flussi della produzione richiede da parte degli operatori un ‘elevata: 
+V: polivalenza
+F: specializzazione 
+F: esperienza
+Q: è importante che i processi produttivi abbiano bassi lead time produttivi allo scopo di: 
+V: entrambe le precedenti
+F: favorire lo sviluppo di tecniche che operino per prevenire i problemi qualitativi 
+F: aumentare la flessibilità di risposte al mercato
+Q: !! la manutenzione su guasto (penso sia la 3)
+V: è l’unica applicazione in determinati contesti 
+F: deve sempre essere evitata
+F: richiede un forte coinvolgimento degli operatori che lavorano sulle macchine
+Q: a livello di riordino è un metodo di gestione delle scorte:
+V: a quantità fissa 
+F: a fabbisogno 
+F: a tempo fisso
+Q: nella gestione delle scorte è opportuno:
+V: differenziare le tecniche adottate in funzione delle caratteristiche dei prodotti e dei processi
+F: adottare strumenti software dedicati
+F: scegliere una tecnica di gestione uniforme per tutti i flussi produttivo-logistici aziendali
+Q:Nell’analisi delle attività presenti nel processo d’acquisto, quali delle seguenti affermazioni è corretta ?
+F:Le attività di supply implicano decisioni di tipo tattico
+F: Le attività di acquisto comprendono tutte le attività, dalla definizione delle specifiche del prodotto alle azioni correttive per il miglioramento delle performance dei fornitori
+V:La valutazione di pre-qualifica dei fornitori è una delle attività di sourcing
+Q:Nella formulazone delle richieste d’offerta è importante :
+F: Ottenere una risposta sintetica che permetta una valutazione complessiva del prezzo d’acquisto
+V:Formulare la richiesta in modo tale da consentire il confronto delle offerte
+F:Coinvolgere il maggior numero possibile di fornitori
+Q:Quale dei seguenti elementi non è opportuno mettere in discussione in sede di negoziazione ?
+V: La puntualità delle consegne
+F: La programmazione delle attività e gli aspetti logistici
+F:Le specifiche tecniche del prodotto
+Q:Tra i contributi diretti che gli approvvigionatori possono dare allo sviluppo della competitività delle imprese, si segnala:
+V:la riduzione del fabbisogno di capitale
+F:lo sviluppo del fatturato
+F:l’aumento della quota di mercato
+Q: quale delle seguenti categorie di acquisti rientra tra gli “indiretti” ?
+F: componenti
+V: materiali per manutenzioni e riparazioni
+F:semilavorati
+Q:Per poter comprendere i processi decisionali dell’impresa acquirente, che cosa è più importante conoscere ?
+V:L’impatto degli acquisti sul fatturato e la loro composizione qualitativa
+F:I livelli di crescita del fabbisogno da reperire sul mercato d’acquisto
+F:La localizzazione delle fonti di approvigionamento
+Q:Le linee guida dell’impresa acquirente, per decidere le modalità da seguire nell’approcciare il mercato di fornitura, sono condizionate da :
+V:valore d’acquisto
+F:numerosità dei fornitori
+F:localizzazione dei fornitori
+Q: !! Il portafoglio degli acquisti, finalizzato alla definizione delle politiche di approvvigionamento, viene costruito utilizzando parametri in grado di stabilire: (direi la 3)
+F:il contenuto innovativo dei prodotti
+V:la rischiosità dei mercati
+F:Il livello di esternalizzazione dell’impresa
+Q:Il portafoglio degli acquisti finalizzato alla definizione delle politiche di approvvigionamento, prevedere un gruppo di prodotti chiamato :
+F:commodities
+F:prodotti di fase
+V:prodotti leva
+Q: Nella fase di maturità del ciclo di vita del prodotto è trascurabile svolgere iniziative nei confronti dei fornitori per :
+F:migliorare i processi di acquisto
+F:stabilizzare i fabbisogni
+V:ottenere flessibilità
+Q: Nella situazione in cui è realizzato un rapporto di partnership con i fornitori:
+F:i criteri di selezione privilegiano l’affidabilità e le possibilità di integrazione operativa
+F:gli impegni sottoscritti dai partner riguardano volumi di attività predefiniti e programmati
+V:l’obiettivo perseguito congiuntamente è l’incremento del valore dell’offerta al cliente finale
+Q:La funzione approvvigionamenti realizza la massima efficacia:
+F:adottando una visione interfunzionale
+F:orientandosi alla minimizzazione dei costi transazionali
+V:valorizzando le competenze distintive delle diverse imprese presenti nella supply chain
+Q: Tra i fattori ambientali che più hanno spinto le imprese a esternalizzare quote sempre maggiori di attività, sono rilevanti:
+F:le variazioni del costo del capitale
+V:l’instabilità dei mercati in cui vengono collocati i prodotti finali
+F:il consolidamento delle caratteristiche tecnologiche dei prodotti
+Q:Per le imprese che hanno fatto un ricorso sistematico e strutturale ai fornitori, è essenziale :
+F: attivare meccanismi di ricerca di mercato continui, volti anche a una sostituzione dellefonti, che permetta di ottenere le condizioni d’acquisto più competitive
+F:aumentare il proprio potere contrattuale utilizzabile in sede di negoziazione per spuntare le condizioni più favorevoli
+V:realizzare forme di collaborazione nel lungo periodo, che consentano processi di miglioramento continuo
+Q: Tra i drivers che hanno spinto le imprese a internazionalizzare i processi di approvvigionamento, sono riscontrabili :
+F: la crescita del livello culturale degli operatori, che ha facilitato i rapporti internazionali
+V:la maggior pressione competitiva, che ha costretto a ridurre i costi
+F:a stabilità dei cambi tra le monete
+Q:Tra i rischi tipici che si verificano a seguito dei processi di internazionalizzazione degli acquisti, ci sono:
+V:i maggiori problemi da superare nella definizione delle specifiche contrattuali
+F:le difficoltà di comunicazione e di trasmissione delle informazioni dovute alle distanze
+F:le diversità esistenti tra i sistemi di misura
+Q:L’evoluzione delle applicazioni delle tecnologie ICT non ha avuto alcun effetto rilevante :
+F:sull’efficacia del processo di approvvigionamento
+V:sulle clausole negoziate tra le imprese e inserite nei contratti d’acquisto
+F:sull’efficienza del processo di approvvigionamento
+Q:Tra le attività solitamente inserite nell’e-procurement non figurano quelle di:
+F:negoziazione
+F:acquisti da catalogo elettronico
+V:supporto alla gestione integrata del ciclo ordine-consegna-fatturazione
+Q: qual è il valore di una vendita perpetua in crescita costante con un flusso di cassa iniziale pari a 5, un tasso di crescita costante (g) pari al 7.5% di attuazione pari al 10%?
+V: 200
+F: 50
+F: 66.665
+Q: qual è il valore attuale della rendita della precedente domanda se il primo flusso di cassa viene percepito nell'anno 6?
+V: 124.18
+F: 112.89
+F: 200
+Q: il principio di coerenza nelle valutazioni delle decisioni di investimento richiede che, in presenza di inflazione:
+V: i flussi di cassa nominali siano scontati a un tasso di rendimento nominale 
+F: i flussi di cassa reali siano scontati a un tasso di rendimento nominale
+F: i flussi di cassa nominali siano scontati a un tasso di rendimento reale
+Q: la gamma company sta valutando l'opportunità di intraprendere una nuova linea-prodotto. La società ha già pagato, lo scorso anno, la somma di 100.000 a una impresa esterna diconsulenza, come compenso di un'indagine di mercato. Tale somma:
+V: in quanto costo sommerso, non deve essere computata nel calcolare il VAN del progetto 
+F: in quanto componente negativa dei flussi di cassa, deve essere computata ai fini del calcolo del VAN del progetto, ma capitalizzata a oggi al costo opportunità del capitale aziendale
+F: in quanto componente il primo flusso di cassa (negativo), deve essere computata nel calcolare il VAN del progetto.
+Q: un progetto può avere più di un TIR se:
+V: si registra più di un cambiamento di segno nei suoi flussi di cassa 
+F: il VAN dello stesso è pari a zero
+F: il VAN dello stesso è positivo
+Q: se il rendimento annuo dell'indice di mercato è 13% e il rendimento medio dei titoli di stato è pari a 3.8%, qual è il premio atteso per il rischio di mercato in base al CAPM?
+V: 9.2%
+F: 3.8%
+F: 13%
+Q: in un mondo perfetto senza costi di transazione di fallimento e senza imposte quale sarebbe la struttura finanziaria ottimale?
+V: qualsiasi struttura finanziaria
+F: una struttura di solo capitale netto
+F: una struttura composta per metà da debito e metà da capitale netto
+Q: se una società modifica la propria struttura finanziaria:
+V: il rendimento atteso delle attività non varia 
+F: il rendimento atteso dell’equity non varia 
+F: il rendimento atteso del debito non varia
+Q: quale delle seguenti affermazioni caratterizza le azioni di risparmio? 
+V: gli azionisti di risparmio non hanno diritti di voto
+F: i dividendi sono deducibili dalle imposte, a differenza di quelli delle azioni ordinarie
+F: un’impresa che non paga dividendi agli azionisti di risparmio è considerata insolvente
+Q: secondo la teoria del trade-off della struttura finanziaria, dovrebbero indebitarsi di più le imprese:
+V: con elevate attività tangibili 
+F: con scarso reddito imponibile
+F: con elevati valori di avviamento
+Q: quali tra i seguenti fattori possono ridurre i costi di agenzia tra azionisti e manager di una public company?
+V: la contendibilità dell’impresa 
+F: l’assenza di investitori attivi 
+F: la presenza di Poison pills
+Q: quali effetti può generare un importante piano di stock options per il management di una public company?
+V: ricerca del rischio
+F: maggiore attenzione ai risultati di lungo periodo 
+F: maggiore attenzione nella fedeltà dei bilanci
+Q: i gruppi piramidali, in presenza di azionisti di maggioranza, producono l’effetto di: 
+V: disallineare gli interessi degli azionisti di maggioranza da quelli di minoranza
+F: disallineare gli interessi dei manager da quelli degli azionisti
+F: disallineare gli interessi dei manager da quelli degli azionisti di maggioranza
+Q: se un azionista di maggioranza possiede il 40% di un'impresa A, che possiede il 50% delle azioni ordinarie di un’altra impresa B, il cui capitale è costituito per la metà da azioni di risparmio, qual è la quota effettiva di partecipazione al capitale della società B da parte dell’azionista di maggioranza?
+V: 10%
+F: 20%
+F: 40%
+Q: il debito genera un beneficio fiscale rispetto al capitale netto se:
+V: quello individuato dal 3° modello di Miller: Quando le aliquote personali di tassazione dei redditi da interesse e da equity COINCIDONO, il vantaggio complessivo del debito continua ad essere il beneficio fiscale generato dal risparmio di imposte societarie
+F: vivi in un sistema economico fondamentalmente sbagliato
+F: il tuo stato ti permette di indebitarti per massimizzare i profitti e allo stesso tempo minimizzare le tasse da pagare
+Q: Dopo quale fenomeno storico/economico, il problema organizzativo assume rilevanza tale da spingere gli studiosi a occuparsi delle risorse umane ?
+F: Dopo la prima rivoluzione industriale
+V:Dopo la seconda rivoluzione industriale
+F:Dopo il boom produttivo della Ford
+Q:Il frazionamento delle attività in compiti elementari che vedono le persone interagire sempre più con le macchine, consente :
+F:una riduzione dei costi
+V:una massimizzazione della produttività individuale
+F:un aumento distribuito della qualità
+Q:Quale dei seguenti punti non è parte della <Organizzazzione scientifica del lavoro> proposta da Taylor ?
+F:Sostituzione di conoscenze scientifiche alle opinioni personali dell’operaio
+F:Selezione e preparazione scientifica della manodopera
+V:Separazione collaborativi tra dirigenti e manodopera
+Q:La produzione di massa non consente:
+F:l’annullamento della variabilità e dell’incertezza
+V:una produzione differenziata nella gamma e personalizzata alle esigenze della domanda
+F:la drastica diminuzione dei costi di produzione
+Q:Secondo il paradigma tayloristico, quale fattore rende i lavoratori dei soggetti contrattualmente “deboli” ?
+V: la loro elevata sostituibilità
+F: Il loro basso livello di istruzione
+F: la loro alienazione dal resto delle strutture aziendali
+Q:Secondo gli studi condotti dalla Scuola delle <Relazioni Umane>( Human Relations ), avviata da Elton Mayo, la presenza di un osservatore:
+V: migliora la performance produttive dei lavoratori
+F:peggiora le performance produttive dei lavoratori
+F:non ha influenza sulle performance produttive dei lavoratori
+Q:Quali delle seguenti correnti di studi si occupò delle variabili individuali e socali dell’organizzazione ?
+F: Taylorismo
+V: Scuola delle Relazioni Umane
+F: Contigentismo
+Q: Per il Funzionalismo, quali delle seguenti variabili non influenza la produttività individuale ?
+V: il grado di soddisfazione dei dipendenti
+F: L’organizzazione dei sistemi produttivi
+F: L’efficienza tecnica
+Q: Quali delle seguenti correnti di studi considera determinante per l’impresa l’adattamento alle variabili esterne ?
+F: Fordismo
+V:Contigentismo
+F: Funzionalismo
+Q:Quale dei seguenti movimenti di pensiero riconosce unicamente una razionalità ex post, interpretando cioè la realtà come un <costrutto sociale>, che può essere rappresentato solo dagli individui che hanno contribuito a generarlo ?
+F: Funzionalismo
+F: Contigentismo
+V: Costruttivismo
+Q: l’aspetto innovativo della teoria della Razionalità Limitata riguarda la constatazione che l’output del processo decisionale possa essere una soluzione:
+F: Sufficiente e parzialmente ottimale
+F: ottimale
+V: sufficiente e ottimale
+Q: La teoria dell’equilibrio organizzativo afferma che la relazione è in equilibrio ed è destinata a proseguire se :
+F: esistono incentivi sfidanti ma raggiungibili
+F: gli incentivi sono altri
+V: esiste percezione di equità da ambo le parti
+Q: I partecipanti accettano il vincolo associativo, quando esiste la possibilità di:
+V: realizzare direttamente o indirettamente i loro scopi individuali
+F: realizzare gli obiettivi preposti dall’impresa
+F: vedere riconosciuto il loro valore aggiunto in ambito professionale
+Q: Il desiderio di restare con l’rganizzazione non si forma sulla base:
+F: della compatibilità della mansione con altri ruoli
+F: della prevedibilità dei rapporti legati alla mansione
+V: della coerenza professionale con le precedenti esperienze
+Q: gli psicologi sostengono che il processo, mediante il quale un individuo entra a far parte di un gruppo, si compone di tre fasi:
+V: 1) osservazione iniziale del gruppo;2)cambiamenti nel concetto di sé3)l’iniziazione
+F: 1) osservazione iniziale del gruppo2) la valutazione delle alternative3)la scelta
+F: 1) la valutazione delle alternative2)cambiamenti nel concetto di sé3)iniziazione
+Q: Secondo la teoria dell’aspettativa-valenza la decisione di un individuo può essere spiegata come una funzione moltiplicativa :
+F: della strumentalità e dell’aspettativa
+F: della valenza e delle strumentalità
+V: nessuna delle altre risposte presenti
+Q: la social identity suggerisce una suddivisione dell’identità in:
+F: identità sociale e identità collettiva
+V: identità sociale e identità personale
+F: identità personale e identità impersonale
+Q: Un elevato livello di identificazione con l’organizzazione non implica :
+F:comportamenti cooperativi verso gli ingroup
+F:comportamenti discriminanti verso gli outgroup
+V: diminuzione del livello di commitment
+Q: Il commitment può essere:
+V: affettivo calcolativo e strumentale
+F: affettivo, personale, economico
+F: personale, economico, strumentale
+Q: Il controllo strategico:
+F: è finalizzato al monitoraggio del grado di attuazione della strategia aziendale
+F: è collegato solo alla strategia in corso di realizzazione
+V: permettere anche di cogliere segnali relativi a minacce e opportunità e fattori di criticità sia interni che esterni all’impresa
+Q: Ai fini della predisposizione di efficaci sistemi di misurazione del grado di attuazione della strategia (SDM), quali tra i seguenti elementi non assumono rilievo ?
+F:Esplicitazione della strategia aziendale
+F:La specificiazione degli orizzonti temporali di riferimento
+V: il calcolo dei bonus per i dirigenti
+Q: Le mappe strategiche :
+F:sono un elenco di indicatori di performance
+V: sono utili ai fini dell’esplicitazione della strategia aziendale
+F: non individuano sequenze di relazioni di causa effetto tra gli obiettivi strategici definiti
+Q: Quale, tra i seguenti, è un indicatore reddituale ?
+F: riduzione delle scorte
+V: economic value added
+F: time to market
+Q: Il ROI
+V: è dato dal rapporto tra il reddito operativo caratteristico al netto delle imposte e il capitale investito netto tipico
+F: viene valutato positivamente, quando è inferiore a quello dei principali concorrenti
+F: misura la capacità dell’impresa di produrre ricchezza attraverso la gestione operativa
+Q: Quale tra i seguenti indicatori risulta più adeguato ai fini del monitoraggio del proceso di evasione dell’ordine ?
+V: N. ordini non conformi/totale di ordini consegnati
+F: ROE
+F: il numero di nuovi prodotti
+Q: Gli indicatori di attività o funzionali:
+V: sono utili per rilevare il risultato di iniziative/progetti specifici, posti in essere per il raggiungimento di obiettivi aziendali di natura complessa
+F: sono di natura economico/finanziaria
+F: tutte e precedenti
+Q: Il balanced score card:
+F: è fortemente compatibile con organizzazioni di tipo funzionale
+F: permette sempre di associare un parametro a un’unica responsabilità organizzativa
+V: classifica le misure di prestazione in quattro principali prospettive: economico-finanziaria del cliente, dei processi interni, dell’apprendimento e dello sviluppo organizzativo
+Q: L’impresa alfa opera in un contesto altamente competitivo, dove gli spazi di differenziazione sono limitati e uno dei fattori critici di successo è rappresentato dall’efficienza a livello produttivo. Quale tra i seguenti indicatori ritieni maggiormente adatto al monitoraggio di questo obiettivo strategico ?
+F: time to market del periodo/time to market del period precedente
+F: N di reclami ricevuti nel periodo/n. di reclami ricevuti nel periodo precedente
+V: Scostamento dei materiali dallo standard
+Q: Quale tra le seguenti è una finalità dei sistemi di visibilità strategica (SDV)?
+F: Monitorare la strategia in corso di attuazione
+V: Supportare il management nelle scelte della tipologia di clienti da servire
+F: Guidare il management verso la realizzazione dei piani e programmi strategici
+Q: Beta è un gestore di telefonia mobile che sta investendo molte risorse in una campagna pubblicitaria tesa all’acquisizione di nuovi clienti. Data l’elevata saturazione del mercato ...
+F: tasso di fedeltà della clientela
+F: ammontare di traffico generato da clienti esistenti
+V: n. contratti di portabilità attivati dall’inizio della campagna pubblicitaria
+Q: Ai fini del monitoraggio del grado di rischiosità finanziaria del cliente risulta opportuno valutare :
+V: il rapporto di indebitamento del cliente
+F: il ROI del cliente
+F: il tasso di crescita dei ricavi generati dal cliente
+Q: Un efficace sistema di controllo della dimensione “fornitore” dovrebbe considerare:
+F: solo il costo di acquisto dei fattori produttivi
+V: anche i costi di mantenimento delle scorte del fattore produttivo
+F: solo la qualità delle forniture
+Q: L’utilizzo degli strumenti di analisi economico finanziaria per la gestione dei rapporti con i fornitori non risulta utile per:
+F: valutare possibili alternative di approvvigionamento
+F: prevedere eventuali variazioni nei costi di fornitura
+V: definire le nuove campagne pubblicitarie
+Q: Quali tra i seguenti aspetti non risulta rilevante ai fini della definizione del spporto informativo dei sistemi di controllo strategico ?
+F: Realizzazione della mappa strategica
+F: definizione della mappa economico-finanziaria
+V: definizione di un organigramma a matrice
+Q: Il controllo della dimensione innovazione :
+F: è riferibile solamente ai risultati dell’azione innovativa dell’impresa
+V: viene realizzato anche attraverso indicatori di carattere economico finanziario
+F: non considera la prospettiva del cliente
+Q: Quale tra i seguenti indicatori potrebbe essere utilizzato per valutare il grado di soddisfazione delle risorse umane ?
+V:turnover del personale
+F: n. di ore di formazione
+F: ammontare di risorse spese in formazione
+Q: L’azienda Kappa …… lunghissima
+F: n.consegne puntuali/totale consegne
+F: tasso di soddisfazione del cliente per il servizio di progettazione
+V: Tutte le precedenti
+Q:Nice Kitchen è una impresa italiana che realizza cucine componibili di alta gamma. L’obbiettivo dell’azienda è l’incremento della redditività …
+F: Quota mercato italiano
+F: Scostamento maniera diretta dallo standard
+V: tutte le precedenti
+Q: Il principale concorrente di Delta, azienda operante nel settore degli elettrodomestici …
+V: Quota di mercato nei nuovi mercati serviti
+F: N. di linee realizzate
+F: età media per addetto
+Q:Quale dei seguenti comportamenti ha favorito lo sviluppo di reti interne di imprese ?
+V:lo spin-off di singoli business consolidati o di nuovi business
+F:L’accentramento organizzativo e il ricorso a strutture burocratizzate
+F:Il ricorso ad accordi di sub-fornitura
+Q:Rispetto allo schema di Roberts e Berry, in tema di modalità di ingresso in nuove aree d’affari, quale affermazione è corretta ?
+F:Nelle aree nuove e non familiari (sia per tecnologia che per mercati), lo sviluppo interno appare più corretto
+F:Nelle aree in cui sia la tecnologia che il mercato sono completamente conosciuti, l’unica modalità da adottare è l’acquisizione
+V: Nelle aree nuove e non familiari (sia per tecnologia che per mercato), appaiono più coerenti strategie quali il venture capital e le “acquisizioni educative”.
+Q:Quale delle seguenti affermazioni trovate corretta relativamente ai legami deboli ?
+F: Si basano sulla fiducia
+V: sono i più soggetti a comportamenti opportunistici
+F:Si instaurano generalmente tra attori che si conoscono da tempo
+Q: In quale dei seguenti casi è corretto parlare di crescita interna ?
+V: Quando l’impresa cresce attraverso investimenti pianificati e realizzati internamente
+F: Quando l’impresa si affida a imprese terze per la produzione di componenti
+F: Quando l’impresa si affida a imprese terze per la distribuzione dei propri prodotti
+Q: Indicare in quale dei seguenti casi siamo in presenza di una relazione inter-organizzativa verticale:
+F:un accordo di licencing tra l’impresa e un suo concorrente
+F:una joint venture tra l’impresa e un produttore di beni complementari
+V: un accordo di sub-fornitura tra l’impresa e un suo fornitore
+Q:Le imprese ricorrono alle relazioni inter-organizzative orizzontali per :
+V: aumentare la quota di mercato in tempi brevi
+F: garantire un mercato di sbocco ai propri prodotti
+F: assicurarsi l’approvvigionamento di input
+Q: La relazione inter-organizzativa è definita asimmetrica quando:
+F: coinvolge imprese della stessa dimensione
+V:coinvolge imprese di diversa dimensione
+F: coinvolge un’impresa e il suo fornitore
+Q:Quale di queste affermazioni non è una determinante delle relazioni inter-organizzative?
+F: la ricerca di sinergie
+V: la riduzione della quota di mercato dell’impresa
+F: la coercizione
+Q: che cosa può spingere un’impresa a concedere in licenza il proprio brevetto ?
+V: la mancanza di capacità tecniche e finanziarie per poter produrre e commercializzare il prodotto
+F: la paura di creare un nuovo concorrente
+F:la necessità di completare la propria gamma
+Q: Quale dei seguenti fattori è in grado di spiegare la diffusione del franchising ?
+V: L’intermediario commerciale è diventato un elemento chiave di creazione di valore
+F: La necessità di sfruttare economicamente una proprietà intellettuale
+F:La volontà di aumentare l’attrattività del proprio prodotto
+Q: La diffusione di accordi inter-organizzativi e reti cambia la competizione in quanto:
+F: accresce la centralità dell’impresa rispetto alla rete
+F:riduce la competizione tra diverse forme organizzative
+V: crea una competizione tra reti d’impresa
+Q: La rete “realizzata” è caratterizzata da :
+F: una bi-direzionalità delle relazioni tra impresa “guida” e fornitori
+V: da una rotazione molto elevata dei fornitori
+F: dal ruolo propositivo assunto dai fornitori
+Q: Rispetto alle varie forme di relazione inter-organizzativa, quale di queste affermazioni è corretta ?
+F: Le relazioni inter-organizzative con controllo proprietario durano sempre di più di quelle senza controllo proprietario
+F:Le relazioni inter-organizzative senza controllo proprietario hanno sempre durata breve
+V: Le relazioni inter-organizzative con controllo proprietario generalmente comportano un rischio finanziario maggiore rispetto alle relazioni inter-organizzative senza controllo proprietario
+Q:L’outsourcing:
+F:consiste in una internalizzazione di una o più attività aziendali
+V: consiste in una esternalizzazione di una o più attività aziendali
+F: non riguarda mai attività che contribuiscono in modo determinante alla creazione del vantaggio competitivo
+Q: Quale dei seguenti stadi di sviluppo della rete si caratterizza per la presenza di relazioni inter-organizzative tra i fornitori ?
+V: la rete pianificata
+F: la rete realizzata
+F: la rete razionalizzata
