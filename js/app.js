@@ -139,6 +139,12 @@ function startRandomQuiz() {
     // Mescola anche le risposte di ogni domanda
     appState.currentQuestions = appState.currentQuestions.map(q => shuffleAnswers(q));
     
+    // Traccia l'evento con Plausible
+    trackEvent('quiz_started', {
+        type: 'random',
+        questions_count: numQuestions
+    });
+    
     // Inizia il quiz
     startQuiz();
 }
@@ -157,6 +163,13 @@ function startTopicQuiz(topic) {
     
     // Mescola anche le risposte di ogni domanda
     appState.currentQuestions = appState.currentQuestions.map(q => shuffleAnswers(q));
+    
+    // Traccia l'evento con Plausible
+    trackEvent('quiz_started', {
+        type: 'topic',
+        topic: topic,
+        questions_count: numQuestions
+    });
     
     // Inizia il quiz
     startQuiz();
@@ -198,6 +211,14 @@ function nextQuestion() {
         appState.incorrectAnswers++;
     }
     
+    // Traccia la risposta con Plausible
+    trackEvent('answer_submitted', {
+        question_index: appState.currentQuestionIndex,
+        question_category: currentQuestion.category,
+        is_correct: isCorrect,
+        question_text: currentQuestion.text.substring(0, 50) + '...' // Includi un estratto breve della domanda
+    });
+    
     // Aggiorna statistiche persistenti
     updatePersistentStats(currentQuestion.category, isCorrect);
     
@@ -231,6 +252,16 @@ function finishQuiz() {
     const correctPercentage = totalQuestions > 0 
         ? Math.round((appState.correctAnswers / totalQuestions) * 100) 
         : 0;
+        
+    // Traccia il completamento del quiz con Plausible
+    trackEvent('quiz_completed', {
+        category: appState.selectedCategory || 'Random',
+        correct_answers: appState.correctAnswers,
+        total_questions: totalQuestions,
+        success_rate: correctPercentage,
+        time_taken: timeElapsed,
+        avg_time_per_question: Math.round(timeElapsed / totalQuestions)
+    });
     
     // Aggiorna interfaccia risultati
     document.getElementById('finalScore').textContent = `${correctPercentage}%`;
@@ -383,6 +414,14 @@ function updateStatsUI() {
         ? Math.round((appState.stats.totalCorrect / appState.stats.totalQuestions) * 100) 
         : 0;
     document.getElementById('statsSuccessRate').textContent = `${successRate}%`;
+    
+    // Traccia la visualizzazione delle statistiche con Plausible
+    trackEvent('view_statistics', {
+        total_questions: appState.stats.totalQuestions,
+        success_rate: successRate,
+        quiz_history_count: appState.stats.quizHistory.length,
+        categories_count: Object.keys(appState.stats.categoryStats).length
+    });
     
     // Animazione dei contatori
     animateCounters();
@@ -573,6 +612,13 @@ function reviewAnswers() {
     document.getElementById('reviewCorrect').textContent = appState.correctAnswers;
     document.getElementById('reviewIncorrect').textContent = appState.incorrectAnswers;
     
+    // Traccia la revisione delle risposte con Plausible
+    trackEvent('review_answers', {
+        correct_answers: appState.correctAnswers,
+        incorrect_answers: appState.incorrectAnswers,
+        category: appState.selectedCategory || 'Random'
+    });
+    
     // Ottieni il contenitore per le domande
     const reviewContainer = document.getElementById('reviewContainer');
     reviewContainer.innerHTML = '';
@@ -650,6 +696,12 @@ function hideModal() {
 
 // Resetta tutte le statistiche
 function resetAllStats() {
+    // Traccia l'evento di reset con Plausible
+    trackEvent('reset_stats', {
+        previous_total_questions: appState.stats.totalQuestions,
+        previous_quiz_history_count: appState.stats.quizHistory.length
+    });
+
     // Reset dello stato
     appState.stats = {
         totalQuestions: 0,
@@ -680,6 +732,11 @@ function showScreen(screenName) {
     
     // Mostra la schermata richiesta
     screens[screenName].classList.add('active');
+    
+    // Traccia il cambio di schermata con Plausible
+    trackEvent('screen_view', {
+        screen_name: screenName
+    });
     
     // Scorri alla sezione mostrata
     scrollToSection(screenName);
@@ -717,4 +774,12 @@ function loadStats() {
 // Salva le statistiche nel localStorage
 function saveStats() {
     localStorage.setItem('egidQuizStats', JSON.stringify(appState.stats));
+}
+
+// Funzione helper per tracciare gli eventi con Plausible
+function trackEvent(eventName, props = {}) {
+    if (window.plausible) {
+        window.plausible(eventName, { props });
+        console.log(`Evento tracciato: ${eventName}`, props);
+    }
 }
