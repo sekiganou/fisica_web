@@ -946,6 +946,200 @@ footer {
     }
 }
 
+/* Stili per lo stato di promozione/bocciatura */
+.promotion-status {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+
+.promotion-status.promoted {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.promotion-status.failed {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+/* Modalità fullscreen per il quiz - mostra SOLO il quiz */
+body:fullscreen,
+body:-webkit-full-screen,
+body:-moz-full-screen,
+body:-ms-fullscreen {
+    background-color: #f5f7ff;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+/* Nascondi TUTTO tranne il quiz in fullscreen */
+body:fullscreen > *:not(.app-container),
+body:-webkit-full-screen > *:not(.app-container),
+body:-moz-full-screen > *:not(.app-container),
+body:-ms-fullscreen > *:not(.app-container) {
+    display: none !important;
+}
+
+body:fullscreen .app-container > *:not(main),
+body:-webkit-full-screen .app-container > *:not(main),
+body:-moz-full-screen .app-container > *:not(main),
+body:-ms-fullscreen .app-container > *:not(main) {
+    display: none !important;
+}
+
+body:fullscreen main > *:not(#quiz-screen),
+body:-webkit-full-screen main > *:not(#quiz-screen),
+body:-moz-full-screen main > *:not(#quiz-screen),
+body:-ms-fullscreen main > *:not(#quiz-screen) {
+    display: none !important;
+}
+
+/* Nascondi anche il pulsante fullscreen stesso in modalità fullscreen */
+body:fullscreen #fullscreenBtn,
+body:-webkit-full-screen #fullscreenBtn,
+body:-moz-full-screen #fullscreenBtn,
+body:-ms-fullscreen #fullscreenBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 99999;
+    opacity: 0.8;
+}
+
+/* Layout fullscreen ottimizzato */
+body:fullscreen .app-container,
+body:-webkit-full-screen .app-container,
+body:-moz-full-screen .app-container,
+body:-ms-fullscreen .app-container {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f7ff;
+}
+
+body:fullscreen main,
+body:-webkit-full-screen main,
+body:-moz-full-screen main,
+body:-ms-fullscreen main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+body:fullscreen #quiz-screen,
+body:-webkit-full-screen #quiz-screen,
+body:-moz-full-screen #quiz-screen,
+body:-ms-fullscreen #quiz-screen {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+
+/* Quiz content in fullscreen */
+body:fullscreen .quiz-header,
+body:-webkit-full-screen .quiz-header,
+body:-moz-full-screen .quiz-header,
+body:-ms-fullscreen .quiz-header {
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+body:fullscreen .quiz-content,
+body:-webkit-full-screen .quiz-content,
+body:-moz-full-screen .quiz-content,
+body:-ms-fullscreen .quiz-content {
+    padding: 3rem;
+    font-size: 1.1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body:fullscreen .question,
+body:-webkit-full-screen .question,
+body:-moz-full-screen .question,
+body:-ms-fullscreen .question {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+body:fullscreen .answer-option,
+body:-webkit-full-screen .answer-option,
+body:-moz-full-screen .answer-option,
+body:-ms-fullscreen .answer-option {
+    padding: 1.5rem 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-radius: var(--border-radius);
+}
+
+body:fullscreen .quiz-actions,
+body:-webkit-full-screen .quiz-actions,
+body:-moz-full-screen .quiz-actions,
+body:-ms-fullscreen .quiz-actions {
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Pulsante fullscreen */
+.fullscreen-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    opacity: 0.7;
+}
+
+.fullscreen-btn:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.fullscreen-btn.hidden {
+    display: none;
+}
+
 /* Comportamento di scorrimento fluido per tutta la pagina */
 html {
     scroll-behavior: smooth;

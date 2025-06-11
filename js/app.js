@@ -69,6 +69,7 @@ function initEventListeners() {
     // Quiz
     document.getElementById('nextQuestionBtn').addEventListener('click', nextQuestion);
     document.getElementById('quitQuizBtn').addEventListener('click', () => showScreen('welcome'));
+    document.getElementById('fullscreenBtn').addEventListener('click', toggleFullscreen);
     
     // Risultati
     document.getElementById('reviewBtn').addEventListener('click', reviewAnswers);
@@ -131,9 +132,9 @@ function loadTopics() {
 
 // Avvia un quiz con domande casuali
 function startRandomQuiz() {
-    // Prendi 10 domande casuali (o meno se non ce ne sono abbastanza)
+    // Prendi 12 domande casuali (o meno se non ce ne sono abbastanza)
     const shuffled = shuffleArray(appState.questions);
-    const numQuestions = Math.min(10, shuffled.length);
+    const numQuestions = Math.min(12, shuffled.length);
     appState.currentQuestions = shuffled.slice(0, numQuestions);
     
     // Mescola anche le risposte di ogni domanda
@@ -154,9 +155,9 @@ function startTopicQuiz(topic) {
     // Filtra le domande per categoria
     const topicQuestions = appState.questions.filter(q => q.category === topic);
     
-    // Mescola e prendi fino a 10 domande
+    // Mescola e prendi fino a 12 domande
     const shuffled = shuffleArray(topicQuestions);
-    const numQuestions = Math.min(10, shuffled.length);
+    const numQuestions = Math.min(12, shuffled.length);
     
     appState.currentQuestions = shuffled.slice(0, numQuestions);
     appState.selectedCategory = topic;
@@ -247,8 +248,15 @@ function finishQuiz() {
     const seconds = timeElapsed % 60;
     const formattedTime = `${minutes}:${seconds.toString().padStart(2, '0')}`;
     
-    // Calcola percentuale successo
+    // Calcola il punteggio su scala 0-31
     const totalQuestions = appState.currentQuestions.length;
+    const score = Math.round((appState.correctAnswers / totalQuestions) * 31);
+    
+    // Determina se promosso (18/31 = soglia di promozione)
+    const isPromoted = score >= 18;
+    const promotionStatus = isPromoted ? '✅ PROMOSSO' : '❌ BOCCIATO';
+    
+    // Calcola anche la percentuale per il tracking
     const correctPercentage = totalQuestions > 0 
         ? Math.round((appState.correctAnswers / totalQuestions) * 100) 
         : 0;
@@ -258,16 +266,23 @@ function finishQuiz() {
         category: appState.selectedCategory || 'Random',
         correct_answers: appState.correctAnswers,
         total_questions: totalQuestions,
+        score_31: score,
+        is_promoted: isPromoted,
         success_rate: correctPercentage,
         time_taken: timeElapsed,
         avg_time_per_question: Math.round(timeElapsed / totalQuestions)
     });
     
     // Aggiorna interfaccia risultati
-    document.getElementById('finalScore').textContent = `${correctPercentage}%`;
+    document.getElementById('finalScore').textContent = `${score}/31`;
     document.getElementById('finalCorrect').textContent = appState.correctAnswers;
     document.getElementById('finalIncorrect').textContent = appState.incorrectAnswers;
     document.getElementById('quizTime').textContent = formattedTime;
+    
+    // Aggiorna stato promozione
+    const promotionElement = document.getElementById('promotionStatus');
+    promotionElement.textContent = promotionStatus;
+    promotionElement.className = `promotion-status ${isPromoted ? 'promoted' : 'failed'}`;
     
     // Salva risultati nella cronologia
     appState.stats.quizHistory.push({
@@ -276,8 +291,9 @@ function finishQuiz() {
         correct: appState.correctAnswers,
         incorrect: appState.incorrectAnswers,
         total: totalQuestions,
+        score: score,
+        isPromoted: isPromoted,
         time: timeElapsed,
-        // Salviamo anche le domande e le risposte per la revisione
         questions: appState.currentQuestions,
         userAnswers: appState.userAnswers || []
     });
@@ -744,6 +760,9 @@ function showScreen(screenName) {
     // Mostra la schermata richiesta
     screens[screenName].classList.add('active');
     
+    // Aggiorna visibilità pulsante fullscreen
+    updateFullscreenButtonVisibility(screenName);
+    
     // Traccia il cambio di schermata con Plausible
     trackEvent('screen_view', {
         screen_name: screenName
@@ -806,3 +825,74 @@ window.addEventListener('orientationchange', function() {
         }
     }, 300);
 });
+
+// Funzione per gestire la modalità fullscreen
+function toggleFullscreen() {
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const icon = fullscreenBtn.querySelector('i');
+    
+    if (!document.fullscreenElement && !document.webkitFullscreenElement && 
+        !document.mozFullScreenElement && !document.msFullscreenElement) {
+        // Entra in fullscreen
+        const element = document.documentElement;
+        
+        if (element.requestFullscreen) {
+            element.requestFullscreen();
+        } else if (element.webkitRequestFullscreen) {
+            element.webkitRequestFullscreen();
+        } else if (element.mozRequestFullScreen) {
+            element.mozRequestFullScreen();
+        } else if (element.msRequestFullscreen) {
+            element.msRequestFullscreen();
+        }
+        
+        icon.className = 'fas fa-compress';
+        fullscreenBtn.title = 'Esci dalla modalità schermo intero';
+    } else {
+        // Esci da fullscreen
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        }
+        
+        icon.className = 'fas fa-expand';
+        fullscreenBtn.title = 'Modalità schermo intero';
+    }
+}
+
+// Gestisci eventi fullscreen
+document.addEventListener('fullscreenchange', handleFullscreenChange);
+document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+document.addEventListener('mozfullscreenchange', handleFullscreenChange);
+document.addEventListener('MSFullscreenChange', handleFullscreenChange);
+
+function handleFullscreenChange() {
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const icon = fullscreenBtn.querySelector('i');
+    
+    if (document.fullscreenElement || document.webkitFullscreenElement || 
+        document.mozFullScreenElement || document.msFullscreenElement) {
+        // In fullscreen
+        icon.className = 'fas fa-compress';
+        fullscreenBtn.title = 'Esci dalla modalità schermo intero';
+    } else {
+        // Non in fullscreen
+        icon.className = 'fas fa-expand';
+        fullscreenBtn.title = 'Modalità schermo intero';
+    }
+}
+
+// Mostra/nasconde il pulsante fullscreen solo durante il quiz
+function updateFullscreenButtonVisibility(screenName) {
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    if (screenName === 'quiz') {
+        fullscreenBtn.classList.remove('hidden');
+    } else {
+        fullscreenBtn.classList.add('hidden');
+    }
+}

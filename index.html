@@ -47,6 +47,9 @@
             </div>
 
             <div id="quiz-screen" class="screen">
+                <button id="fullscreenBtn" class="fullscreen-btn hidden" title="Modalità schermo intero">
+                    <i class="fas fa-expand"></i>
+                </button>
                 <div class="quiz-header">
                     <div class="quiz-progress">
                         <div class="progress-bar">
@@ -85,7 +88,10 @@
                     <div class="result-summary">
                         <div class="result-score">
                             <div class="score-circle">
-                                <span id="finalScore">0%</span>
+                                <span id="finalScore">0/31</span>
+                            </div>
+                            <div class="promotion-status" id="promotionStatus">
+                                <!-- Stato promozione/bocciatura -->
                             </div>
                         </div>
                         <div class="result-details">
