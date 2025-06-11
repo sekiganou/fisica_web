@@ -81,46 +81,47 @@ function detectCategory(questionText) {
     return "Generale";
 }
 
-// Il testo delle domande (verrà caricato dal file di input)
-const rawQuestions = `
-// filepath: /Users/paolodionesalvi/Documents/Uni/EGID/input.txt
-Q: In quale stadio del comportamento d'acquisto il consumatore effettua il confronto fra le caratteristiche possedute dai vari produttori disponibili sul mercato capaci di soddisfare il medesimo bisogno?
-V: valutazione delle alternative. 
-F: ricerca di informazioni.
-F: decisione d'acquisto.
-Q: In quale stadio del comportamento d'acquisto il consumatore matura il concetto di soddisfazione o, in alternativa, di insoddisfazione?
-V: Impressioni del dopo acquisto. 
-F: Valutazione delle alternative. 
-F: Decisione d'acquisto.
-Q: In chiave di analisi del comportamento di consumo il coinvolgimento misura il livello di attenzione rivolta all'atto di acquisto, attenzione a sua volta legata al rischio percepito a esso associato. Quali tipi di rischio sono rilevanti per il consumatore?
-V: Entrambi.
-F: Rischio fisico. 
-F: Rischio sociale.
-Q: Quali caratteristiche deve presentare un segmento affinché la stessa procedura di segmentazione sia utile ed efficace?
-V: Accessibilità. 
-F: Praticabilità. 
-F: Anzianità.
-Q: Vi sono svariati criteri che vengono comunemente chiamati in causa quali metri di giudizio dell'efficacia e profittabilità di un processo di segmentazione. Uno di questi è relativo alla rapidità e sistematicità con cui il segmento reagisce agli stimoli di marketing messi a punto dall'impresa e indirizzati in modo specifico al segmento stesso. Qual è il nome di questo criterio?
-V: Reattività. 
-F: Rilevanza. 
-F: Stabilità.
-Q: Le "basi di segmentazione" identificano l'insieme di variabili rispetto alle quali è possibile od opportuno misurare il grado di eterogeneità nelle funzioni di domanda dei consumatori. La frequenza di utilizzo di un prodotto rappresenta una base della segmentazione di quale tipo?
-V: Osservabile e specifica. 
-F: Osservabile e generale.
-F: Non osservabile e generale.
-Q: Quale di queste caratteristiche è suscettibile di aumentare la credibilità di una fonte di comunicazione?
-V: Esperienza. 
-F: Humor.
-F: Bellezza.
-Q: Un forte contributo al progresso della teoria e della prassi del comportamento di consumo è associabile all'approfondimento, condotto con strumenti comunque rigorosi sul piano scientifico, degli aspetti per così dire estetici, e certamente più intangibili e soggettivi, del processo di acquisto ed uso di un prodotto. Questa dimensione del fenomeno, che si affianca senza contrapporsi alla più tradizionale visione utilitaristica, è nota come:
-V: Consumo edenico. 
-F: Consumo affluente. 
-F: Consumo intangibile.
-Q: Le innovazioni modulari comportano
-V: cambiamenti sostanziali della tecnologia del prodotto, ma nessun cambiamento dell'architettura del prodotto
-F: cambiamenti sostanziali dell'architettura del prodotto, ma nessun cambiamento sostanziale della tecnologia del prodotto
-F: cambiamenti sostanziali sia dell'architettura, sia della tecnologia del prodotto
-`;
+// Il testo delle domande (sincronizzato con il file input.txt)
+const rawQuestions = `Q: La scuola di Harvard [...] riduce la possibilità di ottenere profitti superiori alla media: 
+V: Alla struttura del settore
+F: Alla capacità dell'impresa nel selezionare i mercati 
+F: Alla presenza di barriere all'entrata del mercato
+Q: Dagli anni '70 l'impostazione "struttura-comportamenti-risultati" riduce la possibilità di ottenere profitti superiori alla media:
+V: al paradigma delle cinque forze competitive 
+F: alla diversità di risorse e competenze
+F: alla relazione tra elevate barriere d'entrata e profittabilità del settore
+Q: a partire dagli anni '80 la "resource-based view" riduce la possibilità di ottenere profitti superiori alla media:
+V:al superiore posizionamento dei profitti e al possesso di risorse scarse 
+F: alla diversità di risorse e competenze
+F: alla relazione tra elevate barriere d'entrata e profittabilità del settore
+Q: L'Industrial Organization, che opera negli anni '50, riduce la possibilità di ottenere profitti superiori alla media:
+V: alla relazione tra elevate barriere d'entrata e profittabilità del settore 
+F: al paradigma delle 5 forze competitive
+F: alla struttura del settore
+Q: Quale di queste correnti di studio pone enfasi sulle "competenze innovative" dell'impresa: 
+V: la resource-based view of the firm
+F: l'industrial Organization (I.O.). 
+F: la scuola di Harvard
+Q: La catena del valore è:
+V: la rappresentazione sintetica delle attività di una singola area d'affari di un'impresa o dell'intera attività di un'impresa specializzata o in un monoprodotto
+F: la rappresentazione sintetica delle attività delle aree d'affari di un'impresa
+F: la rappresentazione sintetica dei rapporti che legano l'impresa con gli altri partner, a monte e a valle dalla filiera produttiva
+Q: Le imprese appartenenti al medesimo settore:
+V: possono avere catene del valore simili
+F: è probabile che possano avere la stessa catena del valore 
+F: è impossibile che abbiano catene del valore simili
+Q: secondo lo schema della catena del valore, il "margine" corrisponde a:
+V: il valore creato dalla combinazione delle attività al netto degli oneri e dei costi 
+F: il valore creato dalla combinazione delle attività dell'impresa
+F: il valore cumulativo creato dalla combinazione delle imprese della filiera produttiva
+Q: Quale di queste fasi non fa parte del processo di costruzione della catena del valore? 
+V: Definizione della catena del valore del principale competitor nel settore.
+F: Identificazione delle attività che generano valore.
+F: Definizione della catena del valore per il particolare settore in cui opera l'impresa.
+Q: Quale di queste attività non fa parte dell'insieme delle attività primarie della catena del valore ?
+V: Gestione delle risorse umane. 
+F: Marketing.
+F: Logistica in entrata.`;
 
 // Processiamo il testo nel formato corretto
 const ALL_QUESTIONS = processQuestionsFromText(rawQuestions);
@@ -128,15 +129,33 @@ const ALL_QUESTIONS = processQuestionsFromText(rawQuestions);
 // Funzione per caricare più domande dal file input.txt (verrà chiamata in app.js)
 async function loadAllQuestions() {
     try {
+        console.log('Tentativo di caricamento del file input.txt...');
         const response = await fetch('input.txt');
         if (!response.ok) {
-            throw new Error('Impossibile caricare il file delle domande');
+            throw new Error(`Errore HTTP ${response.status}: Impossibile caricare il file delle domande`);
         }
         const text = await response.text();
-        return processQuestionsFromText(text);
+        console.log('File caricato con successo, lunghezza testo:', text.length);
+        const questions = processQuestionsFromText(text);
+        console.log('Domande processate:', questions.length);
+        console.log('Prima domanda caricata:', questions[0]?.text.substring(0, 100) + '...');
+        
+        // Verifica che le domande caricate siano diverse da quelle embedded
+        const embeddedQuestions = processQuestionsFromText(rawQuestions);
+        if (questions[0]?.text === embeddedQuestions[0]?.text) {
+            console.log('✓ Le domande caricate corrispondono a quelle embedded (buono)');
+        } else {
+            console.warn('⚠️ ATTENZIONE: Le domande caricate sono diverse da quelle embedded!');
+            console.log('Prima domanda embedded:', embeddedQuestions[0]?.text.substring(0, 100) + '...');
+        }
+        
+        return questions;
     } catch (error) {
         console.error('Errore nel caricamento delle domande:', error);
-        return ALL_QUESTIONS; // Ritorna le domande predefinite in caso di errore
+        console.warn('Utilizzo delle domande predefinite embedded nel codice');
+        const fallbackQuestions = processQuestionsFromText(rawQuestions);
+        console.log('Prima domanda predefinita:', fallbackQuestions[0]?.text.substring(0, 100) + '...');
+        return fallbackQuestions;
     }
 }
 
@@ -152,14 +171,21 @@ function shuffleAnswers(question) {
     // Salva la risposta corretta
     const correctAnswer = shuffled.answers[shuffled.correctIndex];
     
-    // Mescola tutte le risposte
-    for (let i = shuffled.answers.length - 1; i > 0; i--) {
+    // Crea un array di oggetti con indice originale per tracciare la risposta corretta
+    const answersWithIndex = shuffled.answers.map((answer, index) => ({
+        text: answer,
+        wasCorrect: index === shuffled.correctIndex
+    }));
+    
+    // Mescola l'array degli oggetti
+    for (let i = answersWithIndex.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [shuffled.answers[i], shuffled.answers[j]] = [shuffled.answers[j], shuffled.answers[i]];
+        [answersWithIndex[i], answersWithIndex[j]] = [answersWithIndex[j], answersWithIndex[i]];
     }
     
-    // Aggiorna l'indice della risposta corretta
-    shuffled.correctIndex = shuffled.answers.findIndex(a => a === correctAnswer);
+    // Estrai le risposte mescolate e trova il nuovo indice della risposta corretta
+    shuffled.answers = answersWithIndex.map(item => item.text);
+    shuffled.correctIndex = answersWithIndex.findIndex(item => item.wasCorrect);
     
     return shuffled;
 }
