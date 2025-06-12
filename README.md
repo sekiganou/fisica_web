@@ -13,22 +13,29 @@ Applicazione web interattiva per gli studenti di UniTo che si preparano all'esam
 
 - 📝 Quiz con **domande d'esame reali**
 - 🗂️ Selezione di quiz per argomento specifico o domande casuali
+- 🌟 **Modalità "Tutti i Quiz"** per affrontare tutte le domande disponibili
+- ▶️ **Modalità "Inizia da Domanda"** per riprendere da un punto specifico
+- 🎲 Sistema di punteggio 0-31 con soglia di promozione a 18/31
 - 📊 Salvataggio delle statistiche nel browser (domande completate, risposte corrette)
 - 📈 Analisi dettagliata delle performance e degli argomenti da migliorare
 - 🔄 Possibilità di rivedere le risposte fornite
 - 📱 Interfaccia responsive ottimizzata per dispositivi mobili e desktop
 - 🎯 Visualizzazione immediata delle risposte corrette/errate
 - ⏱️ Tracciamento del tempo impiegato
+- 🖥️ **Modalità Fullscreen** per concentrarsi solo sul quiz
 
 ## 🚀 Come utilizzare l'applicazione
 
 1. Visita il sito web dell'applicazione: [https://mrdionesalvi.github.io/egid_web/](https://mrdionesalvi.github.io/egid_web/)
 2. Scegli la modalità di quiz:
-   - **Domande Casuali**: per un'esperienza d'esame realistica
-   - **Scegli Argomento**: per concentrarti su aree specifiche
-3. Rispondi alle domande e ricevi feedback immediato
-4. Al termine del quiz, consulta i risultati e revisiona le risposte
-5. Visualizza le tue statistiche per tracciare i progressi nel tempo
+   - **Domande Casuali**: 12 domande casuali per un'esperienza d'esame realistica
+   - **Scegli Argomento**: 12 domande per concentrarti su aree specifiche
+   - **Tutti i Quiz**: tutte le domande disponibili nel database
+   - **Inizia da Domanda**: inizia da una domanda specifica e prosegui fino alla fine
+3. Utilizza il pulsante fullscreen durante il quiz per una concentrazione massima
+4. Rispondi alle domande e ricevi feedback immediato
+5. Al termine del quiz, consulta i risultati con il nuovo sistema di punteggio 0-31
+6. Visualizza le tue statistiche per tracciare i progressi nel tempo
 
 ## 💻 Tecnologie utilizzate
 

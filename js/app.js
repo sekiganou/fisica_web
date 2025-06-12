@@ -13,6 +13,8 @@ const appState = {
     selectedCategory: null,
     selectedAnswerIndex: null,
     userAnswers: [], // Array per memorizzare le risposte dell'utente
+    quizType: null, // Tipo di quiz: 'random', 'topic', 'all', 'from_question'
+    startQuestionNumber: null, // Per quiz "inizia da domanda"
     
     // Statistiche della sessione corrente
     correctAnswers: 0,
@@ -33,6 +35,7 @@ const appState = {
 const screens = {
     welcome: document.getElementById('welcome-screen'),
     topicSelect: document.getElementById('topic-select-screen'),
+    questionSelect: document.getElementById('question-select-screen'),
     quiz: document.getElementById('quiz-screen'),
     result: document.getElementById('result-screen'),
     review: document.getElementById('review-screen'),
@@ -62,9 +65,16 @@ function initEventListeners() {
     // Navigazione principale
     document.getElementById('startRandomBtn').addEventListener('click', startRandomQuiz);
     document.getElementById('startTopicBtn').addEventListener('click', () => showScreen('topicSelect'));
+    document.getElementById('startAllQuizBtn').addEventListener('click', startAllQuestions);
+    document.getElementById('startFromQuestionBtn').addEventListener('click', () => showScreen('questionSelect'));
     document.getElementById('backFromTopicsBtn').addEventListener('click', () => showScreen('welcome'));
+    document.getElementById('backFromQuestionSelectBtn').addEventListener('click', () => showScreen('welcome'));
     document.getElementById('statsBtn').addEventListener('click', () => showScreen('stats'));
     document.getElementById('closeStatsBtn').addEventListener('click', () => showScreen('welcome'));
+    
+    // Selezione domanda di partenza
+    document.getElementById('startQuestionNumber').addEventListener('input', updateQuestionPreview);
+    document.getElementById('startFromSelectedBtn').addEventListener('click', startFromSelectedQuestion);
     
     // Quiz
     document.getElementById('nextQuestionBtn').addEventListener('click', nextQuestion);
@@ -140,6 +150,9 @@ function startRandomQuiz() {
     // Mescola anche le risposte di ogni domanda
     appState.currentQuestions = appState.currentQuestions.map(q => shuffleAnswers(q));
     
+    // Imposta il tipo di quiz
+    appState.quizType = 'random';
+    
     // Traccia l'evento con Plausible
     trackEvent('quiz_started', {
         type: 'random',
@@ -161,6 +174,7 @@ function startTopicQuiz(topic) {
     
     appState.currentQuestions = shuffled.slice(0, numQuestions);
     appState.selectedCategory = topic;
+    appState.quizType = 'topic';
     
     // Mescola anche le risposte di ogni domanda
     appState.currentQuestions = appState.currentQuestions.map(q => shuffleAnswers(q));
@@ -176,6 +190,78 @@ function startTopicQuiz(topic) {
     startQuiz();
 }
 
+// Avvia un quiz con TUTTE le domande disponibili
+function startAllQuestions() {
+    // Prendi tutte le domande disponibili
+    appState.currentQuestions = shuffleArray(appState.questions.slice());
+    appState.quizType = 'all';
+    
+    // Mescola anche le risposte di ogni domanda
+    appState.currentQuestions = appState.currentQuestions.map(q => shuffleAnswers(q));
+    
+    // Traccia l'evento con Plausible
+    trackEvent('quiz_started', {
+        type: 'all_questions',
+        questions_count: appState.currentQuestions.length
+    });
+    
+    // Inizia il quiz
+    startQuiz();
+}
+
+// Carica i dati per la schermata di selezione domanda
+function loadQuestionSelector() {
+    const totalQuestions = appState.questions.length;
+    document.getElementById('totalAvailableQuestions').textContent = totalQuestions;
+    document.getElementById('maxQuestionNumber').textContent = totalQuestions;
+    document.getElementById('startQuestionNumber').max = totalQuestions;
+    document.getElementById('startQuestionNumber').value = 1;
+    updateQuestionPreview();
+}
+
+// Aggiorna l'anteprima della domanda selezionata
+function updateQuestionPreview() {
+    const questionNumber = parseInt(document.getElementById('startQuestionNumber').value);
+    const previewElement = document.getElementById('questionPreview');
+    
+    if (questionNumber >= 1 && questionNumber <= appState.questions.length) {
+        const question = appState.questions[questionNumber - 1];
+        previewElement.textContent = question.text;
+        previewElement.style.fontStyle = 'normal';
+        previewElement.style.color = 'var(--gray-800)';
+    } else {
+        previewElement.textContent = 'Seleziona un numero di domanda valido per vedere l\'anteprima';
+        previewElement.style.fontStyle = 'italic';
+        previewElement.style.color = 'var(--gray-500)';
+    }
+}
+
+// Avvia il quiz da una domanda specifica
+function startFromSelectedQuestion() {
+    const startNumber = parseInt(document.getElementById('startQuestionNumber').value);
+    
+    if (startNumber < 1 || startNumber > appState.questions.length) {
+        alert('Numero di domanda non valido!');
+        return;
+    }
+    
+    // Prendi le domande dalla posizione selezionata fino alla fine
+    const questionsFromStart = appState.questions.slice(startNumber - 1);
+    appState.currentQuestions = questionsFromStart.map(q => shuffleAnswers(q));
+    appState.quizType = 'from_question';
+    appState.startQuestionNumber = startNumber;
+    
+    // Traccia l'evento con Plausible
+    trackEvent('quiz_started', {
+        type: 'from_question',
+        start_question: startNumber,
+        questions_count: appState.currentQuestions.length
+    });
+    
+    // Inizia il quiz
+    startQuiz();
+}
+
 // Inizializza un nuovo quiz
 function startQuiz() {
     // Reset stato quiz
@@ -185,6 +271,9 @@ function startQuiz() {
     appState.selectedAnswerIndex = null;
     appState.userAnswers = []; // Reset dell'array delle risposte
     appState.quizStartTime = new Date();
+    
+    // Aggiorna informazioni tipo quiz
+    updateQuizTypeInfo();
     
     // Aggiorna UI
     updateQuizUI();
@@ -774,6 +863,8 @@ function showScreen(screenName) {
     // Azioni specifiche per schermata
     if (screenName === 'stats') {
         updateStatsUI();
+    } else if (screenName === 'questionSelect') {
+        loadQuestionSelector();
     }
 }
 
@@ -895,4 +986,29 @@ function updateFullscreenButtonVisibility(screenName) {
     } else {
         fullscreenBtn.classList.add('hidden');
     }
+}
+
+// Aggiorna le informazioni sul tipo di quiz nella UI
+function updateQuizTypeInfo() {
+    const quizTypeElement = document.getElementById('quizTypeInfo');
+    let quizTypeText = '';
+    
+    switch (appState.quizType) {
+        case 'random':
+            quizTypeText = `🎲 Quiz Casuale (${appState.currentQuestions.length} domande)`;
+            break;
+        case 'topic':
+            quizTypeText = `📚 ${appState.selectedCategory} (${appState.currentQuestions.length} domande)`;
+            break;
+        case 'all':
+            quizTypeText = `🌟 Tutti i Quiz (${appState.currentQuestions.length} domande)`;
+            break;
+        case 'from_question':
+            quizTypeText = `▶️ Da Domanda ${appState.startQuestionNumber} (${appState.currentQuestions.length} domande)`;
+            break;
+        default:
+            quizTypeText = `Quiz (${appState.currentQuestions.length} domande)`;
+    }
+    
+    quizTypeElement.textContent = quizTypeText;
 }
