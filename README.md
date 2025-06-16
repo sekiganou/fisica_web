@@ -15,6 +15,7 @@ Applicazione web interattiva per gli studenti di UniTo che si preparano all'esam
 - 🗂️ Selezione di quiz per argomento specifico o domande casuali
 - 🌟 **Modalità "Tutti i Quiz"** per affrontare tutte le domande disponibili
 - ▶️ **Modalità "Inizia da Domanda"** per riprendere da un punto specifico
+- 🤖 **Filtro domande AI** per includere o escludere domande generate da intelligenza artificiale
 - 🎲 Sistema di punteggio 0-31 con soglia di promozione a 18/31
 - 📊 Salvataggio delle statistiche nel browser (domande completate, risposte corrette)
 - 📈 Analisi dettagliata delle performance e degli argomenti da migliorare
@@ -23,6 +24,8 @@ Applicazione web interattiva per gli studenti di UniTo che si preparano all'esam
 - 🎯 Visualizzazione immediata delle risposte corrette/errate
 - ⏱️ Tracciamento del tempo impiegato
 - 🖥️ **Modalità Fullscreen** per concentrarsi solo sul quiz
+- 📝 **Indicatori visivi** per domande generate da AI con tooltip informativi
+- ℹ️ **Modal informativo** con le fonti delle domande (Telegram, Dione, Diego-AI)
 
 ## 🚀 Come utilizzare l'applicazione
 

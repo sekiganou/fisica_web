@@ -1055,6 +1055,237 @@ body:-ms-fullscreen .ai-indicator {
     animation: none;
 }
 
+/* Toggle per filtro domande AI */
+.ai-filter-container {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: linear-gradient(135deg, #f8f9ff 0%, #e8f0ff 100%);
+    border-radius: var(--border-radius);
+    border: 1px solid #e3ebff;
+}
+
+.ai-filter-toggle {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.ai-filter-toggle input[type="checkbox"] {
+    display: none;
+}
+
+.toggle-label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 500;
+    color: var(--gray-800);
+}
+
+.toggle-switch {
+    position: relative;
+    width: 48px;
+    height: 24px;
+    background: var(--gray-400);
+    border-radius: 12px;
+    transition: var(--transition);
+    flex-shrink: 0;
+}
+
+.toggle-switch::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    transition: var(--transition);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.ai-filter-toggle input:checked + .toggle-label .toggle-switch {
+    background: var(--primary-color);
+}
+
+.ai-filter-toggle input:checked + .toggle-label .toggle-switch::after {
+    transform: translateX(24px);
+}
+
+.toggle-text {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.ai-filter-info {
+    color: var(--gray-600);
+    font-size: 0.875rem;
+    font-style: italic;
+    margin-left: 3.5rem;
+}
+
+/* Modal informativo per le fonti */
+.sources-info-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: var(--transition);
+    opacity: 0.8;
+}
+
+.sources-info-btn:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.info-modal {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 1001;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    min-width: 300px;
+    max-width: 400px;
+    animation: slideInUp 0.3s ease;
+}
+
+.info-modal.show {
+    display: block;
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.info-modal-content {
+    padding: 0;
+}
+
+.info-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--gray-200);
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.info-modal-header h4 {
+    margin: 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: var(--transition);
+    opacity: 0.8;
+}
+
+.close-btn:hover {
+    opacity: 1;
+    background: rgba(255,255,255,0.1);
+}
+
+.sources-list {
+    padding: 1.25rem;
+}
+
+.source-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--gray-100);
+}
+
+.source-item:last-child {
+    border-bottom: none;
+}
+
+.source-item i {
+    width: 20px;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.source-name {
+    font-weight: 600;
+    color: var(--gray-800);
+    min-width: 80px;
+}
+
+.source-desc {
+    color: var(--gray-600);
+    font-size: 0.875rem;
+    flex: 1;
+}
+
+/* Responsive design per mobile */
+@media (max-width: 576px) {
+    .ai-filter-info {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+    
+    .info-modal {
+        right: 10px;
+        bottom: 70px;
+        max-width: calc(100vw - 20px);
+        min-width: calc(100vw - 20px);
+    }
+    
+    .sources-info-btn {
+        bottom: 15px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     /* Header più compatto */

@@ -29,6 +29,21 @@
                 <div class="welcome-content">
                     <h2>Ciao 👋 - Quiz di Economia e Gestione d'Impresa</h2>
                     <p>Metti alla prova le tue conoscenze con tutte le domande reali d'esame!</p>
+                    
+                    <!-- Toggle per domande AI -->
+                    <div class="ai-filter-container">
+                        <div class="ai-filter-toggle">
+                            <input type="checkbox" id="includeAIQuestions" checked>
+                            <label for="includeAIQuestions" class="toggle-label">
+                                <span class="toggle-switch"></span>
+                                <span class="toggle-text">
+                                    <i class="fas fa-robot"></i> Includi domande AI
+                                </span>
+                            </label>
+                        </div>
+                        <small class="ai-filter-info">Le domande AI sono generate da intelligenza artificiale per ampliare la pratica</small>
+                    </div>
+                    
                     <div class="quiz-options">
                         <button id="startRandomBtn" class="btn btn-primary"><i class="fas fa-random"></i> Domande Casuali</button>
                         <button id="startTopicBtn" class="btn btn-secondary"><i class="fas fa-list"></i> Scegli Argomento</button>
@@ -232,6 +247,38 @@
             </div>
         </div>
     </div>
+
+    <!-- Info modal per le fonti -->
+    <div id="sourcesInfoModal" class="info-modal">
+        <div class="info-modal-content">
+            <div class="info-modal-header">
+                <h4><i class="fas fa-info-circle"></i> Fonti delle Domande</h4>
+                <button id="closeSourcesModal" class="close-btn">&times;</button>
+            </div>
+            <div class="sources-list">
+                <div class="source-item">
+                    <i class="fab fa-telegram"></i>
+                    <span class="source-name">Telegram</span>
+                    <span class="source-desc">Gruppo di studio universitario</span>
+                </div>
+                <div class="source-item">
+                    <i class="fas fa-user"></i>
+                    <span class="source-name">Dione</span>
+                    <span class="source-desc">Domande raccolte dallo sviluppatore</span>
+                </div>
+                <div class="source-item">
+                    <i class="fas fa-robot"></i>
+                    <span class="source-name">@SDIGS (Domande AI)</span>
+                    <span class="source-desc">Generate da intelligenza artificiale</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pulsante info sources -->
+    <button id="sourcesInfoBtn" class="sources-info-btn" title="Informazioni sulle fonti">
+        <i class="fas fa-info"></i>
+    </button>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>

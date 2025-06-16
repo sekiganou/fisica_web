@@ -93,11 +93,19 @@ function initEventListeners() {
     document.getElementById('resetBtn').addEventListener('click', showResetConfirmation);
     document.getElementById('confirmResetBtn').addEventListener('click', resetAllStats);
     document.getElementById('cancelResetBtn').addEventListener('click', hideModal);
+    
+    // Sources info modal
+    document.getElementById('sourcesInfoBtn').addEventListener('click', toggleSourcesModal);
+    document.getElementById('closeSourcesModal').addEventListener('click', hideSourcesModal);
+    
+    // Filtro AI
+    document.getElementById('includeAIQuestions').addEventListener('change', updateQuestionCount);
 }
 
 // Carica le categorie nella schermata di selezione degli argomenti
 function loadTopics() {
-    const topics = getAllCategories(appState.questions);
+    const filteredQuestions = getFilteredQuestions();
+    const topics = getAllCategories(filteredQuestions);
     const topicsContainer = document.getElementById('topicsContainer');
     
     topicsContainer.innerHTML = '';
@@ -107,8 +115,8 @@ function loadTopics() {
         topicCard.className = 'topic-card';
         topicCard.setAttribute('data-topic', topic);
         
-        // Calcola statistiche per il topic
-        const topicQuestions = appState.questions.filter(q => q.category === topic).length;
+        // Calcola statistiche per il topic usando domande filtrate
+        const topicQuestions = filteredQuestions.filter(q => q.category === topic).length;
         const topicStats = appState.stats.categoryStats[topic] || { 
             correct: 0, 
             incorrect: 0, 
@@ -142,8 +150,9 @@ function loadTopics() {
 
 // Avvia un quiz con domande casuali
 function startRandomQuiz() {
-    // Prendi 12 domande casuali (o meno se non ce ne sono abbastanza)
-    const shuffled = shuffleArray(appState.questions);
+    // Prendi 12 domande casuali filtrate in base alle preferenze AI
+    const filteredQuestions = getFilteredQuestions();
+    const shuffled = shuffleArray(filteredQuestions);
     const numQuestions = Math.min(12, shuffled.length);
     appState.currentQuestions = shuffled.slice(0, numQuestions);
     
@@ -156,7 +165,8 @@ function startRandomQuiz() {
     // Traccia l'evento con Plausible
     trackEvent('quiz_started', {
         type: 'random',
-        questions_count: numQuestions
+        questions_count: numQuestions,
+        ai_included: document.getElementById('includeAIQuestions').checked
     });
     
     // Inizia il quiz
@@ -165,8 +175,9 @@ function startRandomQuiz() {
 
 // Avvia un quiz con domande di una specifica categoria
 function startTopicQuiz(topic) {
-    // Filtra le domande per categoria
-    const topicQuestions = appState.questions.filter(q => q.category === topic);
+    // Filtra le domande per categoria e preferenze AI
+    const filteredQuestions = getFilteredQuestions();
+    const topicQuestions = filteredQuestions.filter(q => q.category === topic);
     
     // Mescola e prendi fino a 12 domande
     const shuffled = shuffleArray(topicQuestions);
@@ -183,7 +194,8 @@ function startTopicQuiz(topic) {
     trackEvent('quiz_started', {
         type: 'topic',
         topic: topic,
-        questions_count: numQuestions
+        questions_count: numQuestions,
+        ai_included: document.getElementById('includeAIQuestions').checked
     });
     
     // Inizia il quiz
@@ -192,8 +204,9 @@ function startTopicQuiz(topic) {
 
 // Avvia un quiz con TUTTE le domande disponibili
 function startAllQuestions() {
-    // Prendi tutte le domande disponibili
-    appState.currentQuestions = shuffleArray(appState.questions.slice());
+    // Prendi tutte le domande filtrate in base alle preferenze AI
+    const filteredQuestions = getFilteredQuestions();
+    appState.currentQuestions = shuffleArray(filteredQuestions.slice());
     appState.quizType = 'all';
     
     // Mescola anche le risposte di ogni domanda
@@ -202,7 +215,8 @@ function startAllQuestions() {
     // Traccia l'evento con Plausible
     trackEvent('quiz_started', {
         type: 'all_questions',
-        questions_count: appState.currentQuestions.length
+        questions_count: appState.currentQuestions.length,
+        ai_included: document.getElementById('includeAIQuestions').checked
     });
     
     // Inizia il quiz
@@ -211,8 +225,13 @@ function startAllQuestions() {
 
 // Carica i dati per la schermata di selezione domanda
 function loadQuestionSelector() {
-    const totalQuestions = appState.questions.length;
-    document.getElementById('totalAvailableQuestions').textContent = totalQuestions;
+    const filteredQuestions = getFilteredQuestions();
+    const totalQuestions = filteredQuestions.length;
+    const aiQuestions = appState.questions.filter(q => q.text.includes('(AI)')).length;
+    const includeAI = document.getElementById('includeAIQuestions').checked;
+    
+    document.getElementById('totalAvailableQuestions').textContent = 
+        `${totalQuestions} ${includeAI ? '(con ' + aiQuestions + ' AI)' : '(senza AI)'}`;
     document.getElementById('maxQuestionNumber').textContent = totalQuestions;
     document.getElementById('startQuestionNumber').max = totalQuestions;
     document.getElementById('startQuestionNumber').value = 1;
@@ -223,9 +242,10 @@ function loadQuestionSelector() {
 function updateQuestionPreview() {
     const questionNumber = parseInt(document.getElementById('startQuestionNumber').value);
     const previewElement = document.getElementById('questionPreview');
+    const filteredQuestions = getFilteredQuestions();
     
-    if (questionNumber >= 1 && questionNumber <= appState.questions.length) {
-        const question = appState.questions[questionNumber - 1];
+    if (questionNumber >= 1 && questionNumber <= filteredQuestions.length) {
+        const question = filteredQuestions[questionNumber - 1];
         const isAIGenerated = question.text.includes('(AI)');
         
         if (isAIGenerated) {
@@ -248,14 +268,15 @@ function updateQuestionPreview() {
 // Avvia il quiz da una domanda specifica
 function startFromSelectedQuestion() {
     const startNumber = parseInt(document.getElementById('startQuestionNumber').value);
+    const filteredQuestions = getFilteredQuestions();
     
-    if (startNumber < 1 || startNumber > appState.questions.length) {
+    if (startNumber < 1 || startNumber > filteredQuestions.length) {
         alert('Numero di domanda non valido!');
         return;
     }
     
-    // Prendi le domande dalla posizione selezionata fino alla fine
-    const questionsFromStart = appState.questions.slice(startNumber - 1);
+    // Prendi le domande dalla posizione selezionata fino alla fine (usando domande filtrate)
+    const questionsFromStart = filteredQuestions.slice(startNumber - 1);
     appState.currentQuestions = questionsFromStart.map(q => shuffleAnswers(q));
     appState.quizType = 'from_question';
     appState.startQuestionNumber = startNumber;
@@ -264,7 +285,8 @@ function startFromSelectedQuestion() {
     trackEvent('quiz_started', {
         type: 'from_question',
         start_question: startNumber,
-        questions_count: appState.currentQuestions.length
+        questions_count: appState.currentQuestions.length,
+        ai_included: document.getElementById('includeAIQuestions').checked
     });
     
     // Inizia il quiz
@@ -491,6 +513,32 @@ function selectAnswer(index, container) {
     setTimeout(() => {
         nextQuestion();
     }, 1500);
+}
+
+// Filtra le domande in base alle preferenze AI
+function getFilteredQuestions(questions = appState.questions) {
+    const includeAI = document.getElementById('includeAIQuestions').checked;
+    
+    if (includeAI) {
+        return questions; // Restituisce tutte le domande
+    } else {
+        return questions.filter(question => !question.text.includes('(AI)')); // Esclude domande AI
+    }
+}
+
+// Aggiorna il conteggio delle domande quando cambia il filtro AI
+function updateQuestionCount() {
+    const includeAI = document.getElementById('includeAIQuestions').checked;
+    const totalQuestions = appState.questions.length;
+    const aiQuestions = appState.questions.filter(q => q.text.includes('(AI)')).length;
+    const filteredQuestions = getFilteredQuestions().length;
+    
+    console.log(`📊 Filtro AI ${includeAI ? 'ATTIVO' : 'DISATTIVO'}: ${filteredQuestions}/${totalQuestions} domande disponibili (${aiQuestions} AI)`);
+    
+    // Aggiorna le informazioni nella schermata di selezione domanda se è aperta
+    if (document.getElementById('question-select-screen').classList.contains('active')) {
+        loadQuestionSelector();
+    }
 }
 
 // Aggiorna le statistiche persistenti
@@ -1035,4 +1083,39 @@ function updateQuizTypeInfo() {
     }
     
     quizTypeElement.textContent = quizTypeText;
+}
+
+// Gestione modal delle fonti
+function toggleSourcesModal() {
+    const modal = document.getElementById('sourcesInfoModal');
+    if (modal.classList.contains('show')) {
+        hideSourcesModal();
+    } else {
+        showSourcesModal();
+    }
+}
+
+function showSourcesModal() {
+    const modal = document.getElementById('sourcesInfoModal');
+    modal.classList.add('show');
+    
+    // Chiudi il modal cliccando fuori
+    setTimeout(() => {
+        document.addEventListener('click', handleOutsideClick);
+    }, 100);
+}
+
+function hideSourcesModal() {
+    const modal = document.getElementById('sourcesInfoModal');
+    modal.classList.remove('show');
+    document.removeEventListener('click', handleOutsideClick);
+}
+
+function handleOutsideClick(event) {
+    const modal = document.getElementById('sourcesInfoModal');
+    const sourcesBtn = document.getElementById('sourcesInfoBtn');
+    
+    if (!modal.contains(event.target) && !sourcesBtn.contains(event.target)) {
+        hideSourcesModal();
+    }
 }

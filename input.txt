@@ -1038,3 +1038,363 @@ Q: Se un'azienda distribuisce il 100% degli utili, qual è il tasso di crescita 
 V: 0%
 F: pari al ROE
 F: pari al payout ratio
+Q:Cosa si intende per microambiente dell'impresa? (AI)
+F:Le condizioni generali di mercato, politiche e culturali in cui opera l'impresa
+V:L'insieme dei mercati e soggetti con cui l’impresa scambia risorse in entrata e uscita
+F:Solo il mercato finanziario in cui l’impresa raccoglie capitale
+Q:Qual è una caratteristica distintiva dell’impresa secondo l’articolo 2082 del codice civile? (AI)
+F:L’impresa deve avere almeno cinque dipendenti
+V:L’impresa è un’attività economica organizzata finalizzata alla produzione e allo scambio
+F:L’impresa può operare senza scopo di lucro
+Q:Cosa rappresenta l’ambiente competitivo per un’impresa? (AI)
+F:L’insieme delle normative fiscali e giuridiche
+F:Le istituzioni che regolano il mercato del lavoro
+V:Il mercato di uscita in cui l’impresa offre i propri prodotti o servizi
+Q:Cosa caratterizza un’impresa cooperativa? (AI)
+F:La separazione netta tra proprietà e governo dell’impresa
+V:La comunanza di scopi tra i soci e il rapporto diretto tra capitale e soci
+F:Il controllo pubblico attraverso finanziamenti statali
+Q:Qual è il ruolo delle istituzioni educative nell’ecosistema imprenditoriale? (AI)
+F:Offrire solo percorsi formativi standardizzati
+V:Supportare l’imprenditorialità con corsi, incubatori e collegamenti col mondo produttivo
+F:Rilasciare brevetti alle imprese emergenti
+Q:Qual è la finalità della teoria della “massimizzazione sociale del profitto”? (AI)
+F:Raggiungere la massima efficienza produttiva
+V:Tener conto dei vincoli sociali e di conoscenza nel perseguire il profitto
+F:Garantire la redistribuzione statale dei profitti
+Q:Quale tra questi è uno stakeholder primario? (AI)
+F:Un gruppo di opinione
+F:Un’associazione ambientalista
+V:Un fornitore dell’impresa
+Q:Secondo Schumpeter, qual è il focus dell’imprenditorialità? (AI)
+F:La riduzione dei costi di produzione
+V:La promozione dell’innovazione
+F:Il mantenimento dello status quo economico
+Q:Qual è una funzione tipica della gestione operativa? (AI)
+F:Definizione delle strategie competitive
+V:Ciclo di produzione e logistica
+F:Controllo degli obiettivi finanziari a lungo termine
+Q:Cosa distingue un’impresa manageriale da una capitalistica? (AI)
+F:L’assenza di finalità di lucro
+F:La presenza di un imprenditore familiare
+V:La separazione tra proprietà e gestione dell’impresa
+Q:Cosa si intende per microambiente dell'impresa? (AI)
+F:Le condizioni generali di mercato, politiche e culturali in cui opera l'impresa
+V:L'insieme dei mercati e soggetti con cui l’impresa scambia risorse in entrata e uscita
+F:Solo il mercato finanziario in cui l’impresa raccoglie capitale
+Q:Qual è una caratteristica distintiva dell’impresa secondo l’articolo 2082 del codice civile? (AI)
+F:L’impresa deve avere almeno cinque dipendenti
+V:L’impresa è un’attività economica organizzata finalizzata alla produzione e allo scambio
+F:L’impresa può operare senza scopo di lucro
+Q:Cosa rappresenta l’ambiente competitivo per un’impresa? (AI)
+F:L’insieme delle normative fiscali e giuridiche
+F:Le istituzioni che regolano il mercato del lavoro
+V:Il mercato di uscita in cui l’impresa offre i propri prodotti o servizi
+Q:Cosa caratterizza un’impresa cooperativa? (AI)
+F:La separazione netta tra proprietà e governo dell’impresa
+V:La comunanza di scopi tra i soci e il rapporto diretto tra capitale e soci
+F:Il controllo pubblico attraverso finanziamenti statali
+Q:Qual è il ruolo delle istituzioni educative nell’ecosistema imprenditoriale? (AI)
+F:Offrire solo percorsi formativi standardizzati
+V:Supportare l’imprenditorialità con corsi, incubatori e collegamenti col mondo produttivo
+F:Rilasciare brevetti alle imprese emergenti
+Q:Qual è la finalità della teoria della “massimizzazione sociale del profitto”? (AI)
+F:Raggiungere la massima efficienza produttiva
+V:Tener conto dei vincoli sociali e di conoscenza nel perseguire il profitto
+F:Garantire la redistribuzione statale dei profitti
+Q:Quale tra questi è uno stakeholder primario? (AI)
+F:Un gruppo di opinione
+F:Un’associazione ambientalista
+V:Un fornitore dell’impresa
+Q:Secondo Schumpeter, qual è il focus dell’imprenditorialità? (AI)
+F:La riduzione dei costi di produzione
+V:La promozione dell’innovazione
+F:Il mantenimento dello status quo economico
+Q:Qual è una funzione tipica della gestione operativa? (AI)
+F:Definizione delle strategie competitive
+V:Ciclo di produzione e logistica
+F:Controllo degli obiettivi finanziari a lungo termine
+Q:Cosa distingue un’impresa manageriale da una capitalistica? (AI)
+F:L’assenza di finalità di lucro
+F:La presenza di un imprenditore familiare
+V:La separazione tra proprietà e gestione dell’impresa
+Q:Qual è l’obiettivo principale della catena del valore? (AI)
+F:Ridurre i dipendenti
+V:Mappare le attività generatrici di valore e analizzare costi e margini
+F:Creare un piano finanziario per il marketing
+Q:Cosa rappresenta il “valore” nella catena del valore di Porter? (AI)
+F:Il valore morale del prodotto per il cliente
+V:La somma che il cliente è disposto a pagare per ciò che l’impresa offre
+F:Il costo sostenuto per la produzione
+Q:Quale tra le seguenti NON è un’attività primaria secondo Porter? (AI)
+V:Approvvigionamento
+F:Logistica in uscita
+F:Marketing e vendite
+Q:Qual è la funzione delle attività di supporto? (AI)
+F:Offrire servizi post-vendita ai clienti
+V:Supportare le attività primarie con risorse, tecnologia e infrastrutture
+F:Aumentare i costi per massimizzare il prezzo finale
+Q:Cosa si intende per “margine” nella catena del valore? (AI)
+F:Differenza tra entrate e imposte
+V:Differenza tra valore percepito dal cliente e costo complessivo dell’impresa
+F:Aumento della produttività
+Q:In che modo il coordinamento tra attività può generare vantaggio competitivo? (AI)
+F:Rallentando i processi decisionali
+V:Riducendo costi e migliorando differenziazione attraverso integrazione delle attività
+F:Aumentando i costi in modo disorganico
+Q:Qual è un esempio di attività infrastrutturale? (AI)
+F:Logistica dei materiali
+F:Gestione della forza vendita
+V:Pianificazione strategica e contabilità
+Q:Secondo la VRIO Analysis, quale di questi elementi è considerato un vantaggio competitivo sostenibile per McDonald's? (AI)
+F:Lavoro part-time degli studenti
+V:Il marchio globale fortemente riconosciuto
+F:Il costo elevato delle pubblicità
+Q:Qual è la differenza tra un’attività primaria e una di supporto nella catena del valore? (AI)
+F:Nessuna: sono equivalenti
+V:Le attività primarie generano valore direttamente, le attività di supporto le rendono possibili
+F:Le attività di supporto servono solo in aziende di grandi dimensioni
+Q:Perché un'impresa può decidere di aumentare i propri costi? (AI)
+F:Perché è obbligata per legge
+V:Perché spesso la differenziazione richiede investimenti maggiori che i clienti sono disposti a pagare
+F:Per ridurre il numero di clienti
+Q:Cosa definisce meglio il concetto di strategia secondo Grant? (AI)
+F:Un piano dettagliato con istruzioni operative
+F:Un insieme di procedure gestionali
+V:Un tema unificatore che conferisce coerenza e direzione alle decisioni
+Q:Quale delle seguenti NON è una delle componenti fondamentali della strategia? (AI)
+F:Obiettivi coerenti e di lungo periodo
+V:Visione ispirazionale dei dipendenti
+F:Comprensione dell’ambiente competitivo
+Q:In quale situazione si adotta una strategia di risanamento? (AI)
+F:Quando l’impresa è in crescita e cerca nuovi mercati
+V:Quando l’impresa affronta squilibri strutturali e crisi
+F:Quando si desidera aumentare la diversificazione
+Q:Quale tra queste è una strategia di sviluppo dimensionale? (AI)
+F:Dismissione di linee di business
+V:Integrazione verticale
+F:Riduzione dei costi operativi
+Q:Cos’è la diversificazione conglomerale? (AI)
+V:Entrare in business non correlati a quelli esistenti
+F:Espandere la capacità produttiva
+F:Collaborare con fornitori già consolidati
+Q:Qual è lo scopo della matrice di Abell? (AI)
+F:Valutare la redditività di ogni area funzionale dell’impresa
+V:Definire il business in base a clienti, bisogni e tecnologie
+F:Determinare i rischi di fallimento di una nuova impresa
+Q:Cosa rappresenta la dimensione “COME” nella matrice di Abell? (AI)
+F:I segmenti di clienti target
+V:Le tecnologie e risorse utilizzate per soddisfare i bisogni
+F:Il tasso di innovazione richiesto dal mercato
+Q:Quale tra queste è una funzione tipica della strategia funzionale? (AI)
+F:Scelta delle aree di business
+V:Modalità di attuazione operativa delle strategie nelle funzioni aziendali
+F:Determinazione della struttura proprietaria dell’impresa
+Q:Quando diventa necessaria la definizione del business? (AI)
+F:Solo all’avvio dell’impresa
+V:In occasione di operazioni straordinarie come fusioni e acquisizioni
+F:Alla fine del ciclo di vita del prodotto
+Q:Quale fattore esterno è fondamentale per la definizione dell’ambito competitivo? (AI)
+F:Il bilancio d’esercizio dell’impresa
+F:Le tecnologie produttive già adottate
+V:Le condizioni strutturali del contesto competitivo
+Q:Qual è lo scopo del marketing secondo la definizione AMA? (AI)
+F:Vendere il maggior numero possibile di prodotti
+V:Generare scambi che soddisfino obiettivi di individui e organizzazioni
+F:Investire in tecnologia per aumentare la produzione
+Q:Quale orientamento aziendale è caratterizzato da “domanda > offerta”? (AI)
+F:Orientamento alla vendita
+V:Orientamento alla produzione
+F:Orientamento al marketing
+Q:Cosa rappresenta la “miopia del marketing”? (AI)
+F:L’incapacità di valutare i concorrenti
+V:Il focus esclusivo sulla tecnologia, ignorando i bisogni del cliente
+F:La mancanza di fondi per la pubblicità
+Q:Quale orientamento è centrato sull’esperienza del cliente? (AI)
+F:Orientamento alla vendita
+F:Orientamento alla produzione
+V:Orientamento al marketing
+Q:Cosa significa “customer satisfaction”? (AI)
+F:La differenza tra qualità percepita e prezzo reale
+V:La differenza tra le aspettative del cliente e le prestazioni percepite
+F:Il numero di acquisti effettuati dal cliente
+Q:Quale delle seguenti NON è una delle 4P del marketing mix? (AI)
+F:Prodotto
+V:Partnership
+F:Prezzo
+Q:Quale politica di distribuzione punta a raggiungere il maggior numero possibile di punti vendita? (AI)
+F:Distribuzione esclusiva
+F:Distribuzione selettiva
+V:Distribuzione intensiva
+Q:A cosa serve la matrice di Ansoff? (AI)
+F:A calcolare il prezzo ottimale di vendita
+V:A definire strategie di crescita del mercato/prodotto
+F:A segmentare i clienti per reddito
+Q:Cosa indica la “cash cow” nella matrice BCG? (AI)
+V:Un prodotto maturo e molto redditizio
+F:Un nuovo prodotto con alto potenziale ma bassa quota
+F:Un prodotto in perdita che va eliminato
+Q:Cosa rappresenta il “valore percepito” per il cliente? (AI)
+F:Il prezzo effettivo pagato
+F:Il valore monetario più IVA
+V:Il beneficio soggettivo percepito rispetto al costo sostenuto
+Q:Quale delle seguenti NON è una prospettiva della funzione di produzione? (AI)
+F:Tecnico-fisica
+V:Finanziaria
+F:Manageriale
+Q:Quando si preferisce un layout “per prodotto”? (AI)
+F:Quando la produzione è artigianale e personalizzata
+V:Quando si produce un numero ridotto di modelli in grandi quantità
+F:Quando ogni ciclo produttivo è diverso dall’altro
+Q:Cosa significa “outsourcing”? (AI)
+F:Internalizzazione delle attività di R&S
+V:Esternalizzazione di parte della produzione
+F:Riduzione dei reparti interni per motivi ambientali
+Q:Qual è un vantaggio del layout “a postazioni fisse”? (AI)
+F:Ottimizzazione della logistica interna
+F:Alta specializzazione per grandi produzioni
+V:Bassi costi di progettazione del layout
+Q:Cosa misura il Margine di Contribuzione Unitario (MCU)? (AI)
+F:Il costo totale medio per unità
+V:Il contributo di ogni unità alla copertura dei costi fissi
+F:La differenza tra costi fissi e variabili
+Q:Quale formula rappresenta il profitto nella produzione? (AI)
+F:Profitto = CF – Q × CVU
+V:Profitto = Q × (P – CVU) – CF
+F:Profitto = Ricavi – Prezzo × CF
+Q:Cos’è il Break Even Point (BEP)? (AI)
+F:Il punto di massima efficienza del sistema
+F:Il punto in cui il margine supera i costi fissi
+V:La quantità per cui ricavi e costi si equivalgono
+Q:In quale sistema si usa il layout funzionale? (AI)
+V:Job shop con alta variabilità tra prodotti
+F:Produzione di massa ininterrotta
+F:Assemblaggio in linea di automobili
+Q:Qual è un criterio per progettare il layout dell’impianto? (AI)
+F:L’orario di apertura al pubblico
+V:La flessibilità richiesta dal mercato
+F:Il valore di mercato delle scorte
+Q:In cosa consiste la produzione “intermittente”? (AI)
+F:Flusso continuo senza interruzioni
+V:Produzione in lotti discontinui, spesso su commessa
+F:Arresto del ciclo ogni 48 ore per controllo qualità
+Q:“Organizzare” significa: (AI)
+F:Coordinare le attività esterne all’impresa
+F:Creare strutture indipendenti e scollegate
+V:Ordinare un sistema di parti interdipendenti e correlate
+Q:Quale di queste voci NON rientra nei contenuti della funzione organizzativa? (AI)
+F:Centri decisionali, di controllo ed esecutivi
+F:Autorità e responsabilità di ciascun centro
+V:Politiche commerciali di prezzo
+Q:Un elemento costitutivo della struttura organizzativa è: (AI)
+F:Il capitale sociale
+V:Il “software” (procedure e processi)
+F:Il marketing mix
+Q:Una struttura organizzativa “informale” è caratterizzata da: (AI)
+F:Procedure scritte e formalizzate
+V:Reti di relazioni non codificate
+F:Suddivisione gerarchica rigida
+Q:Gli organigrammi servono principalmente a: (AI)
+F:Evidenziare i flussi finanziari
+V:Rappresentare graficamente la struttura formale e i collegamenti fra funzioni
+F:Gestire le emergenze aziendali
+Q:Qual è uno dei limiti tipici degli organigrammi? (AI)
+F:Mettono in evidenza il know‑how aziendale
+V:Ignorano i rapporti non gerarchici
+F:Descrivono dettagliatamente le procedure operative
+Q:Nel modello funzionale, quale principio NON è previsto? (AI)
+F:Principio di eccezione: i problemi ritornano al vertice se non risolvibili
+F:Principio di unicità di direzione: ciascuno sa da chi prendere ordini
+V:Principio di centralizzazione assoluta delle competenze, senza delega
+Q:Un vantaggio del modello divisionale è: (AI)
+V:Sviluppo dimensionale e supporto alla diversificazione produttiva
+F:Unico flusso decisionale concentrato al vertice
+F:Trasferimento immediato del know‑how tra divisioni
+Q:Uno svantaggio del modello divisionale è: (AI)
+V:Moltiplicazione delle risorse specialistiche
+F:Immediato coordinamento tra tutte le funzioni
+F:Riduzione dei costi di gestione complessivi
+Q:Nell’organizzazione a rete, l’integrazione tra imprese serve a: (AI)
+F:Centralizzare tutte le competenze in un unico polo
+V:Adattarsi velocemente e collaborare con partner esterni
+F:Ridurre la flessibilità organizzativa
+Q:Qual è la definizione di “logistica” secondo il documento? (AI)
+V:Il sistema di connessione tra approvvigionamento, trasformazione produttiva e collocamento dei prodotti realizzati
+F:L’insieme delle attività di marketing per promuovere i prodotti
+F:La gestione esclusiva del magazzino materiali
+Q:Qual è l’obiettivo della gestione del processo logistico? (AI)
+F:Minimizzare il livello di servizio a favore della riduzione dei costi
+V:Equilibrare al meglio costo logistico e standard di servizio reso ai clienti interni ed esterni
+F:Aumentare le scorte indipendentemente dai costi
+Q:Come viene definito il “processo di approvvigionamento”? (AI)
+F:Processo di produzione interna dei componenti
+V:Processo di acquisto e gestione delle scorte dei materiali diretti all’alimentazione dei cicli di lavorazione
+F:Processo di distribuzione dei prodotti finiti sul mercato
+Q:Quali sono gli obiettivi principali della funzione di approvvigionamento? (AI)
+V:Assicurare l’economicità degli acquisti e la continuità dei cicli di lavorazione
+F:Sviluppare campagne promozionali per nuovi fornitori
+F:Ridurre il personale addetto al magazzino
+Q:Quale decisione strategica condiziona la funzione di approvvigionamento? (AI)
+V:Make or buy (grado di integrazione verticale e politiche con i fornitori)
+F:Definizione del prezzo di vendita al dettaglio
+F:Scelta del design del prodotto
+Q:Quali variabili definiscono la matrice degli acquisti di Kraljic? (AI)
+F:Costo unitario e tempi di consegna
+V:Impatto sul profitto (importanza strategica) e supply risk (rischio di approvvigionamento)
+F:Numero di fornitori e modalità di pagamento
+Q:Qual è l’obiettivo di approvvigionamento per i materiali “effetto leva”? (AI)
+F:Aumentare le scorte per garantire la disponibilità
+V:Riduzione dei costi tramite ricerca di materiali sostitutivi e sfruttamento della forza contrattuale
+F:Stabilire rapporti di collaborazione a lungo termine
+Q:Qual è la politica consigliata per i materiali “colli di bottiglia”? (AI)
+F:Riduzione dei costi di acquisto mediante gare competitive
+V:Assicurare la disponibilità del materiale nei volumi e tempi necessari, mantenendo adeguate scorte
+F:Sviluppare prodotti alternativi internamente
+Q:Per i materiali “strategici” la funzione di approvvigionamento punta a: (AI)
+F:Competere sui prezzi con molti fornitori
+V:Assicurare stabilità e disponibilità nel lungo periodo attraverso rapporti di collaborazione
+F:Ridurre il numero di fornitori senza considerare l’affidabilità
+Q:Quale attività NON rientra tipicamente nella procedura di acquisto? (AI)
+F:Ricerca di mercato e individuazione dei fornitori
+F:Selezione delle offerte e ordinazione
+V:Progettazione del prodotto finito
+Q:Quale tra i seguenti NON è uno dei “quattro fattori chiave di cambiamento del ventunesimo secolo”? (AI)
+F:Tecnologia
+V:Clima aziendale
+F:Rischio sistemico
+Q:Nel contesto della “rivoluzione digitale”, in quale anno è avvenuto l’avvento del microprocessore? (AI)
+F:1958
+V:1971
+F:1989
+Q:L’acronimo IoT, citato nelle slide, sta per: (AI)
+V:Internet of Things
+F:Internal Operational Technology
+F:Integrated Online Transactions
+Q:Secondo il PDF, la “intelligenza esterna del business” si basa principalmente su: (AI)
+F:Competenze esclusivamente umane
+V:Algoritmi e macchine interconnessi
+F:Processi manuali standardizzati
+Q:Riguardo alle auto automatizzate descritte nelle slide, si afferma che: (AI)
+F:Rimarranno sempre dipendenti dall’intervento umano
+V:Renderanno superfluo il possesso di un mezzo autonomo
+F:Saranno utilizzate solo per scopi militari
+Q:Le innovazioni digitali incrementano la concorrenza soprattutto grazie a: (AI)
+V:Nuovi entranti in mercati nascenti a basso costo
+F:Regolamentazioni sempre più stringenti
+F:Esclusivo rafforzamento delle imprese consolidate
+Q:Un “evento cigno nero” viene definito come: (AI)
+F:Occorrenza frequente e facilmente prevedibile
+V:Rara, con impatto estremo e generalmente imprevedibile
+F:Evento di breve durata e basso impatto
+Q:Secondo il World Economic Forum (2018), quale di questi NON è uno dei “rischi complessi” individuati? (AI)
+F:Rischi ambientali
+V:Rischi finanziari
+F:Rischi legati alla cybersecurity
+Q:Quale tra queste NON è una fase esplicitamente menzionata nel PDF all’interno del “processo innovativo”? (AI)
+F:Knowledge management
+V:Customer satisfaction monitoring
+F:Finanziamento dell’innovazione
+Q:Tra le tipologie di progetti elencate, quale NON appartiene alla ricerca? (AI)
+F:Progetto di ricerca di base
+F:Progetto di ricerca applicata
+V:Progetto di marketing strategico
