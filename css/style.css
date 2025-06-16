@@ -971,6 +971,90 @@ footer {
     justify-content: space-between;
 }
 
+/* Icona AI per domande generate dall'intelligenza artificiale */
+.ai-indicator {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    cursor: help;
+    position: relative;
+    animation: pulse-ai 2s infinite;
+}
+
+.ai-indicator:hover {
+    transform: scale(1.1);
+}
+
+.ai-indicator::after {
+    content: "Domanda generata da Intelligenza Artificiale";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: normal;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+    margin-bottom: 5px;
+}
+
+.ai-indicator:hover::after {
+    opacity: 1;
+}
+
+.ai-indicator::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+.ai-indicator:hover::before {
+    opacity: 1;
+}
+
+@keyframes pulse-ai {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(102, 126, 234, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 0 8px rgba(102, 126, 234, 0);
+    }
+}
+
+/* In fullscreen l'icona AI rimane visibile ma più discreta */
+body:fullscreen .ai-indicator,
+body:-webkit-full-screen .ai-indicator,
+body:-moz-full-screen .ai-indicator,
+body:-ms-fullscreen .ai-indicator {
+    opacity: 0.7;
+    animation: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     /* Header più compatto */

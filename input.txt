@@ -958,3 +958,83 @@ Q: Quale dei seguenti stadi di sviluppo della rete si caratterizza per la presen
 V: la rete pianificata
 F: la rete realizzata
 F: la rete razionalizzata
+Q: Se un'azienda ha un ROE del 12% e distribuisce il 30% degli utili, qual è il tasso di crescita dei dividendi atteso? (AI)
+V: 8.4%
+F: 3.6%
+F: 12%
+Q: Se il rendimento atteso di un'azione è 11%, il tasso privo di rischio è 4%, e il premio per il rischio di mercato è 7%, qual è il beta del titolo? (AI)
+V: 1
+F: 0.5
+F: 1.5
+Q: Un titolo con beta 1.2, se il tasso privo di rischio è 3% e il premio per il rischio di mercato è 6%, ha un rendimento atteso secondo il CAPM pari a: (AI)
+V: 10.2%
+F: 7.2%
+F: 9%
+Q: Se un'azienda ha un fabbisogno annuo di 10.000 unità, un costo di emissione dell'ordine pari a 20 e un costo di mantenimento unitario pari a 5, qual è il lotto economico di acquisto? (AI)
+V: 283
+F: 500
+F: 1000
+Q: Se il tempo di ciclo di un processo è 30 minuti e il tempo di setup è 1 ora, qual è il tempo totale per produrre 5 pezzi? (AI)
+V: 210 minuti
+F: 180 minuti
+F: 150 minuti
+Q: In un sistema kanban, se il consumo medio è di 60 pezzi/giorno, il lead time è di 3 giorni, il numero di pezzi per contenitore è 30, e si usa un fattore di sicurezza del 20%, quanti kanban servono? (AI)
+V: 8
+F: 6
+F: 4
+Q: Se un’impresa ha una scorta di sicurezza di 200 pezzi e una scorta media totale di 1200 pezzi, qual è la scorta media operativa? (AI)
+V: 1000
+F: 1400
+F: 200
+Q: Se un processo produttivo ha un lead time di 600 minuti e un tempo di attraversamento teorico di 150 minuti, qual è l’indice di flusso? (AI)
+V: 4
+F: 2.5
+F: 3
+Q: In un'impresa, il tempo di ciclo per un lotto è di 20 minuti e il tempo disponibile per turno è 480 minuti. Qual è il numero massimo di pezzi per turno? (AI)
+V: 24
+F: 20
+F: 30
+Q: Se un investitore vuole calcolare il valore attuale di una rendita perpetua crescente con un flusso iniziale di 10 e crescita del 5%, al tasso di sconto del 9%, qual è il valore? (AI)
+V: 250
+F: 200
+F: 222.22
+Q: Se il tasso di rendimento dei titoli di Stato è 2% e il rendimento di mercato è 8%, quale sarà il rendimento atteso di un'azione con beta 0.5? (AI)
+V: 5%
+F: 8%
+F: 2%
+Q: Un'azienda con un ROE del 15% e un payout ratio del 60% ha un tasso di crescita sostenibile pari a: (AI)
+V: 6%
+F: 9%
+F: 15%
+Q: Se la domanda annua è 5000 unità, il costo di emissione dell’ordine è 25€, e il costo di mantenimento unitario è 2€, qual è il lotto economico? (AI)
+V: 353
+F: 500
+F: 250
+Q: In un sistema pull con lead time di 4 giorni, consumo giornaliero massimo di 80 unità, e contenitori da 40 pezzi, quanti kanban sono necessari senza margine di sicurezza? (AI)
+V: 8
+F: 4
+F: 2
+Q: Se il tempo totale per attraversare una linea di produzione è 180 minuti e il tempo attivo (ciclo) è 60 minuti, qual è l’indice di flusso? (AI)
+V: 3
+F: 2
+F: 1.5
+Q: Una società ha un ROE del 8% e trattiene il 75% degli utili. Qual è il tasso di crescita atteso degli utili? (AI)
+V: 6%
+F: 8%
+F: 2%
+Q: Se il costo unitario di mantenimento è 1.5€ e la scorta media è 2000 pezzi, qual è il costo totale di mantenimento annuo? (AI)
+V: 3000€
+F: 1500€
+F: 2000€
+Q: Se il tempo di setup è 30 minuti e il tempo ciclo è 5 minuti per pezzo, quanti pezzi posso produrre in 1 ora e mezza? (AI)
+V: 12
+F: 18
+F: 15
+Q: Un processo produttivo ha un tempo di ciclo di 25 minuti. Se si vogliono produrre 100 pezzi, quanto tempo sarà necessario? (AI)
+V: 2500 minuti
+F: 2250 minuti
+F: 2000 minuti
+Q: Se un'azienda distribuisce il 100% degli utili, qual è il tasso di crescita sostenibile secondo il modello di Gordon? (AI)
+V: 0%
+F: pari al ROE
+F: pari al payout ratio

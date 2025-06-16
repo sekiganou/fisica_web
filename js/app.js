@@ -226,7 +226,16 @@ function updateQuestionPreview() {
     
     if (questionNumber >= 1 && questionNumber <= appState.questions.length) {
         const question = appState.questions[questionNumber - 1];
-        previewElement.textContent = question.text;
+        const isAIGenerated = question.text.includes('(AI)');
+        
+        if (isAIGenerated) {
+            // Rimuovi (AI) dal testo e aggiungi icona
+            const cleanQuestionText = question.text.replace(/\s*\(AI\)\s*$/, '');
+            previewElement.innerHTML = `${cleanQuestionText} <span class="ai-indicator" title="Domanda generata da AI">AI</span>`;
+        } else {
+            previewElement.textContent = question.text;
+        }
+        
         previewElement.style.fontStyle = 'normal';
         previewElement.style.color = 'var(--gray-800)';
     } else {
@@ -408,8 +417,17 @@ function updateQuizUI() {
     document.getElementById('correctCount').textContent = appState.correctAnswers;
     document.getElementById('incorrectCount').textContent = appState.incorrectAnswers;
     
-    // Aggiorna la domanda
-    document.getElementById('questionText').textContent = currentQuestion.text;
+    // Aggiorna la domanda con icona AI se necessario
+    const questionElement = document.getElementById('questionText');
+    const isAIGenerated = currentQuestion.text.includes('(AI)');
+    
+    if (isAIGenerated) {
+        // Rimuovi (AI) dal testo della domanda
+        const cleanQuestionText = currentQuestion.text.replace(/\s*\(AI\)\s*$/, '');
+        questionElement.innerHTML = `${cleanQuestionText} <span class="ai-indicator" title="Domanda generata da AI">AI</span>`;
+    } else {
+        questionElement.textContent = currentQuestion.text;
+    }
     
     // Aggiorna le risposte
     const answersContainer = document.getElementById('answersContainer');
@@ -757,6 +775,12 @@ function reviewAnswers() {
         // Aggiungi la classe appropriata
         questionElement.classList.add(isCorrect ? 'correct' : 'incorrect');
         
+        // Gestione icona AI per il testo della domanda
+        const isAIGenerated = question.text.includes('(AI)');
+        const questionTextHtml = isAIGenerated 
+            ? `${question.text.replace(/\s*\(AI\)\s*$/, '')} <span class="ai-indicator" title="Domanda generata da AI">AI</span>`
+            : question.text;
+        
         // Contenuto HTML della domanda e risposte
         questionElement.innerHTML = `
             <div class="review-question-header">
@@ -765,7 +789,7 @@ function reviewAnswers() {
                     ${isCorrect ? '<i class="fas fa-check"></i> Corretta' : '<i class="fas fa-times"></i> Errata'}
                 </div>
             </div>
-            <div class="review-question-text">${question.text}</div>
+            <div class="review-question-text">${questionTextHtml}</div>
             <div class="review-answers-container">
                 ${question.answers.map((answer, answerIndex) => `
                     <div class="review-answer ${answerIndex === question.correctIndex ? 'correct' : ''} ${answerIndex === userAnswerIndex && answerIndex !== question.correctIndex ? 'incorrect' : ''}">
