@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz EGID - Economia e Gestione d'Impresa</title>
+    <title>Quiz Teoria Fisica</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,7 @@
         <header>
             <div class="logo">
                 <i class="fas fa-graduation-cap"></i>
-                <h1>Quiz EGID</h1>
+                <h1>Quiz Fisica</h1>
             </div>
             <nav class="nav-buttons">
                 <button id="statsBtn" class="btn"><i class="fas fa-chart-bar"></i> <span class="btn-text">Statistiche</span></button>
@@ -27,17 +27,17 @@
         <main>
             <div id="welcome-screen" class="screen active">
                 <div class="welcome-content">
-                    <h2>Ciao 👋 - Quiz di Economia e Gestione d'Impresa</h2>
+                    <h2>Ciao 👋 - Quiz di Fisica</h2>
                     <p>Metti alla prova le tue conoscenze con tutte le domande reali d'esame!</p>
                     
                     <!-- Toggle per domande AI -->
                     <div class="ai-filter-container">
                         <div class="ai-filter-toggle">
-                            <input type="checkbox" id="includeAIQuestions" checked>
+                            <input type="checkbox" id="includeAIQuestions" checked disabled>
                             <label for="includeAIQuestions" class="toggle-label">
                                 <span class="toggle-switch"></span>
                                 <span class="toggle-text">
-                                    <i class="fas fa-robot"></i> Includi domande AI
+                                    <i class="fas fa-robot"></i> Includi domande AI (disabilitato)
                                 </span>
                             </label>
                         </div>
@@ -111,7 +111,8 @@
 
                 <div class="quiz-content">
                     <p id="questionText" class="question"></p>
-                    <div id="answersContainer" class="answers-container">
+                    <img id="questionImage" src="" />
+                    <div id="answersContainer" class="answers-container" >
                         <!-- Le risposte verranno aggiunte dinamicamente dal JavaScript -->
                     </div>
                 </div>

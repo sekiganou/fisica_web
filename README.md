@@ -1,11 +1,6 @@
-# Quiz EGID - Economia e Gestione d'Impresa
+# Quiz Teoria di Fisica, forked by by [![Quiz Egid]](https://github.com/MrDionesalvi/egid_web)
 
-[![GitHub stars](https://img.shields.io/github/stars/mrdionesalvi/egid_web)](https://github.com/mrdionesalvi/egid_web/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/mrdionesalvi/egid_web)](https://github.com/mrdionesalvi/egid_web/network)
-[![GitHub issues](https://img.shields.io/github/issues/mrdionesalvi/egid_web)](https://github.com/mrdionesalvi/egid_web/issues)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fmrdionesalvi.github.io%2Fegid_web%2F)](https://mrdionesalvi.github.io/egid_web/)
-
-Applicazione web interattiva per gli studenti di UniTo che si preparano all'esame di Economia e Gestione d'Impresa. Questa webapp permette di esercitarsi con domande d'esame reali attraverso un'interfaccia moderna, intuitiva e funzionale.
+Applicazione web interattiva per gli studenti di UniTo che si preparano alla parte di teoria di Fisica. Questa webapp permette di esercitarsi con domande d'esame reali attraverso un'interfaccia moderna, intuitiva e funzionale.
 
 **Prova subito l'app:** [https://mrdionesalvi.github.io/egid_web/](https://mrdionesalvi.github.io/egid_web/)
 
@@ -69,12 +64,14 @@ egid_web/
 Per testare l'applicazione in locale:
 
 1. Clona il repository:
+
    ```bash
    git clone https://github.com/mrdionesalvi/egid_web.git
    cd egid_web
    ```
 
 2. Avvia un server web locale. Ad esempio, con Python:
+
    ```bash
    # Con Python 3
    python -m http.server

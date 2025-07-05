@@ -6,79 +6,111 @@
 
 // Funzione per processare il testo delle domande e risposte dal file di input
 function processQuestionsFromText(text) {
-    const lines = text.split('\n');
-    const questions = [];
-    
-    let currentQuestion = null;
-    let answers = [];
+  const lines = text.split("\n");
+  const questions = [];
 
-    for (let i = 0; i < lines.length; i++) {
-        const line = lines[i].trim();
-        
-        if (line.startsWith('Q:')) {
-            // Se abbiamo già una domanda in corso, salviamo quella precedente
-            if (currentQuestion) {
-                questions.push({
-                    text: currentQuestion,
-                    answers: answers,
-                    correctIndex: 0, // La prima risposta è sempre quella corretta
-                    category: detectCategory(currentQuestion)
-                });
-            }
-            
-            // Iniziamo una nuova domanda
-            currentQuestion = line.substring(2).trim();
-            answers = [];
-        } else if (line.startsWith('V:')) {
-            // Risposta corretta - va sempre per prima
-            answers.unshift(line.substring(2).trim());
-        } else if (line.startsWith('F:')) {
-            // Risposta errata
-            answers.push(line.substring(2).trim());
-        }
-    }
-    
-    // Aggiungiamo l'ultima domanda se esiste
-    if (currentQuestion) {
+  let currentQuestion = null;
+  let currentQuestionImage = null; // Per immagini associate alle domande
+  let answers = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+
+    if (line.startsWith("Q:")) {
+      // Se abbiamo già una domanda in corso, salviamo quella precedente
+      if (currentQuestion) {
         questions.push({
-            text: currentQuestion,
-            answers: answers,
-            correctIndex: 0,
-            category: detectCategory(currentQuestion)
+          text: currentQuestion,
+          answers: answers,
+          correctIndex: 0, // La prima risposta è sempre quella corretta
+          category: detectCategory(currentQuestion),
+          image: currentQuestionImage || null, // Associa l'immagine se esiste
         });
+      }
+
+      // Iniziamo una nuova domanda
+      currentQuestion = line.substring(2).trim();
+      answers = [];
+    } else if (line.startsWith("I:")) {
+      // Immagine associata alla domanda
+      currentQuestionImage = line.substring(2).trim();
+    } else if (line.startsWith("V:")) {
+      // Risposta corretta - va sempre per prima
+      answers.unshift(line.substring(2).trim());
+    } else if (line.startsWith("F:")) {
+      // Risposta errata
+      answers.push(line.substring(2).trim());
     }
-    
-    return questions;
+  }
+
+  // Aggiungiamo l'ultima domanda se esiste
+  if (currentQuestion) {
+    questions.push({
+      text: currentQuestion,
+      answers: answers,
+      correctIndex: 0,
+      category: detectCategory(currentQuestion),
+    });
+  }
+
+  return questions;
 }
 
 // Funzione per rilevare la categoria della domanda in base al suo contenuto
 function detectCategory(questionText) {
-    const lowerCaseText = questionText.toLowerCase();
-    
-    // Definiamo alcune parole chiave per le categorie
-    const categories = {
-        "Marketing": ["marketing", "consumat", "promozion", "segment", "brand", "acquisto", "posizionamento"],
-        "Innovazione": ["innova", "r&s", "ricerca e sviluppo", "ricerca", "tecnolog", "brevett"],
-        "Finanza": ["finanzia", "roi", "van", "tir", "cash flow", "rendimento", "capitale", "dividendi", "struttura finanziaria"],
-        "Organizzazione": ["organizzat", "risorse umane", "gestione del personale", "taylorismo", "team", "ford"],
-        "Produzione": ["produzion", "just in time", "lean", "kanban", "kaizen", "logistic", "scorte", "qualità"],
-        "Strategia": ["strategi", "vantaggio competitivo", "pianificazione", "objective", "mission", "vision"],
-        "Management": ["management", "controllo", "decision", "obiettivi"],
-        "Supply Chain": ["supply chain", "forni", "acquist", "approvvigionament", "outsourcing"],
-        "Reti d'impresa": ["rete", "network", "cooperazion", "alleanz", "joint venture", "franchising"]
-    };
-    
-    // Controlliamo se il testo della domanda contiene parole chiave delle categorie
-    for (const [category, keywords] of Object.entries(categories)) {
-        for (const keyword of keywords) {
-            if (lowerCaseText.includes(keyword)) {
-                return category;
-            }
-        }
+  const lowerCaseText = questionText.toLowerCase();
+
+  // Definiamo alcune parole chiave per le categorie
+  const categories = {
+    "Campo magnetico": [
+      "campo magnetico",
+      "magnetic",
+      "magnetismo",
+      "forza magnetica",
+      "linee di forza",
+    ],
+    "Forze e campi": [
+      "forze",
+      "campo elettrico",
+      "forza elettrica",
+      "interazione",
+      "legge di coulomb",
+    ],
+    "Circuiti elettrici": [
+      "circuito elettrico",
+      "resistenza",
+      "tensione",
+      "corrente elettrica",
+      "legge di ohm",
+      "serie e parallelo",
+    ],
+    "Energia e potenza": [
+      "energia elettrica",
+      "potenza elettrica",
+      "lavoro elettrico",
+      "efficienza energetica",
+      "conversione energetica",
+    ],
+    Elettromagnetismo: [
+      "elettromagnetismo",
+      "induzione elettromagnetica",
+      "legge di faraday",
+      "legge di lenz",
+      "campo elettromagnetico",
+    ],
+  };
+
+  // Controlliamo se il testo della domanda contiene parole chiave delle categorie
+  for (const [category, keywords] of Object.entries(categories)) {
+    for (const keyword of keywords) {
+      if (lowerCaseText.includes(keyword)) {
+        return category;
+      }
     }
-    
-    // Categoria di default
-    return "Generale";
+  }
+
+  // Categoria di default
+  return "Generale";
 }
 
 // Il testo delle domande (sincronizzato con il file input.txt)
@@ -127,75 +159,93 @@ F: Logistica in entrata.`;
 const ALL_QUESTIONS = processQuestionsFromText(rawQuestions);
 
 // Funzione per caricare più domande dal file input.txt (verrà chiamata in app.js)
-async function loadAllQuestions() {
-    try {
-        console.log('Tentativo di caricamento del file input.txt...');
-        const response = await fetch('input.txt');
-        if (!response.ok) {
-            throw new Error(`Errore HTTP ${response.status}: Impossibile caricare il file delle domande`);
-        }
-        const text = await response.text();
-        console.log('File caricato con successo, lunghezza testo:', text.length);
-        const questions = processQuestionsFromText(text);
-        console.log('Domande processate:', questions.length);
-        console.log('Prima domanda caricata:', questions[0]?.text.substring(0, 100) + '...');
-        
-        // Verifica che le domande caricate siano diverse da quelle embedded
-        const embeddedQuestions = processQuestionsFromText(rawQuestions);
-        if (questions[0]?.text === embeddedQuestions[0]?.text) {
-            console.log('✓ Le domande caricate corrispondono a quelle embedded (buono)');
-        } else {
-            console.warn('⚠️ ATTENZIONE: Le domande caricate sono diverse da quelle embedded!');
-            console.log('Prima domanda embedded:', embeddedQuestions[0]?.text.substring(0, 100) + '...');
-        }
-        
-        return questions;
-    } catch (error) {
-        console.error('Errore nel caricamento delle domande:', error);
-        console.warn('Utilizzo delle domande predefinite embedded nel codice');
-        const fallbackQuestions = processQuestionsFromText(rawQuestions);
-        console.log('Prima domanda predefinita:', fallbackQuestions[0]?.text.substring(0, 100) + '...');
-        return fallbackQuestions;
+async function loadAllQuestionsAndImages() {
+  try {
+    console.log("Tentativo di caricamento del file input.txt...");
+    const response = await fetch("input.txt");
+    if (!response.ok) {
+      throw new Error(
+        `Errore HTTP ${response.status}: Impossibile caricare il file delle domande`
+      );
     }
+    const text = await response.text();
+    console.log("File caricato con successo, lunghezza testo:", text.length);
+    const questions = processQuestionsFromText(text);
+    console.log("Domande processate:", questions.length);
+    console.log(
+      "Prima domanda caricata:",
+      questions[0]?.text.substring(0, 100) + "..."
+    );
+
+    // Verifica che le domande caricate siano diverse da quelle embedded
+    const embeddedQuestions = processQuestionsFromText(rawQuestions);
+    if (questions[0]?.text === embeddedQuestions[0]?.text) {
+      console.log(
+        "✓ Le domande caricate corrispondono a quelle embedded (buono)"
+      );
+    } else {
+      console.warn(
+        "⚠️ ATTENZIONE: Le domande caricate sono diverse da quelle embedded!"
+      );
+      console.log(
+        "Prima domanda embedded:",
+        embeddedQuestions[0]?.text.substring(0, 100) + "..."
+      );
+    }
+
+    return questions;
+  } catch (error) {
+    console.error("Errore nel caricamento delle domande:", error);
+    console.warn("Utilizzo delle domande predefinite embedded nel codice");
+    const fallbackQuestions = processQuestionsFromText(rawQuestions);
+    console.log(
+      "Prima domanda predefinita:",
+      fallbackQuestions[0]?.text.substring(0, 100) + "..."
+    );
+    return fallbackQuestions;
+  }
 }
 
 // Funzione per ottenere tutte le categorie uniche
 function getAllCategories(questions) {
-    return [...new Set(questions.map(q => q.category))];
+  return [...new Set(questions.map((q) => q.category))];
 }
 
 // Funzione per mescolare le risposte di una domanda
 function shuffleAnswers(question) {
-    const shuffled = { ...question };
-    
-    // Salva la risposta corretta
-    const correctAnswer = shuffled.answers[shuffled.correctIndex];
-    
-    // Crea un array di oggetti con indice originale per tracciare la risposta corretta
-    const answersWithIndex = shuffled.answers.map((answer, index) => ({
-        text: answer,
-        wasCorrect: index === shuffled.correctIndex
-    }));
-    
-    // Mescola l'array degli oggetti
-    for (let i = answersWithIndex.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [answersWithIndex[i], answersWithIndex[j]] = [answersWithIndex[j], answersWithIndex[i]];
-    }
-    
-    // Estrai le risposte mescolate e trova il nuovo indice della risposta corretta
-    shuffled.answers = answersWithIndex.map(item => item.text);
-    shuffled.correctIndex = answersWithIndex.findIndex(item => item.wasCorrect);
-    
-    return shuffled;
+  const shuffled = { ...question };
+
+  // Salva la risposta corretta
+  const correctAnswer = shuffled.answers[shuffled.correctIndex];
+
+  // Crea un array di oggetti con indice originale per tracciare la risposta corretta
+  const answersWithIndex = shuffled.answers.map((answer, index) => ({
+    text: answer,
+    wasCorrect: index === shuffled.correctIndex,
+  }));
+
+  // Mescola l'array degli oggetti
+  for (let i = answersWithIndex.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [answersWithIndex[i], answersWithIndex[j]] = [
+      answersWithIndex[j],
+      answersWithIndex[i],
+    ];
+  }
+
+  // Estrai le risposte mescolate e trova il nuovo indice della risposta corretta
+  shuffled.answers = answersWithIndex.map((item) => item.text);
+  shuffled.correctIndex = answersWithIndex.findIndex((item) => item.wasCorrect);
+
+  return shuffled;
 }
 
 // Funzione per mescolare un array (usata per ottenere domande in ordine casuale)
 function shuffleArray(array) {
-    const shuffled = [...array];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
-    return shuffled;
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
 }
