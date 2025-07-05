@@ -1,8 +1,6 @@
-# Quiz Teoria di Fisica, forked by by [![Quiz Egid]](https://github.com/MrDionesalvi/egid_web)
+# Quiz Teoria di Fisica, forked from [[Quiz Egid]](https://github.com/MrDionesalvi/egid_web)
 
 Applicazione web interattiva per gli studenti di UniTo che si preparano alla parte di teoria di Fisica. Questa webapp permette di esercitarsi con domande d'esame reali attraverso un'interfaccia moderna, intuitiva e funzionale.
-
-**Prova subito l'app:** [https://mrdionesalvi.github.io/egid_web/](https://mrdionesalvi.github.io/egid_web/)
 
 ## 📋 Caratteristiche
 
