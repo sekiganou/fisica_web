@@ -931,6 +931,7 @@ function reviewAnswers() {
 
     // Gestione icona AI per il testo della domanda
     const isAIGenerated = question.text.includes("(AI)");
+    const questionImage = question.image || "";
     const questionTextHtml = isAIGenerated
       ? `${question.text.replace(
           /\s*\(AI\)\s*$/,
@@ -953,6 +954,7 @@ function reviewAnswers() {
                 </div>
             </div>
             <div class="review-question-text">${questionTextHtml}</div>
+            <img src="${questionImage}" />
             <div class="review-answers-container">
                 ${question.answers
                   .map(
