@@ -50,6 +50,7 @@ function processQuestionsFromText(text) {
       answers: answers,
       correctIndex: 0,
       category: detectCategory(currentQuestion),
+      image: currentQuestionImage || null, // Associa l'immagine se esiste
     });
   }
 
