@@ -63,3 +63,64 @@ V: In un punto distante 4R dalla distribuzione
 F: In un punto distante R/2 dalla distribuzione
 F: In un punto distante 3R dalla distribuzione
 F: In un punto distante R/4 dalla distribuzione
+Q: Nel caso della figura a), quale di queste affermazioni è corretta?
+I: img/solenoide.jpg
+V: ∫ 𝐵⃗⃗ ∙ 𝑑𝑠⃗⃗ 𝑐→𝑏 + ∫ 𝐵⃗⃗ ∙ 𝑑𝑠⃗⃗ 𝑎→𝑑 = 0
+F: Il campo B è nullo ovunque
+F: Il campo B è costante lungo tutto il percorso
+F: La circuitazione di B è diversa da zero
+Q: Nel caso del percorso γ della figura a), il valore di ∑𝑘 𝑖𝑘 è:
+I: img/solenoide.jpg
+V: 5i
+F: 0
+F: 20i
+F: i
+Q: Nel caso del percorso γ della figura b), il valore di ∮ 𝐵⃗⃗ ∙ 𝑑𝑠⃗ 𝛾 è:
+I: img/solenoide.jpg
+V: 0
+F: 5i
+F: 4πkm5i
+F: 20i
+Q: Nel caso del percorso γ della figura c), il valore di ∮ 𝐵⃗⃗ ∙ 𝑑𝑠⃗ 𝛾 è:
+I: img/solenoide.jpg
+V: 4πkm5i
+F: 0
+F: 4πkm20i
+F: πkm5i
+Q: Si consideri un transistor NMOS usato come interruttore controllato per il quale 𝑉𝑔𝑠 = −1𝑉. Quale delle seguenti affermazioni è vera?
+I: img/Transistor_nmos.jpg
+V: Il transistor si comporta come un interruttore aperto (“OFF”)
+F: Il transistor è in saturazione
+F: Il transistor conduce corrente
+F: Il transistor è nello stato “ON”
+Q: Quale funzione logica elementare è rappresentata dal circuito mostrato in figura?
+I: img/Transistor_nmos.jpg
+V: NOR
+F: OR
+F: AND
+F: NAND
+Q: Quale delle seguenti affermazioni non è necessaria per dimostrare che la forza di Coulomb è conservativa?
+V: La forza di Coulomb dipende dalla distanza r tra le cariche come 1/(r^2)
+F: Il modulo della forza dipende solo dalla distanza tra le cariche
+F: La forza può essere derivata da un potenziale scalare
+F: Il lavoro lungo un percorso chiuso è nullo
+Q: Una carica negativa q si sposta nella direzione e verso opposto al campo elettrico 𝐸⃗⃗. Quale delle seguenti affermazioni è vera?
+V: L’energia potenziale di q diminuisce
+F: Il campo elettrico compie lavoro nullo su q
+F: La forza di Coulomb è perpendicolare allo spostamento
+F: La carica q si muove spontaneamente contro il campo
+Q: Una carica negativa q si muove nella direzione perpendicolare al campo elettrico 𝐸⃗⃗. Quale delle seguenti affermazioni è vera?
+V: L’energia potenziale di q non cambia
+F: Il campo elettrico compie lavoro positivo su q
+F: Il potenziale elettrico cambia
+F: La forza elettrica accelera la carica lungo il campo
+Q: Due punti A e B si trovano alla stessa distanza da una carica puntiforme q1. Quale delle seguenti affermazioni è corretta riguardo al lavoro per portare una carica q2 da A a B?
+V: È sempre nullo
+F: Dipende dalla massa della carica q2
+F: È proporzionale alla distanza percorsa
+F: È massimo quando A e B sono opposti rispetto a q1
+Q: Una carica q si muove lungo un percorso in cui il campo elettrico 𝐸⃗⃗ è nullo in ogni punto. Quale delle seguenti affermazioni è corretta?
+V: 𝐸𝑝(𝐴) = 𝐸𝑝(𝐵)
+F: Il potenziale elettrico cambia lungo il percorso
+F: La forza elettrica agisce comunque su q
+F: La carica acquista energia cinetica
