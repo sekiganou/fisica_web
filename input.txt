@@ -191,6 +191,106 @@ V: Un semiconduttore drogato di tipo n contiene impurità del V gruppo
 F: Un semiconduttore drogato di tipo n contiene impurità del III gruppo
 F: I semiconduttori drogati non conducono elettricità
 F: La conduzione nei semiconduttori drogati dipende solo dalla temperatura
+Q: In quali dei seguenti casi la capacità del condensatore raddoppia?
+I: condensatore_pg6.png
+V: Dimezzando d
+F: Raddoppiando d
+F: Dimezzando la superficie S
+F: Raddoppiando la tensione V₀
+Q: Se raddoppia la carica sulle armature, il modulo del campo elettrico 𝐸⃗⃗ presente tra le armature:
+I: condensatore_pg6.png
+V: Raddoppia
+F: Si dimezza
+F: Resta invariato
+F: Diventa nullo
+Q: Per il modulo del campo elettrico 𝐸⃗⃗ presente tra le armature vale la seguente relazione:
+I: condensatore_pg6.png
+V: 𝐸(𝑥 = 0) = 𝐸(𝑥 = 𝑑/2) = 𝐸(𝑥 = 𝑑)
+F: 𝐸 varia linearmente con x
+F: 𝐸 è massimo a x = d/2
+F: 𝐸 è nullo a x = 0
+Q: Il campo elettrico E⃗ tra le armature:
+I: condensatore_pg6.png
+V: Ha lo stesso verso del versore i
+F: Ha verso opposto a i
+F: È perpendicolare a i
+F: È nullo ovunque
+Q: Detta C la capacità del condensatore, se 𝑉(𝑆1) = 𝑉₀ e 𝑉(𝑆2) = 0 la carica sulle armature è:
+I: condensatore_pg6.png
+V: 𝑄(𝑆1) = +𝐶𝑉₀ e 𝑄(𝑆2) = −𝐶𝑉₀
+F: 𝑄(𝑆1) = −𝐶𝑉₀ e 𝑄(𝑆2) = +𝐶𝑉₀
+F: 𝑄(𝑆1) = 𝑄(𝑆2) = 0
+F: 𝑄(𝑆1) = 𝑄(𝑆2) = +𝐶𝑉₀
+Q: Due condensatori sono in serie se:
+V: Sono percorsi dalla stessa corrente
+F: Hanno la stessa tensione ai capi
+F: Sono collegati tra loro in parallelo
+F: Hanno la stessa capacità
+Q: Due condensatori sono in parallelo se:
+V: La d.d.p. ai loro capi è la stessa
+F: Sono attraversati dalla stessa corrente
+F: Hanno lo stesso valore di capacità
+F: Sono collegati in serie
+Q: Avendo a disposizione due condensatori C1 e C2 con C1 < C2, il valore minimo della capacità si ha:
+V: Collegando C1 e C2 in serie
+F: Collegando C1 e C2 in parallelo
+F: Usando solo C2
+F: Collegandoli in cortocircuito
+Q: Avendo a disposizione due condensatori C1 e C2 con C1 < C2, il valore massimo della capacità si ha:
+V: Collegando C1 e C2 in parallelo
+F: Collegando C1 e C2 in serie
+F: Usando solo C1
+F: Collegandoli con polarità opposte
+Q: Collegando in serie due condensatori entrambi di capacità C, la capacità equivalente vale:
+V: C/2
+F: 2C
+F: C
+F: C²
+Q: Due resistori sono in parallelo se:
+V: La d.d.p. ai loro capi è la stessa
+F: Sono attraversati dalla stessa corrente
+F: Hanno la stessa resistenza
+F: Sono collegati uno dopo l’altro
+Q: Due resistori sono in serie se:
+V: Sono percorsi dalla stessa corrente
+F: Hanno la stessa tensione ai capi
+F: Sono collegati in parallelo
+F: Hanno lo stesso valore
+Q: Avendo a disposizione due resistori R1 e R2 con R1 < R2, il valore minimo della resistenza si ha:
+V: Collegando R1 e R2 in parallelo
+F: Collegando R1 e R2 in serie
+F: Usando solo R2
+F: Usando solo R1
+Q: Avendo a disposizione due resistori R1 e R2 con R1 < R2, il valore massimo della resistenza si ha:
+V: Collegando R1 e R2 in serie
+F: Collegando R1 e R2 in parallelo
+F: Usando solo R1
+F: Collegandoli in corto circuito
+Q: Collegando in parallelo due resistori entrambi di resistenza R, la resistenza equivalente vale:
+V: R/2
+F: 2R
+F: R
+F: R²
+Q: Lungo l’asse del dipolo la direzione del campo elettrico 𝐸⃗⃗ è:
+V: Sempre diretta lungo l’asse delle x
+F: Perpendicolare all’asse delle x
+F: Radiale
+F: Circolare
+Q: Consideriamo il potenziale elettrico generato dal dipolo in un punto P = (0, a, 0) del piano mediano. Detti 𝑉+(𝑃) e 𝑉−(𝑃) i potenziali generati rispettivamente dalla carica +q e -q nel punto P, qual è la relazione tra 𝑉+(𝑃) e 𝑉−(𝑃):
+V: 𝑉−(𝑃) = −𝑉+(𝑃)
+F: 𝑉−(𝑃) = 𝑉+(𝑃)
+F: 𝑉−(𝑃) > 𝑉+(𝑃)
+F: 𝑉+(𝑃) = 0
+Q: Consideriamo il potenziale elettrico generato dal dipolo nel punto 𝑃 = (0, 𝑎, 0) e nel punto 𝑄 = (0, √𝑎, √𝑎). Qual è la relazione tra V(P) e V(Q):
+V: 𝑉(𝑃) = 𝑉(𝑄)
+F: 𝑉(𝑃) > 𝑉(𝑄)
+F: 𝑉(𝑃) < 𝑉(𝑄)
+F: 𝑉(𝑄) = 0
+Q: Consideriamo il potenziale elettrico generato dal dipolo nel punto P = (0, a, 0) e nel punto Q = (0, 2a, 0). Qual è la relazione tra V(P) e V(Q):
+V: 𝑉(𝑃) = 𝑉(𝑄)
+F: 𝑉(𝑃) > 𝑉(𝑄)
+F: 𝑉(𝑃) < 𝑉(𝑄)
+F: 𝑉(𝑄) = 0
 Q: Quali dei seguenti grafici descrive al meglio la caratteristica IV di una giunzione pn polarizzata direttamente?
 I: img/semiconduttoreIntrinseco.png
 V: b
