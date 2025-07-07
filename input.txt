@@ -370,3 +370,33 @@ V: 𝐸𝑝(𝐴) = 𝐸𝑝(𝐵)
 F: Il potenziale elettrico cambia lungo il percorso
 F: La forza elettrica agisce comunque su q
 F: La carica acquista energia cinetica
+Q: Nella legge di Biot-Savart: 𝑑𝐵⃗ = 𝑘𝑚(𝑖 𝑑𝑙⃗ × 𝑢𝑟⃗ ) 𝑟2 . Il vettore 𝑟⃗ che individua la posizione del punto in cui si vuole calcolare il campo magnetico 𝐵⃗ rispetto al tratto di corrente 𝑖𝑑𝑙⃗ è specificato indicando il versore 𝑢𝑟⃗ e la lunghezza 𝑟. Qual è l’esponente 𝑛 che compare sulla legge di Biot-Savart?
+I: img/biot_savart.png
+V: n = 2
+F: n = 4
+F: n = 3
+F: n = 1 
+Q: Considerando ora un punto D che si trova sull’asse della spira ma non nel piano della spira, i contributi 𝑑𝐵𝐷⃗ e 𝑑𝐵𝐷′⃗ dovuti a due tratti di corrente hanno:
+I: img/biot_savart.png
+V: stesso modulo, direzione diversa, risultante diretta perpendicolarmente al piano della spira e verso sempre uscente dalla figura
+F: stesso modulo, stessa direzione, risultante nulla
+F: moduli diversi, direzione uguale, risultante parallela al piano della spira
+F: moduli diversi, direzione diversa, risultante nulla
+Q: Si consideri una la spira circolare di raggio R percorsa da corrente i (senso antiorario) mostrata in figura. Si consideri il campo magnetico al centro C della spira. Il contributo 𝑑𝐵𝐶⃗ dovuto al tratto di corrente 𝑖𝑑𝑙⃗ è diretto:
+I: img/biot_savart.png
+V: perpendicolarmente al piano della spira ed uscente dalla figura
+F: parallelo al piano della spira
+F: perpendicolarmente al piano della spira ed entrante nella figura
+F: diretto verso il centro della spira
+Q: Il contributo 𝑑𝐵𝐶⃗ dovuto al tratto di corrente 𝑖𝑑𝑙⃗ che si trova in posizione diametralmente opposta:
+I: img/biot_savart.png
+V: è uguale a quello del tratto 𝑖𝑑𝑙
+F: è opposto a quello del tratto 𝑖𝑑𝑙
+F: è nullo
+F: è diretto verso il centro della spira
+Q: Se il raggio R della spira raddoppia, il campo magnetico al centro della spira:
+I: img/biot_savart.png
+V: si dimezza
+F: raddoppia
+F: resta invariato
+F: diventa nullo
