@@ -63,6 +63,36 @@ V: In un punto distante 4R dalla distribuzione
 F: In un punto distante R/2 dalla distribuzione
 F: In un punto distante 3R dalla distribuzione
 F: In un punto distante R/4 dalla distribuzione
+Q: Si considerino un semiconduttore intrinseco, ad es. il silicio (Si), ed un conduttore ohmico, ad es. il rame (Cu). Dette 𝑛(𝑆𝑖) e 𝑛(𝐶𝑢) la densità dei portatori di carica nei due materiali, quali di queste affermazioni è vera?
+I: img/semiconduttoreIntrinseco.png
+V: 𝑛(𝑆𝑖) < 𝑛(𝐶𝑢)
+F: 𝑛(𝑆𝑖) = 𝑛(𝐶𝑢)
+F: 𝑛(𝑆𝑖) > 𝑛(𝐶𝑢)
+F: 𝑛(𝐶𝑢) = 0
+Q: Quali tra le seguenti affermazioni è corretta?
+I: img/semiconduttoreIntrinseco.png
+V: Un semiconduttore drogato di tipo n contiene impurità del V gruppo
+F: Un semiconduttore drogato di tipo n contiene impurità del III gruppo
+F: I semiconduttori drogati non conducono elettricità
+F: La conduzione nei semiconduttori drogati dipende solo dalla temperatura
+Q: Quali dei seguenti grafici descrive al meglio la caratteristica IV di una giunzione pn polarizzata direttamente?
+I: img/semiconduttoreIntrinseco.png
+V: b
+F: a
+F: c
+F: d
+Q: Si consideri un transistor NMOS usato come interruttore controllato per il quale 𝑉𝑔𝑠 = +5𝑉. Quale delle seguenti affermazioni è vera?
+I: img/Transistor_nmos2.png
+V: Il transistor si comporta come un interruttore chiuso (“ON”)
+F: Il transistor è spento
+F: Il transistor non conduce
+F: Il transistor è in interdizione
+Q: Quale funzione logica elementare è rappresentata dal circuito mostrato in figura?
+I: img/Transistor_nmos2.png
+V: NAND
+F: AND
+F: NOR
+F: OR
 Q: Nel caso della figura a), quale di queste affermazioni è corretta?
 I: img/solenoide.png
 V: ∫ 𝐵⃗⃗ ∙ 𝑑𝑠⃗⃗ 𝑐→𝑏 + ∫ 𝐵⃗⃗ ∙ 𝑑𝑠⃗⃗ 𝑎→𝑑 = 0
