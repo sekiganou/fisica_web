@@ -1,64 +1,184 @@
 Q: Si consideri una particella carica q di massa m in moto con velocità v- in un campo magnetico B-. La forza 𝐹⃗ che il campo magnetico esercita sulla carica è 𝐹⃗ = 𝑞𝑣⃗ × 𝐵⃗. L’angolo formato da 𝐹⃗ e 𝐵⃗:
-V: π/2 oppure 3π/2
-F: 0 oppure π
-F: Dipende dalla direzione della velocita
-F: π/2 oppure π
-Q: In quale dei seguenti casi la particella carica q percorre una traiettoria circolare?
-V: Quando v ⊥ B e B è uniforme
-F: Quando v ∥ B
-F: Quando B è nullo ma v è diverso da zero
-F: Quando v ∥ B e B è uniforme
+V: Vale sempre 𝜋/2 oppure 3𝜋/2
+F: Vale sempre 𝜋/2
+F: Vale sempre 3𝜋/2
+Q: In quali dei seguenti casi q percorre delle circonferenze:
+V: Se 𝐵⃗ e 𝑣⃗ sono perpendicolari e 𝐵⃗ è uniforme
+F: Se 𝐵⃗ e 𝑣⃗ sono paralleli e 𝐵⃗ è uniforme
+F: Se 𝐵⃗ e 𝑣⃗ sono perpendicolari
+F: Se 𝐵⃗ e 𝑣⃗ sono parelleli
 Q: Nella figura la carica q si muove in un piano con velocità iniziale 𝑣⃗ ed il campo magnetico 𝐵⃗ è perpendicolare al piano (entrante nel piano). In quale delle configurazioni la traiettoria di q non è una circonferenza:
 I: img/traiettoria_q.png
 V: C
 F: A
 F: B
-F: Nessuna
+F: Nessuna delle alternative
 Q: La forza 𝐹⃗:
-V: varia solo la direzione di 𝑣⃗
-F: è sempre parallela alla velocità
-F: è nulla
-F: cambia solo il modulo della velocità
+I: img/traiettoria_q.png
+V: Varia solo la direzione di 𝑣⃗
+F: Varia solo la massa di q
+F: Varia solo la direzione di 𝑣⃗ e la massa di q
+F: Non varia lo stato della particella q
 Q: Nel caso in cui la traiettoria percorsa da q sia una circonferenza di raggio R, a parità di tutte le altre condizioni:
+I: img/traiettoria_q.png
 V: R raddoppia se q dimezza
-F: R raddoppia se q raddoppia
-F: R dimezza se la massa m raddoppia
 F: R dimezza se q raddoppia
+F: R raddoppia se q raddoppia
+F: R dimezza se q dimezza
 Q: Nel caso in cui la traiettoria percorsa da q sia una circonferenza di raggio R, a parità di tutte le altre condizioni:
+I: img/traiettoria_q.png
 V: Il tempo T impiegato a percorrere la circonferenza non dipende da R
-F: Il tempo T raddoppia se la carica q raddoppia
-F: Il tempo T dimezza se la massa m dimezza
-F: Il tempo T dipende solo dal raggio R
+F: Il tempo T impiegato a percorrere la circonferenza dipende da R
 Q: Nel caso siano presenti sia un campo elettrico sia un campo magnetico, quali di queste affermazioni è vera:
+I: img/traiettoria_q.png
 V: La forza elettrica non può essere nulla.
-F: La forza magnetica è sempre parallela alla velocità.
-F: La traiettoria è sempre una circonferenza perfetta.
-F: La forza totale è sempre nulla.
+F: La forza elettrica è nulla.
+F: La forza magnetica è nulla.
 Q: Il calcolo di un campo elettrico 𝐸⃗ generato da una distribuzione lineare ed uniforme di carica elettrica (densità lineare di carica λ) può essere fatto mediante la legge di Gauss. Il problema in questione ha:
 V: Simmetria assiale
-F: Simmetria lineare
 F: Simmetria radiale
-F: Nessuna simmetria
+F: Simmetria piana
+F: Non ha simmetria
 Q: Se la densità lineare di carica λ raddoppia, il campo elettrico in un determinato punto:
+V: Raddoppia
+F: Quadruplica
+F: Dimezza
+Q: Nel calcolo di 𝐸⃗, come superficie gaussiana si sceglie:
+V: Un cilindro chiuso il cui asse coincide con la distribuzione di carica
+F: Una sfera centrata sulla distribuzione di carica
+F: Un cubo che contiene la distribuzione di carica
+F: Un piano parallelo alla distribuzione di carica
+Q: Le linee di forza del campo elettrico 𝐸⃗ sono:
+V: Dirette radialmente rispetto alla distribuzione di carica
+F: Sempre parallele tra loro
+F: Chiuse su sé stesse
+F: Dirette tangenzialmente alla distribuzione di carica
+Q: Si consideri una carica puntiforme q in un punto P distante R dalla distribuzione di carica. In quale di questi punti la forza che q risente è ¼ di quella che risente in P:
+V: In un punto distante 4R dalla distribuzione
+F: In un punto distante 2R dalla distribuzione
+F: In un punto distante 8R dalla distribuzione
+F: In nessun punto perchè il campo elettrico non dipende dalla distanza dal piano della carica
+Q: Un dipolo elettrico è un sistema di due cariche puntiformi +q e -q uguali ma di segno opposto. Il calcolo del campo elettrico E- generato dal dipolo è svolto usando il principio di sovrapposizione. Nel calcolo di 𝐸⃗ è possibile usare il principio di sovrapposizione in quanto:
+V: 𝐸⃗ è un vettore
+F: 𝐸⃗ è uno scalare
+F: Il dipolo è formato da cariche uguali
+F: Il campo elettrico è sempre costante
+Q: Si confronti il campo elettrico prodotto da un dipolo 𝐸𝑑⃗ con quello prodotto da una carica puntiforme 𝐸𝑝⃗. L’andamento dei campi elettrici al variare della distanza r dal centro delle cariche è:
+V: 𝐸𝑝⃗ proporzionale a 1/𝑟^2 , 𝐸𝑑⃗ proporzionale a 1/𝑟^3
+F: 𝐸𝑝⃗ proporzionale a 1/𝑟^3 , 𝐸𝑑⃗ proporzionale a 1/𝑟^2
+F: Entrambi proporzionali a 1/𝑟^2
+F: Entrambi proporzionali a 1/𝑟^3
+Q: Si considerino un dipolo in cui le cariche distano tra di loro d = 1mm ed i punti P e Q posti nel piano mediano ad una distanza rp = 1m e rq = 2m dal centro del dipolo. Se E(P) = 8V/m:
+V: E(Q) = 1V/m
+F: E(Q) = 2V/m
+F: E(Q) = 4V/m
+F: E(Q) = 0.5V/m
+Q: Nel piano mediano del dipolo la direzione del campo elettrico 𝐸⃗ è:
+V: Sempre parallela alla congiungente delle cariche
+F: Sempre perpendicolare alla congiungente delle cariche
+F: Sempre radiale rispetto al centro del dipolo
+F: Sempre nulla
+Q: Si consideri un punto P lungo l’asse del dipolo, molto distante dal centro del dipolo. Nel caso in cui le cariche valessero ± 2𝑞 anziché ± 𝑞, il campo elettrico in P non cambierebbe se:
+V: La distanza tra le due cariche si dimezzasse
+F: La distanza tra le due cariche raddoppiasse
+F: La distanza tra le due cariche restasse invariata
+F: Le cariche valessero ± 𝑞 e la distanza si dimezzasse
+Q: Le linee di forza del campo magnetico prodotto da un filo neutro rettilineo percorso da corrente sono:
+V: Cerchi concentrici al filo
+F: Rette parallele al filo
+F: Sempre radiali rispetto al filo
+F: Chiuse su sé stesse attorno al filo
+Q: La forza 𝐹⃗ esercitata da un campo magnetico 𝐵⃗ su una carica q in moto con velocità 𝑣⃗ è 𝐹⃗ = 𝑞𝑣⃗ × 𝐵⃗⃗ . Il modulo di 𝐹⃗ è minimo se:
+V: 𝑣⃗ e 𝐵⃗ sono parallele
+F: 𝑣⃗ e 𝐵⃗ sono perpendicolari
+F: 𝑣⃗ è nulla
+F: 𝐵⃗ è nulla
+U La forza 𝐹⃗ esercitata da un campo magnetico 𝐵⃗ su una carica q in moto con velocità 𝑣⃗ è 𝐹⃗ = 𝑞𝑣⃗ × 𝐵⃗⃗ . Il modulo di 𝐹⃗ è massimo se:
+V: 𝑣⃗ e 𝐵⃗ sono perpendicolari
+F: 𝑣⃗ e 𝐵⃗ sono parallele
+F: 𝑣⃗ è nulla
+F: 𝐵⃗ è nulla
+Q: Calcolare di quale fattore deve variare il raggio della spira, a parità di resistività, affinché la corrente che la percorre all’istante t = 0 raddoppi:
+V: Fattore 2
+F: Fattore 8
+F: Fattore 4
+Q: Le linee di forza del campo magnetico prodotto da un filo rettilineo percorso da corrente sono:
+V: Circonferenze il cui centro sta sul filo
+F: Rette parallele al filo
+F: Sempre radiali rispetto al filo
+F: Linee chiuse che non circondano il filo
+Q: Il calcolo del campo elettrico 𝐸⃗ generato da una distribuzione piana ed uniforme di carica elettrica (densità superficiale di carica σ) può essere fatto mediante la legge di Gauss. Il problema in questione ha:
+V: Simmetria piana
+F: Simmetria radiale
+F: Simmetria assiale
+F: Non ha simmetria
+Q: Nel caso di una distribuzione piana ed uniforme di carica elettrica le linee di forza del campo elettrico 𝐸⃗ sono:
+V: Dirette perpendicolarmente al piano della carica con verso opposto nei due lati
+F: Sempre parallele al piano della carica
+F: Chiuse su sé stesse
+F: Dirette tangenzialmente al piano della carica
+Q: Se la densità superficiale di carica σ si dimezza, il campo elettrico in un determinato punto:
+V: Dimezza
+F: Raddoppia
+F: Quadruplica
+Q: Nel calcolo di 𝐸⃗, come superficie gaussiana si sceglie:
+V: Un cilindro chiuso il cui asse è diretto perpendicolarmente al piano della carica ed è tagliato a metà da questo
+F: Una sfera centrata sulla distribuzione di carica
+F: Un cubo che contiene la distribuzione di carica
+F: Un piano parallelo alla distribuzione di carica
+Q: Si consideri una carica puntiforme q posta in un punto P distante d dal piano della carica. In quale di questi punti la forza che q risente è ¼ di quella che risente in P:
+V: In nessun punto perchè il campo elettrico non dipende dalla distanza dal piano della carica
+F: In un punto distante 4R dalla distribuzione
+F: In un punto distante 2R dalla distribuzione
+F: In un punto distante 8R dalla distribuzione
+Q: Siano i1 e i2 le correnti che percorrono due fili rettilinei paralleli mostrati in figura, con i1 entrante nel piano della figura (filo 1) e i2 uscente (filo 2). Quale delle configurazioni rappresenta i campi magnetici prodotti dalle due correnti in un punto situato tra essi:
+I: img/fili_uscenti.png
+V: C
+F: A
+F: B
+F: Nessuna delle alternative
+Q: Se le correnti sono dirette in verso opposto ma uguali in valore assoluto, la forza che si esercita tra i fili:
+I: img/fili_uscenti.png
+V: È repulsiva
+F: È attrattiva
+F: È nulla
+F: Dipende solo dalla distanza tra i fili
+Q: Detta d la distanza tra i fili, per quadruplicare la forza che si esercita tra i fili occore:
+I: img/fili_uscenti.png
+V: d/4
+F: d*4
+F: d/2
+F: d*2
+Q: Se la corrente i2 raddoppia la forza che risente il filo 1:
+I: img/fili_uscenti.png
 V: Raddoppia
 F: Dimezza
 F: Quadruplica
-F: Riduce di un fattore 4
-Q: Il calcolo di un campo elettrico 𝐸⃗ generato da una distribuzione lineare ed uniforme di carica elettrica (densità lineare di carica λ) può essere fatto mediante la legge di Gauss. Nel calcolo di 𝐸⃗, come superficie gaussiana si sceglie:
-V: Un cilindro chiuso il cui asse coincide con la distribuzione di carica
-F: Una sfera con la carica disposta al centro
-F: Un parallelepipedo con la carica lungo uno spigolo
-F: Un qualsiasi poliedro regolare il cui asse coincide con la distribuzione di carica
-Q: Il calcolo di un campo elettrico 𝐸⃗ generato da una distribuzione lineare ed uniforme di carica elettrica (densità lineare di carica λ) può essere fatto mediante la legge di Gauss. Le linee di forza del campo elettrico 𝐸⃗ sono:
-V: Dirette radialmente rispetto alla distribuzione di carica
-F: Tutte parallele al filo di carica
-F: Orientate tangenzialmente a una sfera centrata sulla distribuzione
-F: Incrociate tra loro in più punti
-Q: Si consideri una carica puntiforme q in un punto P distante R dalla distribuzione di carica. In quale di questi punti la forza che q risente è ¼ di quella che risente in P:
-V: In un punto distante 4R dalla distribuzione
-F: In un punto distante R/2 dalla distribuzione
-F: In un punto distante 3R dalla distribuzione
-F: In un punto distante R/4 dalla distribuzione
+Q: Nei quesiti seguenti si consideri un dipolo con le cariche sull’asse x e centro del dipolo l’origine x = 0. a) Lungo l’asse del dipolo la direzione del campo elettrico 𝐸⃗ è:
+V: sempre diretta lungo l’asse delle x
+F: sempre perpendicolare all’asse delle x
+F: sempre nulla
+F: sempre radiale rispetto al centro del dipolo
+Q: Nei quesiti seguenti si consideri un dipolo con le cariche sull’asse x e centro del dipolo l’origine x = 0. b) Consideriamo il potenziale elettrico generato dal dipolo in un punto P = (0, a, 0) del piano mediano. Detti 𝑉+(𝑃) e 𝑉−(𝑃) i potenziali generati rispettivamente dalla carica +q e -q nel punto P, qual è la relazione tra 𝑉+(𝑃) e 𝑉−(𝑃):
+V: 𝑉−(𝑃) = −𝑉+(𝑃)
+F: 𝑉−(𝑃) = 𝑉+(𝑃)
+F: 𝑉−(𝑃) = 0
+F: 𝑉+(𝑃) = 0
+Q: Nei quesiti seguenti si consideri un dipolo con le cariche sull’asse x e centro del dipolo l’origine x = 0. c) Consideriamo il potenziale elettrico generato dal dipolo nel punto 𝑃 = (0, 𝑎, 0) e nel punto 𝑄 = (0, √𝑎, √𝑎). Qual è la relazione tra V(P) e V(Q):
+V: 𝑉(𝑃) = 𝑉(𝑄)
+F: 𝑉(𝑃) > 𝑉(𝑄)
+F: 𝑉(𝑃) < 𝑉(𝑄)
+F: 𝑉(𝑄) = 0
+Q: Nei quesiti seguenti si consideri un dipolo con le cariche sull’asse x e centro del dipolo l’origine x = 0. d) Consideriamo il potenziale elettrico generato dal dipolo nel punto P = (0, a, 0) e nel punto 𝑄 = (0, 2𝑎, 0). Qual è la relazione tra V(P) e V(Q):
+V: 𝑉(𝑃) = 𝑉(𝑄)
+F: 𝑉(𝑃) > 𝑉(𝑄)
+F: 𝑉(𝑃) < 𝑉(𝑄)
+F: 𝑉(𝑄) = 0
+Q: Collegando in parallelo due resistori entrambi di resistenza R, la resistenza equivalente vale:
+V: R/2
+F: R
+F: R/4
+F: 2*R
 Q: Si considerino un semiconduttore intrinseco, ad es. il silicio (Si), ed un conduttore ohmico, ad es. il rame (Cu). Dette 𝑛(𝑆𝑖) e 𝑛(𝐶𝑢) la densità dei portatori di carica nei due materiali, quali di queste affermazioni è vera?
 I: img/semiconduttoreIntrinseco.png
 V: 𝑛(𝑆𝑖) < 𝑛(𝐶𝑢)
@@ -76,7 +196,7 @@ I: img/semiconduttoreIntrinseco.png
 V: b
 F: a
 F: c
-F: d
+F: nessuna delle alternative
 Q: Si consideri un transistor NMOS usato come interruttore controllato per il quale 𝑉𝑔𝑠 = +5𝑉. Quale delle seguenti affermazioni è vera?
 I: img/Transistor_nmos2.png
 V: Il transistor si comporta come un interruttore chiuso (“ON”)
@@ -91,10 +211,10 @@ F: NOR
 F: OR
 Q: Nel caso della figura a), quale di queste affermazioni è corretta?
 I: img/solenoide.png
-V: ∫ 𝐵⃗⃗ ∙ 𝑑𝑠⃗⃗ 𝑐→𝑏 + ∫ 𝐵⃗⃗ ∙ 𝑑𝑠⃗⃗ 𝑎→𝑑 = 0
-F: Il campo B è nullo ovunque
-F: Il campo B è costante lungo tutto il percorso
-F: La circuitazione di B è diversa da zero
+V: ∫𝑐→𝑏 𝐵⃗ ∙ 𝑑𝑠⃗  + ∫𝑎→𝑑 𝐵⃗ ∙ 𝑑𝑠⃗  = 0
+F: ∫𝑐→𝑏 𝐵⃗ ∙ 𝑑𝑠⃗  + ∫𝑎→𝑑 𝐵⃗ ∙ 𝑑𝑠⃗  != 0
+F: ∫𝑐→𝑏 𝐵⃗ ∙ 𝑑𝑠⃗  + ∫𝑎→𝑑 𝐵⃗ ∙ 𝑑𝑠⃗  > 0
+F: ∫𝑐→𝑏 𝐵⃗ ∙ 𝑑𝑠⃗  + ∫𝑎→𝑑 𝐵⃗ ∙ 𝑑𝑠⃗  < 0
 Q: Nel caso del percorso γ della figura a), il valore di ∑𝑘 𝑖𝑘 è:
 I: img/solenoide.png
 V: 5i
@@ -125,27 +245,27 @@ V: NOR
 F: OR
 F: AND
 F: NAND
-Q: Quale delle seguenti affermazioni non è necessaria per dimostrare che la forza di Coulomb è conservativa?
+Q: Quali delle seguenti caratteristiche della forza di Coulomb non è usata per dimostrare il fatto che sia una forza conservativa:
 V: La forza di Coulomb dipende dalla distanza r tra le cariche come 1/(r^2)
 F: Il modulo della forza dipende solo dalla distanza tra le cariche
 F: La forza può essere derivata da un potenziale scalare
 F: Il lavoro lungo un percorso chiuso è nullo
-Q: Una carica negativa q si sposta nella direzione e verso opposto al campo elettrico 𝐸⃗⃗. Quale delle seguenti affermazioni è vera?
+Q: Una carica positiva q si sposta nella direzione e verso del campo elettrico 𝐸⃗. Quali delle seguenti affermazioni è vera:
 V: L’energia potenziale di q diminuisce
 F: Il campo elettrico compie lavoro nullo su q
 F: La forza di Coulomb è perpendicolare allo spostamento
 F: La carica q si muove spontaneamente contro il campo
-Q: Una carica negativa q si muove nella direzione perpendicolare al campo elettrico 𝐸⃗⃗. Quale delle seguenti affermazioni è vera?
+Q: Una carica positiva q si sposta nella direzione perpendicolare al campo elettrico 𝐸⃗. Quali delle seguenti affermazioni è vera:
 V: L’energia potenziale di q non cambia
 F: Il campo elettrico compie lavoro positivo su q
 F: Il potenziale elettrico cambia
 F: La forza elettrica accelera la carica lungo il campo
-Q: Due punti A e B si trovano alla stessa distanza da una carica puntiforme q1. Quale delle seguenti affermazioni è corretta riguardo al lavoro per portare una carica q2 da A a B?
+Q: Si considerino il campo elettrico prodotto da una carica puntiforme q1 e due punti A e B posti alla stessa distanza da q1. Il lavoro fatto da 𝐸⃗ per portare una carica q2 da A a B:
 V: È sempre nullo
 F: Dipende dalla massa della carica q2
 F: È proporzionale alla distanza percorsa
 F: È massimo quando A e B sono opposti rispetto a q1
-Q: Una carica q si muove lungo un percorso in cui il campo elettrico 𝐸⃗⃗ è nullo in ogni punto. Quale delle seguenti affermazioni è corretta?
+Q: Si consideri una carica q che si muove dal punto A al punto B lungo un percorso per ogni punto del quale 𝐸⃗ = 0. Quale di queste affermazioni sull’energia potenziale Ep della carica è corretta:
 V: 𝐸𝑝(𝐴) = 𝐸𝑝(𝐵)
 F: Il potenziale elettrico cambia lungo il percorso
 F: La forza elettrica agisce comunque su q
