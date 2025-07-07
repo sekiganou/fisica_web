@@ -64,37 +64,37 @@ F: In un punto distante R/2 dalla distribuzione
 F: In un punto distante 3R dalla distribuzione
 F: In un punto distante R/4 dalla distribuzione
 Q: Nel caso della figura a), quale di queste affermazioni è corretta?
-I: img/solenoide.jpg
+I: img/solenoide.png
 V: ∫ 𝐵⃗⃗ ∙ 𝑑𝑠⃗⃗ 𝑐→𝑏 + ∫ 𝐵⃗⃗ ∙ 𝑑𝑠⃗⃗ 𝑎→𝑑 = 0
 F: Il campo B è nullo ovunque
 F: Il campo B è costante lungo tutto il percorso
 F: La circuitazione di B è diversa da zero
 Q: Nel caso del percorso γ della figura a), il valore di ∑𝑘 𝑖𝑘 è:
-I: img/solenoide.jpg
+I: img/solenoide.png
 V: 5i
 F: 0
 F: 20i
 F: i
 Q: Nel caso del percorso γ della figura b), il valore di ∮ 𝐵⃗⃗ ∙ 𝑑𝑠⃗ 𝛾 è:
-I: img/solenoide.jpg
+I: img/solenoide.png
 V: 0
 F: 5i
 F: 4πkm5i
 F: 20i
 Q: Nel caso del percorso γ della figura c), il valore di ∮ 𝐵⃗⃗ ∙ 𝑑𝑠⃗ 𝛾 è:
-I: img/solenoide.jpg
+I: img/solenoide.png
 V: 4πkm5i
 F: 0
 F: 4πkm20i
 F: πkm5i
 Q: Si consideri un transistor NMOS usato come interruttore controllato per il quale 𝑉𝑔𝑠 = −1𝑉. Quale delle seguenti affermazioni è vera?
-I: img/Transistor_nmos.jpg
+I: img/Transistor_nmos.png
 V: Il transistor si comporta come un interruttore aperto (“OFF”)
 F: Il transistor è in saturazione
 F: Il transistor conduce corrente
 F: Il transistor è nello stato “ON”
 Q: Quale funzione logica elementare è rappresentata dal circuito mostrato in figura?
-I: img/Transistor_nmos.jpg
+I: img/Transistor_nmos.png
 V: NOR
 F: OR
 F: AND
