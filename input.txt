@@ -93,7 +93,7 @@ V: 𝑣⃗ e 𝐵⃗ sono parallele
 F: 𝑣⃗ e 𝐵⃗ sono perpendicolari
 F: 𝑣⃗ è nulla
 F: 𝐵⃗ è nulla
-U La forza 𝐹⃗ esercitata da un campo magnetico 𝐵⃗ su una carica q in moto con velocità 𝑣⃗ è 𝐹⃗ = 𝑞𝑣⃗ × 𝐵⃗⃗ . Il modulo di 𝐹⃗ è massimo se:
+Q: La forza 𝐹⃗ esercitata da un campo magnetico 𝐵⃗ su una carica q in moto con velocità 𝑣⃗ è 𝐹⃗ = 𝑞𝑣⃗ × 𝐵⃗⃗ . Il modulo di 𝐹⃗ è massimo se:
 V: 𝑣⃗ e 𝐵⃗ sono perpendicolari
 F: 𝑣⃗ e 𝐵⃗ sono parallele
 F: 𝑣⃗ è nulla
